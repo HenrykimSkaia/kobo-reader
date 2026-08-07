@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "updated_at": "2026-08-06",
+  "duplicate_rules": [
+    "Reject exact source_url duplicates unless the story has a materially new development.",
+    "Reject repeated YouTube video_id values.",
+    "Reject substantially identical topics even when the headline wording changes.",
+    "Allow follow-up coverage only when a new event materially changes the facts or decision value; label it as an update."
+  ],
+  "issues": [
+    {
+      "issue_id": "2026-08-06-initial-daily-reader",
+      "date": "2026-08-06",
+      "path": "posts/2026-08-06.html",
+      "status": "legacy_before_fixed-format",
+      "items": [
+        {"category":"AI Economy","title_ko":"미국 연준도 AI 투자 속도를 보기 시작했다","source_url":"https://www.reuters.com/legal/transactional/furious-pace-ai-investment-some-fed-officials-radar-now-2026-08-06/"},
+        {"category":"Agents & Security","title_ko":"자율 에이전트의 다음 병목은 ‘능력’이 아니라 ‘권한’이다","source_url":"https://apnews.com/article/0e8061437da6779be962b24ac134a514"},
+        {"category":"Product","title_ko":"일반 사람들은 ‘AI 에이전트’를 사고 싶어 하지 않는다","source_url":"https://www.wired.com/story/why-normal-people-arent-using-ai-agents"},
+        {"category":"Alberta","title_ko":"캐나다의 AI 지원은 ‘연구’보다 ‘상용화와 실제 도입’ 쪽으로 움직인다","source_url":"https://www.canada.ca/en/prairies-economic-development/news/2026/05/government-of-canada-announces-support-for-artificial-intelligence-innovation-and-commercialization-in-alberta0.html"},
+        {"category":"Korea Economy","title_ko":"한국 경제의 3% 성장 가능성이 커졌다는 평가","source_url":"https://www.reuters.com/world/asia-pacific/south-korea-says-chance-3-economic-growth-has-risen-sharply-2026-08-06/"}
+      ]
+    },
+    {
+      "issue_id": "2026-08-06-skaia-daily-intelligence",
+      "date": "2026-08-06",
+      "path": "newsletter/2026-08-06.html",
+      "status": "published",
+      "items": [
+        {"category":"오늘의 AI 뉴스","title_ko":"구글 AI 지휘부 대개편, 딥마인드 연구와 제품 리더십 분리","source_url":"https://www.reuters.com/business/google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05/"},
+        {"category":"오늘의 AI 뉴스","title_ko":"앤트로픽, AI 정책 전쟁 대비해 첫 글로벌 대외정책 책임자 영입","source_url":"https://www.reuters.com/world/anthropic-names-global-affairs-chief-tackle-ai-policy-trump-tensions-persist-2026-08-04/"},
+        {"category":"오늘의 AI 뉴스","title_ko":"엔비디아, 오픈 모델 확대와 함께 AI 안전·보안 전담팀 구축","source_url":"https://www.businessinsider.com/nvidia-staffs-new-ai-safety-team-push-for-open-models-2026-8"},
+        {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"캐나다·미국, 관세 해소 위한 무역협상 재가동","source_url":"https://www.reuters.com/world/us-canada-had-constructive-trade-talks-washington-canadian-minister-says-2026-08-06/"},
+        {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"캐나다 서비스업은 위축, 제조업은 4년여 만에 강한 확장","source_url":"https://www.reuters.com/world/americas/canadas-services-pmi-edges-up-sector-remains-contraction-2026-08-06/"},
+        {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"앨버타 오일샌드 증설, 정부 합의 법제화 전까지 ‘대기’","source_url":"https://www.reuters.com/business/energy/canadian-natural-resources-beats-quarterly-profit-estimates-2026-08-06/"},
+        {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"현장 기술자의 관찰을 매출 데이터로 바꾼 Robby","source_url":"https://www.youtube.com/watch?v=zOBrEP3oyfk","video_id":"zOBrEP3oyfk"},
+        {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"전화·채팅 한 가지 문제에서 시작한 홈서비스 AI, Bravi","source_url":"https://www.youtube.com/watch?v=Zl3jtIK_yco","video_id":"Zl3jtIK_yco"},
+        {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"고객 이탈을 놓치지 않는 AI CSM, Userlens","source_url":"https://www.youtube.com/watch?v=0wsD-3wxkZc","video_id":"0wsD-3wxkZc"},
+        {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"미국, 오픈웨이트 AI 모델은 자율 안전테스트 대상에서 제외","source_url":"https://www.reuters.com/legal/litigation/meta-anthropic-google-openai-meet-with-trump-white-house-amid-rogue-ai-agent-2026-08-04/"},
+        {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"세일즈포스, ‘모델보다 학습 루프가 자산’인 자가개선 에이전트 제시","source_url":"https://www.salesforce.com/news/stories/toward-self-improving-agents/"},
+        {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"코덱스 사용 데이터가 보여준 ‘멀티 에이전트 업무’의 실제 확산","source_url":"https://arxiv.org/abs/2606.26959"},
+        {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"AI 검색이 구매 여정의 첫 단계로 급부상, 전년 대비 200% 성장","source_url":"https://www.salesforce.com/news/stories/agentic-search-growth/"},
+        {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"허브스팟, 마케팅·영업 AI 팀을 한곳에 모은 Agent Hub 공개","source_url":"https://community.hubspot.com/t/introducing-agent-hub-and-agent-builder-public-beta/153922"},
+        {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"마케팅 분석이 ‘사후 귀속’에서 ‘실시간 에이전트 최적화’로 이동","source_url":"https://www.salesforce.com/blog/agentic-marketing-optimization/"}
+      ]
+    }
+  ]
+}
