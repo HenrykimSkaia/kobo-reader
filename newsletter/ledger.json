@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "updated_at": "2026-08-07",
+  "updated_at": "2026-08-08",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated YouTube video_id values.",
@@ -65,6 +65,29 @@
         {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"VideoAmp, 인력 20% 감축하고 광고 측정을 ‘에이전틱 AI’ 중심으로 전환","source_url":"https://www.wsj.com/cmo-today/videoamp-cuts-staff-as-ai-agents-take-center-stage-ef6f44d1"},
         {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"사람이 아닌 AI 에이전트를 겨냥한 ‘Agent Ads’ 논쟁 시작","source_url":"https://www.businessinsider.com/ads-ai-agents-marketing-industry-debate-2026-8"},
         {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"HubSpot 데이터: Breeze AI 활용 마케팅 팀, 비교군보다 리드 4배 생성","source_url":"https://www.hubspot.com/company-news/hubspot-data-ai-is-driving-real-outcomes-for-gtm-teams"}
+      ]
+    },
+    {
+      "issue_id": "2026-08-08-skaia-daily-intelligence",
+      "date": "2026-08-08",
+      "path": "newsletter/2026-08-08.html",
+      "status": "published",
+      "items": [
+        {"category":"오늘의 AI 뉴스","title_ko":"문샷, 500억달러 가치 향해 홍콩 IPO 준비…중국 AI 자본시장 경쟁 격화","source_url":"https://www.ft.com/content/9c0d4f0d-d2c6-4189-b4bb-200d17a4720f"},
+        {"category":"오늘의 AI 뉴스","title_ko":"앤트로픽, Claude 전용칩 설계팀 구축…AI 경쟁이 모델에서 실리콘까지 확장","source_url":"https://www.reuters.com/business/anthropic-build-in-house-chip-design-team-claude-hire-engineers-2026-08-05/"},
+        {"category":"오늘의 AI 뉴스","title_ko":"AMD, 토론토 AI칩 스타트업 Taalas 인수…추론 비용 경쟁 본격화","source_url":"https://www.reuters.com/business/amd-deepens-ai-inference-bet-with-taalas-deal-chip-race-heats-up-2026-08-06/"},
+        {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"BC 산불 비상사태 선포, 2만명 이상 대피…서부 캐나다 산불 위기 재점화","source_url":"https://www.reuters.com/business/environment/british-columbia-district-declares-state-emergency-issues-evacuation-orders-2026-08-08/"},
+        {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"업데이트 — 캐나다, 8월19일 추가관세 막기 위해 자동차·유제품 양보안 논의","source_url":"https://www.reuters.com/business/canada-discussing-trade-concessions-with-us-return-some-tariff-relief-globe-mail-2026-08-07/","update":true},
+        {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"캐나다, 토론토 임대주택에 27억달러 투입…5,600가구 이상 공급 계획","source_url":"https://www.reuters.com/business/canada-invest-c27-billion-build-rental-housing-toronto-2026-08-05/"},
+        {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"모든 딜에 24시간 붙는 AI GTM 팀, Salesgraph","source_url":"https://www.youtube.com/watch?v=fO6c2wIPwIw","video_id":"fO6c2wIPwIw"},
+        {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"규제산업에서 ‘챗봇’ 대신 업무 전체를 맡긴 Gradient Labs","source_url":"https://www.youtube.com/watch?v=yNNTLllVbiE","video_id":"yNNTLllVbiE"},
+        {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"첫 고객은 광고보다 관계에서 만들었다, GenAIPI의 초기 영업법","source_url":"https://www.youtube.com/watch?v=3g5EbZ7IoAo","video_id":"3g5EbZ7IoAo"},
+        {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"업데이트 — 오픈AI, Astra 보안기준 미달 작업 일시중단…에이전트 격리 강화","source_url":"https://www.theguardian.com/technology/2026/aug/08/openai-astra-security-concerns","update":true},
+        {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"구글, AI 코딩 에이전트 Mechanize와 15억달러 이상 기술·인재 거래 협상","source_url":"https://www.businessinsider.com/google-mechanize-deal-talent-tech-ai-coding-2026-8"},
+        {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"1백만 토큰·90회 도구호출 실험, 장기 에이전트 성공률 아직 절반 수준","source_url":"https://aclanthology.org/2026.acl-long.337/"},
+        {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"IAB, 광고용 AI 에이전트를 실전 배포 단계로…AAMP 2.1 공개","source_url":"https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/"},
+        {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"업데이트 — AI 광고 스타트업 Gravity, 3,050만달러 조달…에이전트끼리 추천·구매까지 추진","source_url":"https://www.businessinsider.com/ai-chatbot-ad-platform-gravity-raises-series-a-2026-8","update":true},
+        {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"Adobe Marketing Agent, ChatGPT Work·Codex 안으로…마케팅 데이터에서 실행까지 연결","source_url":"https://business.adobe.com/blog/adobe-marketing-agent-chatgpt-work-codex"}
       ]
     }
   ]
