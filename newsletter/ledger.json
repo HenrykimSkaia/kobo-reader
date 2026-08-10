@@ -1,6 +1,6 @@
 {
   "format_version": 1,
-  "updated_at": "2026-08-08",
+  "updated_at": "2026-08-09",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated YouTube video_id values.",
@@ -88,6 +88,29 @@
         {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"IAB, 광고용 AI 에이전트를 실전 배포 단계로…AAMP 2.1 공개","source_url":"https://martech.org/iab-tech-lab-gets-ai-agents-ready-for-real-advertising/"},
         {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"업데이트 — AI 광고 스타트업 Gravity, 3,050만달러 조달…에이전트끼리 추천·구매까지 추진","source_url":"https://www.businessinsider.com/ai-chatbot-ad-platform-gravity-raises-series-a-2026-8","update":true},
         {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"Adobe Marketing Agent, ChatGPT Work·Codex 안으로…마케팅 데이터에서 실행까지 연결","source_url":"https://business.adobe.com/blog/adobe-marketing-agent-chatgpt-work-codex"}
+      ]
+    },
+    {
+      "issue_id": "2026-08-09-skaia-daily-intelligence",
+      "date": "2026-08-09",
+      "path": "newsletter/2026-08-09.html",
+      "status": "published",
+      "items": [
+        {"category":"오늘의 AI 뉴스","title_ko":"AI 인프라 베팅 계속된다…Source Foundry에 4억달러 신규 투자","source_url":"https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/"},
+        {"category":"오늘의 AI 뉴스","title_ko":"오픈AI, 프레젠테이션 스타트업 NextSlide 인수…ChatGPT의 업무 제작 범위 확장","source_url":"https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/"},
+        {"category":"오늘의 AI 뉴스","title_ko":"ChatGPT 무료 텍스트 대화 무제한화…AI 사용량 경쟁 다시 가속","source_url":"https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/"},
+        {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"업데이트 — BC 산불에 연방정부 투입…대피자 약 1만8천명, 화재 1만헥타르 넘어","source_url":"https://www.reuters.com/business/environment/british-columbia-get-federal-assistance-wildfire-forces-evacuations-2026-08-09/","update":true},
+        {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"앨버타 10월19일 주민투표, 분리 문제를 포함한 중대 정치 변수로 부상","source_url":"https://www.elections.ab.ca/elections/referendum/"},
+        {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"Suncor 차기 CEO로 Peter Zebedee 낙점…앨버타 최대 에너지기업 리더십 교체","source_url":"https://www.reuters.com/business/energy/suncor-names-insider-peter-zebedee-next-ceo-says-cfo-has-left-2026-08-06/"},
+        {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"무료 제품을 유통 엔진으로 바꿔 3천만달러 ARR까지 키운 Fathom","source_url":"https://www.youtube.com/watch?v=UavacWr2jbQ","video_id":"UavacWr2jbQ"},
+        {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"‘지루한’ HOA 시장을 5천만달러 사업으로 만든 Vantaca의 버티컬 전략","source_url":"https://www.youtube.com/watch?v=ckRiL_bFK_w","video_id":"ckRiL_bFK_w"},
+        {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"AI 에이전트를 ‘좌석’이 아닌 업무 결과로 팔아 고가 계약 만든 1Mind","source_url":"https://www.youtube.com/watch?v=lFX0n3uYTkw","video_id":"lFX0n3uYTkw"},
+        {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"Claude Code, 승인 팝업 줄이는 Auto Mode를 기본값으로 전환","source_url":"https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"},
+        {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"Cloudflare, 사람 아닌 AI 에이전트를 위한 전용 브라우저 Kitesurf 공개","source_url":"https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"},
+        {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"Google Maps, 검색에서 주문·호텔·티켓까지 수행하는 생활형 에이전트로 진화","source_url":"https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/"},
+        {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"리테일러들, AI 쇼핑 트래픽은 잡되 고객 데이터는 넘기지 않으려 한다","source_url":"https://www.reuters.com/business/retail-consumer/retailers-tap-ai-shopping-traffic-fight-keep-customer-data-2026-08-07/"},
+        {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"Klaviyo, AI 고객성공 스타트업 Agency 인수…마케팅·지원 에이전트 통합 가속","source_url":"https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/"},
+        {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"업데이트 — Shopify, AI 검색 유입·주문 3배 증가…전통 검색과 공존 확인","source_url":"https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google/","update":true}
       ]
     }
   ]
