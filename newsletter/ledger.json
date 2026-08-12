@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-10",
+  "updated_at": "2026-08-11",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -11,14 +11,15 @@
   "history": {
     "human_readable_index": "newsletter/contents.html",
     "historical_issue_html_is_source_archive": true,
-    "issues_through_2026_08_09_preserved_in_contents_and_html": true,
+    "issues_through_2026_08_10_preserved_in_contents_and_html": true,
     "issue_paths": [
       "posts/2026-08-06.html",
       "newsletter/2026-08-06.html",
       "newsletter/2026-08-07.html",
       "newsletter/2026-08-08.html",
       "newsletter/2026-08-09.html",
-      "newsletter/2026-08-10.html"
+      "newsletter/2026-08-10.html",
+      "newsletter/2026-08-11.html"
     ]
   },
   "published_youtube_video_ids": [
@@ -36,30 +37,38 @@
     "lFX0n3uYTkw",
     "g_VG5mD-K7k",
     "Zki0_icE3Xw",
-    "mcF30tmNLTg"
+    "mcF30tmNLTg",
+    "VIwv5iVm8Ok",
+    "VWeQaySQnY8",
+    "A3NjiCcbBNY"
   ],
   "latest_issue": {
-    "issue_id": "2026-08-10-skaia-daily-intelligence",
-    "date": "2026-08-10",
-    "path": "newsletter/2026-08-10.html",
+    "issue_id": "2026-08-11-skaia-daily-intelligence",
+    "date": "2026-08-11",
+    "path": "newsletter/2026-08-11.html",
     "status": "published",
     "item_count": 15,
+    "duplicate_check": {
+      "exact_source_url_duplicates": 0,
+      "newsletter_youtube_video_id_duplicates": 0,
+      "material_updates_labeled": 2
+    },
     "items": [
-      {"category":"오늘의 AI 뉴스","title_ko":"메타, 노트북에서도 돌리는 오픈웨이트 ‘Muse Glimmer’ 공개","source_url":"https://www.reuters.com/world/china/meta-launches-new-ai-model-zuckerberg-champions-open-weight-push-2026-08-10/"},
-      {"category":"오늘의 AI 뉴스","title_ko":"엔비디아와 월가, AI 인프라에 5천억달러 조달 플랫폼 추진","source_url":"https://www.reuters.com/technology/wall-street-giants-partner-with-nvidia-500-billion-ai-financing-deal-ft-reports-2026-08-10/"},
-      {"category":"오늘의 AI 뉴스","title_ko":"마이크로소프트, 9월 차세대 AI칩 ‘Maia 300’ 공개 준비","source_url":"https://www.reuters.com/business/microsoft-plans-unveil-its-new-maia-300-ai-chip-this-fall-information-reports-2026-08-10/"},
-      {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"업데이트 — BC 산불 첫 사망자 발생…대피 위기가 인명피해 단계로 악화","source_url":"https://www.reuters.com/business/environment/octogenarian-is-first-killed-in-british-columbia-wildfire-2026-08-10/","update":true},
-      {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"캐나다달러, 유가 상승과 강한 고용지표에 8주 고점 부근 유지","source_url":"https://www.reuters.com/business/canadian-dollar-steadies-near-eight-week-high-oil-jumps-2026-08-10/"},
-      {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"앨버타 로컬푸드위크 시작…지역 농업·소상공인 소비 촉진","source_url":"https://www.alberta.ca/local-food-week"},
-      {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"고객이 먼저 찾아오자 2주 만에 피벗한 홈서비스 AI, Acrely","source_url":"https://www.youtube.com/watch?v=g_VG5mD-K7k","video_id":"g_VG5mD-K7k"},
-      {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"‘답변’이 아니라 문제 해결 완료까지 소유하는 Trellis","source_url":"https://www.youtube.com/watch?v=Zki0_icE3Xw","video_id":"Zki0_icE3Xw"},
-      {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"회계사의 판단은 남기고 반복업무를 AI 직원에게 넘긴 Rational","source_url":"https://www.youtube.com/watch?v=mcF30tmNLTg","video_id":"mcF30tmNLTg"},
-      {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"업데이트 — 미 하원의원들, 오픈AI·앤트로픽에 ‘로그 에이전트’ 자료 요구","source_url":"https://www.reuters.com/legal/litigation/us-house-democrats-press-anthropic-openai-about-rogue-ai-agents-2026-08-10/","update":true},
-      {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"정적 안전테스트의 한계…AgenticEval은 시험 자체를 계속 진화시킨다","source_url":"https://aclanthology.org/2026.findings-acl.727/"},
-      {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"웹 에이전트 9종 모두 취약점 노출…SecureWebArena가 보여준 현실","source_url":"https://aclanthology.org/2026.findings-acl.582/"},
-      {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"틱톡, 광고 운영용 Agentic Hub와 MCP 생태계 본격 개방","source_url":"https://ads.tiktok.com/business/en/blog/tiktok-agentic-hub-ai-agents-skills-mcp?redirected=1"},
-      {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"아마존, 광고에서 대화·구매까지 끝내는 Alexa+ Agentic Ads 출시","source_url":"https://advertising.amazon.com/library/news/alexa-agentic-ads"},
-      {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"AI 에이전트로 A/B 테스트를 미리 돌릴 수 있을까…67개 실제 실험으로 검증","source_url":"https://arxiv.org/abs/2608.02345"}
+      {"category":"오늘의 AI 뉴스","title_ko":"오픈AI 핵심 임원 브래드 라이트캡 퇴사…새 벤처 창업으로","source_url":"https://www.reuters.com/technology/brad-lightcap-leaving-openai-2026-08-11/"},
+      {"category":"오늘의 AI 뉴스","title_ko":"IBM·Together AI, 엔비디아 블랙웰 기반 2.4억달러 추론 클러스터 계약","source_url":"https://www.reuters.com/business/ibm-together-ai-ink-240-million-deal-nvidia-powered-ai-inference-cluster-2026-08-11/"},
+      {"category":"오늘의 AI 뉴스","title_ko":"엔비디아, 1조 파라미터급 포함 ‘Nemotron 4’ 오픈모델군 개발","source_url":"https://www.reuters.com/business/nvidia-is-developing-nemotron-4-open-source-models-information-reports-2026-08-11/"},
+      {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"업데이트 — 미·캐나다, 8월19일 50% 관세 시한 앞두고 협상 가속","source_url":"https://www.reuters.com/world/canadas-minister-responsible-us-trade-meet-ustrs-greer-tuesday-2026-08-11/","update":true},
+      {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"에어캐나다, 낮춘 연간 전망 복원…Aeroplan은 100억달러 가치 인정","source_url":"https://www.reuters.com/business/air-canada-restores-annual-core-profit-forecast-2026-08-11/"},
+      {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"업데이트 — TSX 또 사상 최고치…에너지·산업주가 상승 견인","source_url":"https://www.reuters.com/business/tsx-futures-flat-us-iran-stalemate-keeps-investors-cautious-2026-08-11/","update":true},
+      {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"현장 데이터가 없으면 자동화도 틀린다…필드서비스 AI Kebra","source_url":"https://www.youtube.com/watch?v=VIwv5iVm8Ok","video_id":"VIwv5iVm8Ok"},
+      {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"‘직원 절감’보다 ‘놓친 매출 회수’를 파는 홈서비스 AI Cactus","source_url":"https://www.youtube.com/watch?v=VWeQaySQnY8","video_id":"VWeQaySQnY8"},
+      {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"메시지가 아니라 ‘미해결 케이스’를 끝까지 소유하는 CentralComs","source_url":"https://www.youtube.com/watch?v=A3NjiCcbBNY","video_id":"A3NjiCcbBNY"},
+      {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"120여 기술조직, ‘폭주 AI 에이전트’ 사고 공유 표준 SAFE 추진","source_url":"https://www.axios.com/2026/08/11/open-source-security-ai-agent-reporting"},
+      {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"x402, AI 에이전트가 HTTP에서 직접 돈을 주고받는 결제표준으로 독립","source_url":"https://www.linuxfoundation.org/press/linux-foundation-announces-operational-launch-of-x402-foundation-to-standardize-internet-native-payments-for-ai-agents-and-applications"},
+      {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"AI 에이전트에도 ‘DNS 같은 신원증명’…Agent Name Service 추진","source_url":"https://www.linuxfoundation.org/press/linux-foundation-announces-intent-to-launch-agent-name-service-to-establish-trusted-identity-infrastructure-for-ai-agents"},
+      {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"구글 Ask Advisor, Ads·Analytics·Merchant Center를 가로지르는 기억형 마케팅 에이전트","source_url":"https://blog.google/products/ads-commerce/ask-advisor/"},
+      {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"메타 Business Agent, 추천·리드선별·예약·판매까지 메시징 안에서 처리","source_url":"https://about.fb.com/news/2026/06/meta-business-agent/"},
+      {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"아마존 Ads Agent, 수백 캠페인 예산·타겟팅·분석을 대화형으로 실행","source_url":"https://advertising.amazon.com/en-ca/solutions/products/ads-agent"}
     ]
   }
 }
