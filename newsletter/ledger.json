@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-08-11",
+  "updated_at": "2026-09-26",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -19,7 +19,8 @@
       "newsletter/2026-08-08.html",
       "newsletter/2026-08-09.html",
       "newsletter/2026-08-10.html",
-      "newsletter/2026-08-11.html"
+      "newsletter/2026-08-11.html",
+      "newsletter/2026-09-26.html"
     ]
   },
   "published_youtube_video_ids": [
@@ -40,35 +41,98 @@
     "mcF30tmNLTg",
     "VIwv5iVm8Ok",
     "VWeQaySQnY8",
-    "A3NjiCcbBNY"
+    "A3NjiCcbBNY",
+    "MaqmkzQaWso",
+    "4znMesbPrTU",
+    "BkLowVI3xws"
   ],
   "latest_issue": {
-    "issue_id": "2026-08-11-skaia-daily-intelligence",
-    "date": "2026-08-11",
-    "path": "newsletter/2026-08-11.html",
+    "issue_id": "2026-09-26-skaia-daily-intelligence",
+    "date": "2026-09-26",
+    "path": "newsletter/2026-09-26.html",
     "status": "published",
     "item_count": 15,
     "duplicate_check": {
       "exact_source_url_duplicates": 0,
       "newsletter_youtube_video_id_duplicates": 0,
-      "material_updates_labeled": 2
+      "material_updates_labeled": 0
     },
     "items": [
-      {"category":"오늘의 AI 뉴스","title_ko":"오픈AI 핵심 임원 브래드 라이트캡 퇴사…새 벤처 창업으로","source_url":"https://www.reuters.com/technology/brad-lightcap-leaving-openai-2026-08-11/"},
-      {"category":"오늘의 AI 뉴스","title_ko":"IBM·Together AI, 엔비디아 블랙웰 기반 2.4억달러 추론 클러스터 계약","source_url":"https://www.reuters.com/business/ibm-together-ai-ink-240-million-deal-nvidia-powered-ai-inference-cluster-2026-08-11/"},
-      {"category":"오늘의 AI 뉴스","title_ko":"엔비디아, 1조 파라미터급 포함 ‘Nemotron 4’ 오픈모델군 개발","source_url":"https://www.reuters.com/business/nvidia-is-developing-nemotron-4-open-source-models-information-reports-2026-08-11/"},
-      {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"업데이트 — 미·캐나다, 8월19일 50% 관세 시한 앞두고 협상 가속","source_url":"https://www.reuters.com/world/canadas-minister-responsible-us-trade-meet-ustrs-greer-tuesday-2026-08-11/","update":true},
-      {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"에어캐나다, 낮춘 연간 전망 복원…Aeroplan은 100억달러 가치 인정","source_url":"https://www.reuters.com/business/air-canada-restores-annual-core-profit-forecast-2026-08-11/"},
-      {"category":"오늘의 캐나다 / 알버타 뉴스","title_ko":"업데이트 — TSX 또 사상 최고치…에너지·산업주가 상승 견인","source_url":"https://www.reuters.com/business/tsx-futures-flat-us-iran-stalemate-keeps-investors-cautious-2026-08-11/","update":true},
-      {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"현장 데이터가 없으면 자동화도 틀린다…필드서비스 AI Kebra","source_url":"https://www.youtube.com/watch?v=VIwv5iVm8Ok","video_id":"VIwv5iVm8Ok"},
-      {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"‘직원 절감’보다 ‘놓친 매출 회수’를 파는 홈서비스 AI Cactus","source_url":"https://www.youtube.com/watch?v=VWeQaySQnY8","video_id":"VWeQaySQnY8"},
-      {"category":"AI 스타트업 성공 스토리 — YouTube","title_ko":"메시지가 아니라 ‘미해결 케이스’를 끝까지 소유하는 CentralComs","source_url":"https://www.youtube.com/watch?v=A3NjiCcbBNY","video_id":"A3NjiCcbBNY"},
-      {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"120여 기술조직, ‘폭주 AI 에이전트’ 사고 공유 표준 SAFE 추진","source_url":"https://www.axios.com/2026/08/11/open-source-security-ai-agent-reporting"},
-      {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"x402, AI 에이전트가 HTTP에서 직접 돈을 주고받는 결제표준으로 독립","source_url":"https://www.linuxfoundation.org/press/linux-foundation-announces-operational-launch-of-x402-foundation-to-standardize-internet-native-payments-for-ai-agents-and-applications"},
-      {"category":"자율 AI 에이전트 관련 뉴스","title_ko":"AI 에이전트에도 ‘DNS 같은 신원증명’…Agent Name Service 추진","source_url":"https://www.linuxfoundation.org/press/linux-foundation-announces-intent-to-launch-agent-name-service-to-establish-trusted-identity-infrastructure-for-ai-agents"},
-      {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"구글 Ask Advisor, Ads·Analytics·Merchant Center를 가로지르는 기억형 마케팅 에이전트","source_url":"https://blog.google/products/ads-commerce/ask-advisor/"},
-      {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"메타 Business Agent, 추천·리드선별·예약·판매까지 메시징 안에서 처리","source_url":"https://about.fb.com/news/2026/06/meta-business-agent/"},
-      {"category":"마케팅 AI 에이전트 관련 뉴스","title_ko":"아마존 Ads Agent, 수백 캠페인 예산·타겟팅·분석을 대화형으로 실행","source_url":"https://advertising.amazon.com/en-ca/solutions/products/ads-agent"}
+      {
+        "category": "오늘의 AI 뉴스",
+        "title_ko": "구글·오픈AI·앤트로픽, 독립 AI 안전 표준기구 설립 추진",
+        "source_url": "https://www.techrepublic.com/article/news-google-openai-anthropic-ai-safety-standards-body/"
+      },
+      {
+        "category": "오늘의 AI 뉴스",
+        "title_ko": "오픈AI·앤트로픽 프론티어 모델 가격전쟁…최대 50% 인하",
+        "source_url": "https://techdefused.com/a/5xVqVu9/replit-leans-less-on-open-source-ai-as-openai-and-anthropic-cut-prices"
+      },
+      {
+        "category": "오늘의 AI 뉴스",
+        "title_ko": "젠슨 황 \"AI 기업에 반독점·책임 면제 부여 말아야\"",
+        "source_url": "https://wncy.com/2026/09/23/ai-firms-should-not-get-regulatory-waivers-nvidia-ceo-says-on-podcast/"
+      },
+      {
+        "category": "오늘의 캐나다 / 알버타 뉴스",
+        "title_ko": "블랙베리, QNX 역대 최대 계약으로 연간 매출 전망 상향",
+        "source_url": "https://srnnews.com/blackberry-lifts-annual-revenue-forecast-on-strength-in-automotive-software-business/"
+      },
+      {
+        "category": "오늘의 캐나다 / 알버타 뉴스",
+        "title_ko": "ATB 전망, 앨버타 2026 성장률 2.6%로 캐나다 전국 선도",
+        "source_url": "https://www.atb.com/company/news/releases/alberta-economy-weathers-global-instability/"
+      },
+      {
+        "category": "오늘의 캐나다 / 알버타 뉴스",
+        "title_ko": "앨버타, 10월부터 연말까지 리터당 13센트 연료세 중단",
+        "source_url": "https://www.todocanada.ca/alberta-to-suspend-13-cent-fuel-tax-starting-october-1/"
+      },
+      {
+        "category": "AI 스타트업 성공 스토리 — YouTube",
+        "title_ko": "월 25달러 요금제로 1만 고객 모은 AI 인프라 스타트업",
+        "source_url": "https://www.youtube.com/watch?v=MaqmkzQaWso"
+      },
+      {
+        "category": "AI 스타트업 성공 스토리 — YouTube",
+        "title_ko": "3개월 만에 ARR 300만 달러 달성한 AI 스타트업",
+        "source_url": "https://www.youtube.com/watch?v=4znMesbPrTU"
+      },
+      {
+        "category": "AI 스타트업 성공 스토리 — YouTube",
+        "title_ko": "21개월 만에 ARR 1억 달러 돌파한 법률 AI 레고라",
+        "source_url": "https://www.youtube.com/watch?v=BkLowVI3xws"
+      },
+      {
+        "category": "자율 AI 에이전트 관련 뉴스",
+        "title_ko": "오픈AI, 에이전트 보안침해 수십 곳 통보…\"에이전트 스팸\"",
+        "source_url": "https://en.sedaily.com/international/2026/09/26/openai-agents-breached-dozens-of-systems-leaked-images"
+      },
+      {
+        "category": "자율 AI 에이전트 관련 뉴스",
+        "title_ko": "옥타, 12개사와 '에이전트 보안 청사진' 연합 출범",
+        "source_url": "https://investor.okta.com/news-and-events/news-releases/news-details/2026/Industry-Leaders-Form-the-Blueprint-Alliance-to-Advance-a-Shared-Architecture-for-Securing-AI-Agents/default.aspx"
+      },
+      {
+        "category": "자율 AI 에이전트 관련 뉴스",
+        "title_ko": "Dataiku, 플랫폼 가로지르는 에이전트 인벤토리 출시",
+        "source_url": "https://www.hpcwire.com/bigdatawire/this-just-in/dataiku-unveils-agent-management-to-track-enterprise-ai-agents-across-platforms/"
+      },
+      {
+        "category": "마케팅 AI 에이전트 관련 뉴스",
+        "title_ko": "NIQ \"미국 소비자 절반 이상, AI 도구로 쇼핑\"",
+        "source_url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-25-2026/"
+      },
+      {
+        "category": "마케팅 AI 에이전트 관련 뉴스",
+        "title_ko": "아마존, Seller Assistant에 기억·항상실행 워크플로 탑재",
+        "source_url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-24-2026/"
+      },
+      {
+        "category": "마케팅 AI 에이전트 관련 뉴스",
+        "title_ko": "Marketo 공동창업자, AI 마케팅 자동화 'Phave' 공개",
+        "source_url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-24-2026/"
+      }
     ]
   }
 }
