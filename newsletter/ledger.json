@@ -15,7 +15,8 @@
     "issue_paths": [
       "posts/2026-08-06.html",
       "newsletter/2026-09-26.html",
-      "newsletter/2026-09-26-youjin.html"
+      "newsletter/2026-09-26-youjin.html",
+      "newsletter/2026-09-27.html"
     ],
     "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions."
   },
