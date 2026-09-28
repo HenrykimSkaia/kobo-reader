@@ -1,210 +1,213 @@
 {
- "format_version": 2,
- "updated_at": "2026-09-26",
- "duplicate_rules": [
-  "Reject exact source_url duplicates unless the story has a materially new development.",
-  "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
-  "Reject substantially identical topics even when headline wording or source domain changes.",
-  "Allow follow-up coverage only when a new event materially changes the facts or decision value; label it as an update.",
-  "Before publishing a candidate, search the repository newsletter HTML for the exact source URL when historical v1 source records are not embedded in this compact ledger."
- ],
- "history": {
-  "human_readable_index": "newsletter/contents.html",
-  "historical_issue_html_is_source_archive": true,
-  "issues_through_2026_08_10_preserved_in_contents_and_html": false,
-  "issue_paths": [
-   "posts/2026-08-06.html",
-   "newsletter/2026-09-26.html",
-   "newsletter/2026-09-26-youjin.html"
+  "format_version": 2,
+  "updated_at": "2026-09-27",
+  "duplicate_rules": [
+    "Reject exact source_url duplicates unless the story has a materially new development.",
+    "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
+    "Reject substantially identical topics even when headline wording or source domain changes.",
+    "Allow follow-up coverage only when a new event materially changes the facts or decision value; label it as an update.",
+    "Before publishing a candidate, search the repository newsletter HTML for the exact source URL when historical v1 source records are not embedded in this compact ledger."
   ],
-  "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions."
- },
- "published_youtube_video_ids": [
-  "MaqmkzQaWso",
-  "4znMesbPrTU",
-  "BkLowVI3xws",
-  "koQ3yG507ws"
- ],
- "latest_issue": {
-  "henry": {
-   "issue_id": "2026-09-26-skaia-daily-intelligence",
-   "date": "2026-09-26",
-   "path": "newsletter/2026-09-26.html",
-   "status": "published",
-   "item_count": 15,
-   "duplicate_check": {
-    "exact_source_url_duplicates": 0,
-    "newsletter_youtube_video_id_duplicates": 0,
-    "material_updates_labeled": 0
-   },
-   "items": [
-    {
-     "category": "오늘의 AI 뉴스",
-     "title_ko": "구글·오픈AI·앤트로픽, 독립 AI 안전 표준기구 설립 추진",
-     "source_url": "https://www.techrepublic.com/article/news-google-openai-anthropic-ai-safety-standards-body/"
-    },
-    {
-     "category": "오늘의 AI 뉴스",
-     "title_ko": "오픈AI·앤트로픽 프론티어 모델 가격전쟁…최대 50% 인하",
-     "source_url": "https://techdefused.com/a/5xVqVu9/replit-leans-less-on-open-source-ai-as-openai-and-anthropic-cut-prices"
-    },
-    {
-     "category": "오늘의 AI 뉴스",
-     "title_ko": "젠슨 황 \"AI 기업에 반독점·책임 면제 부여 말아야\"",
-     "source_url": "https://wncy.com/2026/09/23/ai-firms-should-not-get-regulatory-waivers-nvidia-ceo-says-on-podcast/"
-    },
-    {
-     "category": "오늘의 캐나다 / 알버타 뉴스",
-     "title_ko": "블랙베리, QNX 역대 최대 계약으로 연간 매출 전망 상향",
-     "source_url": "https://srnnews.com/blackberry-lifts-annual-revenue-forecast-on-strength-in-automotive-software-business/"
-    },
-    {
-     "category": "오늘의 캐나다 / 알버타 뉴스",
-     "title_ko": "ATB 전망, 앨버타 2026 성장률 2.6%로 캐나다 전국 선도",
-     "source_url": "https://www.atb.com/company/news/releases/alberta-economy-weathers-global-instability/"
-    },
-    {
-     "category": "오늘의 캐나다 / 알버타 뉴스",
-     "title_ko": "앨버타, 10월부터 연말까지 리터당 13센트 연료세 중단",
-     "source_url": "https://www.todocanada.ca/alberta-to-suspend-13-cent-fuel-tax-starting-october-1/"
-    },
-    {
-     "category": "AI 스타트업 성공 스토리 — YouTube",
-     "title_ko": "월 25달러 요금제로 1만 고객 모은 AI 인프라 스타트업",
-     "source_url": "https://www.youtube.com/watch?v=MaqmkzQaWso"
-    },
-    {
-     "category": "AI 스타트업 성공 스토리 — YouTube",
-     "title_ko": "3개월 만에 ARR 300만 달러 달성한 AI 스타트업",
-     "source_url": "https://www.youtube.com/watch?v=4znMesbPrTU"
-    },
-    {
-     "category": "AI 스타트업 성공 스토리 — YouTube",
-     "title_ko": "21개월 만에 ARR 1억 달러 돌파한 법률 AI 레고라",
-     "source_url": "https://www.youtube.com/watch?v=BkLowVI3xws"
-    },
-    {
-     "category": "자율 AI 에이전트 관련 뉴스",
-     "title_ko": "오픈AI, 에이전트 보안침해 수십 곳 통보…\"에이전트 스팸\"",
-     "source_url": "https://en.sedaily.com/international/2026/09/26/openai-agents-breached-dozens-of-systems-leaked-images"
-    },
-    {
-     "category": "자율 AI 에이전트 관련 뉴스",
-     "title_ko": "옥타, 12개사와 '에이전트 보안 청사진' 연합 출범",
-     "source_url": "https://investor.okta.com/news-and-events/news-releases/news-details/2026/Industry-Leaders-Form-the-Blueprint-Alliance-to-Advance-a-Shared-Architecture-for-Securing-AI-Agents/default.aspx"
-    },
-    {
-     "category": "자율 AI 에이전트 관련 뉴스",
-     "title_ko": "Dataiku, 플랫폼 가로지르는 에이전트 인벤토리 출시",
-     "source_url": "https://www.hpcwire.com/bigdatawire/this-just-in/dataiku-unveils-agent-management-to-track-enterprise-ai-agents-across-platforms/"
-    },
-    {
-     "category": "마케팅 AI 에이전트 관련 뉴스",
-     "title_ko": "NIQ \"미국 소비자 절반 이상, AI 도구로 쇼핑\"",
-     "source_url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-25-2026/"
-    },
-    {
-     "category": "마케팅 AI 에이전트 관련 뉴스",
-     "title_ko": "아마존, Seller Assistant에 기억·항상실행 워크플로 탑재",
-     "source_url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-24-2026/"
-    },
-    {
-     "category": "마케팅 AI 에이전트 관련 뉴스",
-     "title_ko": "Marketo 공동창업자, AI 마케팅 자동화 'Phave' 공개",
-     "source_url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-september-24-2026/"
-    }
-   ]
+  "history": {
+    "human_readable_index": "newsletter/contents.html",
+    "historical_issue_html_is_source_archive": true,
+    "issues_through_2026_08_10_preserved_in_contents_and_html": false,
+    "issue_paths": [
+      "posts/2026-08-06.html",
+      "newsletter/2026-09-26.html",
+      "newsletter/2026-09-26-youjin.html"
+    ],
+    "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions."
   },
-  "youjin": {
-   "issue_id": "2026-09-26-youjin-daily-reading",
-   "date": "2026-09-26",
-   "edition": "youjin",
-   "path": "newsletter/2026-09-26-youjin.html",
-   "status": "published",
-   "item_count": 15,
-   "duplicate_check": {
-    "duplicate_source_urls": 0,
-    "duplicate_youtube_ids": 0,
-    "duplicate_topics": 0
-   },
-   "items": [
-    {
-     "category": "canada",
-     "title_ko": "서스캐처원 칼륨 기업, 밴쿠버 항만에 5억 달러 투자",
-     "source_url": "https://uspolitics.einnews.com/pr_news/945343446/new-port-investment-unlocks-more-opportunities-for-saskatchewan-potash"
+  "published_youtube_video_ids": [
+    "4znMesbPrTU",
+    "BkLowVI3xws",
+    "DV7bBCAABg4",
+    "E_sPvPHwpuk",
+    "MaqmkzQaWso",
+    "koQ3yG507ws",
+    "xlu4mKwDElY"
+  ],
+  "latest_issue": {
+    "henry": {
+      "issue_id": "2026-09-27-skaia-daily-intelligence",
+      "date": "2026-09-27",
+      "path": "newsletter/2026-09-27.html",
+      "status": "published",
+      "item_count": 15,
+      "duplicate_check": {
+        "exact_source_url_duplicates": 0,
+        "newsletter_youtube_video_id_duplicates": 0,
+        "material_updates_labeled": 0
+      },
+      "items": [
+        {
+          "category": "오늘의 AI 뉴스",
+          "title_ko": "OpenAI, 최상위 모델 학습 전면 중단 — AI 에이전트 탈선 잇따라",
+          "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-slows-ai-training-following-latest-security-incident/"
+        },
+        {
+          "category": "오늘의 AI 뉴스",
+          "title_ko": "Anthropic, Akamai와 116억 달러 7년 클라우드 계약 체결",
+          "source_url": "https://www.thestreet.com/investing/stocks/anthropic-just-handed-akamai-a-game-changing-deal"
+        },
+        {
+          "category": "오늘의 AI 뉴스",
+          "title_ko": "Gemini 4, 포스트트레이닝 진입 — DeepMind 신임 수장 연내 출시 예고",
+          "source_url": "https://runtimewire.com/article/google-gemini-4-post-training-antigravity-release"
+        },
+        {
+          "category": "오늘의 캐나다 / 알버타 뉴스",
+          "title_ko": "핑거모션, 앨버타 데이터홀에 52.5MW 전력·컴퓨트 수요 신청 접수",
+          "source_url": "https://www.marketminute.com/article/nnwire-2026-9-25-techmediabreaks-fingermotion-inc-nasdaq-fngr-receives-indications-of-interest-for-525-mw-of-alberta-power-and-compute-capacity"
+        },
+        {
+          "category": "오늘의 캐나다 / 알버타 뉴스",
+          "title_ko": "캘거리 CMG, 2,000만 달러 자사주 공개매수 마무리",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/25/3369295/0/en/computer-modelling-group-ltd-announces-completion-of-substantial-issuer-bid.html"
+        },
+        {
+          "category": "오늘의 캐나다 / 알버타 뉴스",
+          "title_ko": "대서양 4개주 경제패널, '하나의 경제권'과 10억 달러 성장펀드 제안",
+          "source_url": "https://ts2.tech/en/atlantic-canada-panel-proposes-one-economy-and-a-c1-billion-growth-fund/"
+        },
+        {
+          "category": "AI 스타트업 성공 스토리 — YouTube",
+          "title_ko": "13개월 만에 ARR 5억 달러를 달성한 AI 비디오 스타트업",
+          "source_url": "https://www.youtube.com/watch?v=xlu4mKwDElY"
+        },
+        {
+          "category": "AI 스타트업 성공 스토리 — YouTube",
+          "title_ko": "117일 만에 ARR 100만 달러를 만든 AI 챗봇 스타트업",
+          "source_url": "https://www.youtube.com/watch?v=E_sPvPHwpuk"
+        },
+        {
+          "category": "AI 스타트업 성공 스토리 — YouTube",
+          "title_ko": "노코드로 월 10만 달러를 버는 1인 AI 앱",
+          "source_url": "https://www.youtube.com/watch?v=DV7bBCAABg4"
+        },
+        {
+          "category": "자율 AI 에이전트 관련 뉴스",
+          "title_ko": "마이크로소프트, Copilot에 상시 작동 AI 에이전트 'Autopilot' 탑재",
+          "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/microsoft-bundles-copilot-features-challenge-anthropic-openai-workplace/"
+        },
+        {
+          "category": "자율 AI 에이전트 관련 뉴스",
+          "title_ko": "에이전틱 AI, 토큰 사용량 100배까지 폭증 — 종량제 가격 모델 붕괴 가속",
+          "source_url": "https://www.businesswire.com/news/home/20260925592810/en/Agentic-AI-Can-Raise-Token-Use-per-Task-Up-to-100-Times-Accelerating-the-Shift-Away-From-Per-Token-Pricing-Futurum-Research-Finds"
+        },
+        {
+          "category": "자율 AI 에이전트 관련 뉴스",
+          "title_ko": "세일즈포스, 헬스케어 에이전틱 AI 확장의 3대 요건 제시",
+          "source_url": "https://business20channel.tv/salesforce-maps-three-requirements-for-scaling-agentic-ai-in-health-in-2026-25-09-2026"
+        },
+        {
+          "category": "마케팅 AI 에이전트 관련 뉴스",
+          "title_ko": "클로두라, AI 네이티브 SDR '아틀라스' 출시 — 이메일 답장률 8배",
+          "source_url": "https://www.prnewswire.co.uk/news-releases/cloduraai-launches-atlas-an-ai-native-sdr-that-replaces-the-fragmented-outbound-stack-302740755.html"
+        },
+        {
+          "category": "마케팅 AI 에이전트 관련 뉴스",
+          "title_ko": "스내피 크라켄, 금융자문사 대상 마케팅 운영 AI '스내피 AI' 출시",
+          "source_url": "https://avpress.marketminute.com/article/bizwire-2026-9-24-snappy-kraken-launches-snappy-ai-a-marketing-operations-coworker-for-financial-advisors"
+        },
+        {
+          "category": "마케팅 AI 에이전트 관련 뉴스",
+          "title_ko": "셀라, 모기지 판매 특화 음성 AI 에이전트로 2,100만 달러 유치",
+          "source_url": "https://techstartups.com/2026/09/22/venture-capital-startup-funding-roundup-september-22-2026-general-catalyst-goldman-sachs-greylock-m13-y-combinator-more/"
+        }
+      ]
     },
-    {
-     "category": "canada",
-     "title_ko": "캐나다 축구대표팀, 오늘 토론토에서 칠레와 친선경기",
-     "source_url": "https://worldsoccertalk.com/news/is-alphonso-davies-playing-today-projected-lineups-for-canada-vs-chile-in-2026-international-friendly/"
-    },
-    {
-     "category": "canada",
-     "title_ko": "올가을 독감·코로나 예방접종 일정, 주마다 달라",
-     "source_url": "https://www.thecanadianwire.com/news/flu-shots-fall-2026-when-each-province-opens-and-what-changed-in-quebec"
-    },
-    {
-     "category": "calgary-alberta",
-     "title_ko": "캘거리 에너지 서밋, 9월 28~29일 BMO 센터에서 개최",
-     "source_url": "https://cw7az.com/business/press-releases/cision/20260924CA55695/as-energy-ai-and-geopolitics-collide-energy-disruptors-unite-2026-is-primed-to-put-the-whole-system-in-one-room/"
-    },
-    {
-     "category": "calgary-alberta",
-     "title_ko": "캘거리 공항, 상파울루·아부다비 직항 신규 취항",
-     "source_url": "https://www.travelandtourworld.com/news/article/pmyvzqcmqqpi/"
-    },
-    {
-     "category": "calgary-alberta",
-     "title_ko": "캘거리 스탬피더스, 오늘 오타와 원정 경기",
-     "source_url": "https://sportsnewsreport.com/stories/cfl-week-17-features-calgary-stampeders-at-ottawa-redblacks-today-muibbxei-slr6"
-    },
-    {
-     "category": "korea",
-     "title_ko": "추석 연휴 사흘째…부산→서울 7시간 50분 귀경 정체",
-     "source_url": "https://www.mbn.co.kr/news/society/5221489"
-    },
-    {
-     "category": "korea",
-     "title_ko": "한국 기름값 19주 연속 하락…리터당 1,858원",
-     "source_url": "https://www.mbn.co.kr/news/economy/5221483"
-    },
-    {
-     "category": "korea",
-     "title_ko": "'매출 0원' 자영업자 42% 증가…10곳 중 7곳 연소득 1,200만원 미만",
-     "source_url": "https://www.mt.co.kr/society/2026/09/26/2026092620484373689"
-    },
-    {
-     "category": "education",
-     "title_ko": "CBE 진실·화해 주간…9월 30일 휴교",
-     "source_url": "https://www.cbe.ab.ca/news/honouring-truth-and-reconciliation-this-september"
-    },
-    {
-     "category": "education",
-     "title_ko": "캘거리 교육청, 교사 475명·교육보조원 240명 신규 채용",
-     "source_url": "https://www.youtube.com/watch?v=koQ3yG507ws",
-     "youtube_id": "koQ3yG507ws"
-    },
-    {
-     "category": "education",
-     "title_ko": "앨버타 Bill 25에 CBE 교육위원회 공식 입장 발표",
-     "source_url": "https://cbe.ab.ca/news-centre/Pages/CBE-Board-of-Trustees-Responds-to-Bill-25.aspx"
-    },
-    {
-     "category": "lifestyle",
-     "title_ko": "앨버타 독감 예방접종 10월 19일 시작…무료",
-     "source_url": "https://abpharmacy.ca/news/the-provincial-influenza-and-covid-19-immunization-programs-begin-october-19-2026/"
-    },
-    {
-     "category": "lifestyle",
-     "title_ko": "앨버타 코로나 백신 $100 본인부담 유지…캐나다 최초",
-     "source_url": "https://blog.acma-association.com/alberta-government-upholds-covid-vaccine-fee-amid-preparations-for-fall-flu-immunization-drive-cbc/"
-    },
-    {
-     "category": "lifestyle",
-     "title_ko": "PBR 불라이딩 엘리트 시리즈, 오늘 밤 그랜드프레리 개최",
-     "source_url": "https://www.pbrcanada.com/news/press-releases/2025/november/pbr-canada-s-elite-cup-series-returns-to-grande-prairie-alberta-for-seventh-time-in-history-on-september-26-2026/"
+    "youjin": {
+      "issue_id": "2026-09-26-youjin-daily-reading",
+      "date": "2026-09-26",
+      "edition": "youjin",
+      "path": "newsletter/2026-09-26-youjin.html",
+      "status": "published",
+      "item_count": 15,
+      "duplicate_check": {
+        "duplicate_source_urls": 0,
+        "duplicate_youtube_ids": 0,
+        "duplicate_topics": 0
+      },
+      "items": [
+        {
+          "category": "canada",
+          "title_ko": "서스캐처원 칼륨 기업, 밴쿠버 항만에 5억 달러 투자",
+          "source_url": "https://uspolitics.einnews.com/pr_news/945343446/new-port-investment-unlocks-more-opportunities-for-saskatchewan-potash"
+        },
+        {
+          "category": "canada",
+          "title_ko": "캐나다 축구대표팀, 오늘 토론토에서 칠레와 친선경기",
+          "source_url": "https://worldsoccertalk.com/news/is-alphonso-davies-playing-today-projected-lineups-for-canada-vs-chile-in-2026-international-friendly/"
+        },
+        {
+          "category": "canada",
+          "title_ko": "올가을 독감·코로나 예방접종 일정, 주마다 달라",
+          "source_url": "https://www.thecanadianwire.com/news/flu-shots-fall-2026-when-each-province-opens-and-what-changed-in-quebec"
+        },
+        {
+          "category": "calgary-alberta",
+          "title_ko": "캘거리 에너지 서밋, 9월 28~29일 BMO 센터에서 개최",
+          "source_url": "https://cw7az.com/business/press-releases/cision/20260924CA55695/as-energy-ai-and-geopolitics-collide-energy-disruptors-unite-2026-is-primed-to-put-the-whole-system-in-one-room/"
+        },
+        {
+          "category": "calgary-alberta",
+          "title_ko": "캘거리 공항, 상파울루·아부다비 직항 신규 취항",
+          "source_url": "https://www.travelandtourworld.com/news/article/pmyvzqcmqqpi/"
+        },
+        {
+          "category": "calgary-alberta",
+          "title_ko": "캘거리 스탬피더스, 오늘 오타와 원정 경기",
+          "source_url": "https://sportsnewsreport.com/stories/cfl-week-17-features-calgary-stampeders-at-ottawa-redblacks-today-muibbxei-slr6"
+        },
+        {
+          "category": "korea",
+          "title_ko": "추석 연휴 사흘째…부산→서울 7시간 50분 귀경 정체",
+          "source_url": "https://www.mbn.co.kr/news/society/5221489"
+        },
+        {
+          "category": "korea",
+          "title_ko": "한국 기름값 19주 연속 하락…리터당 1,858원",
+          "source_url": "https://www.mbn.co.kr/news/economy/5221483"
+        },
+        {
+          "category": "korea",
+          "title_ko": "'매출 0원' 자영업자 42% 증가…10곳 중 7곳 연소득 1,200만원 미만",
+          "source_url": "https://www.mt.co.kr/society/2026/09/26/2026092620484373689"
+        },
+        {
+          "category": "education",
+          "title_ko": "CBE 진실·화해 주간…9월 30일 휴교",
+          "source_url": "https://www.cbe.ab.ca/news/honouring-truth-and-reconciliation-this-september"
+        },
+        {
+          "category": "education",
+          "title_ko": "캘거리 교육청, 교사 475명·교육보조원 240명 신규 채용",
+          "source_url": "https://www.youtube.com/watch?v=koQ3yG507ws",
+          "youtube_id": "koQ3yG507ws"
+        },
+        {
+          "category": "education",
+          "title_ko": "앨버타 Bill 25에 CBE 교육위원회 공식 입장 발표",
+          "source_url": "https://cbe.ab.ca/news-centre/Pages/CBE-Board-of-Trustees-Responds-to-Bill-25.aspx"
+        },
+        {
+          "category": "lifestyle",
+          "title_ko": "앨버타 독감 예방접종 10월 19일 시작…무료",
+          "source_url": "https://abpharmacy.ca/news/the-provincial-influenza-and-covid-19-immunization-programs-begin-october-19-2026/"
+        },
+        {
+          "category": "lifestyle",
+          "title_ko": "앨버타 코로나 백신 $100 본인부담 유지…캐나다 최초",
+          "source_url": "https://blog.acma-association.com/alberta-government-upholds-covid-vaccine-fee-amid-preparations-for-fall-flu-immunization-drive-cbc/"
+        },
+        {
+          "category": "lifestyle",
+          "title_ko": "PBR 불라이딩 엘리트 시리즈, 오늘 밤 그랜드프레리 개최",
+          "source_url": "https://www.pbrcanada.com/news/press-releases/2025/november/pbr-canada-s-elite-cup-series-returns-to-grande-prairie-alberta-for-seventh-time-in-history-on-september-26-2026/"
+        }
+      ]
     }
-   ]
   }
- }
 }
