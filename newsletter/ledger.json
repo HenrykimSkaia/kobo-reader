@@ -145,5 +145,17 @@
         }
       ]
     }
+  },
+  "henney": {
+    "latest_issue": {
+      "path": "newsletter/2026-09-29-henney-1.html",
+      "edition": "2026-09-29-1",
+      "title_ko": "솜사탕보다 가벼운 거대 행성 발견",
+      "title": "Henney's Reading - 2026-09-29-1",
+      "word_count": 1757
+    },
+    "issue_paths": [
+      "newsletter/2026-09-29-henney-1.html"
+    ]
   }
 }
