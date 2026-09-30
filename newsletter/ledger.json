@@ -18,7 +18,8 @@
       "newsletter/2026-09-26-youjin.html",
       "newsletter/2026-09-27.html",
       "newsletter/2026-09-28.html",
-      "newsletter/2026-09-29-henney.html"
+      "newsletter/2026-09-29-henney.html",
+      "newsletter/2026-09-29-henney-2.html"
     ],
     "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
     "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted."
@@ -127,11 +128,11 @@
       ]
     },
     "henney": {
-      "issue_id": "2026-09-29-henney-reading",
+      "issue_id": "2026-09-29-henney-reading-2",
       "date": "2026-09-29",
-      "path": "newsletter/2026-09-29-henney.html",
+      "path": "newsletter/2026-09-29-henney-2.html",
       "status": "published",
-      "format": "one-topic deep reading, 3 parts, full body + essay prompt",
+      "format": "one-topic deep reading, 3 parts, full body + essay assignment",
       "duplicate_check": {
         "exact_source_url_duplicates": 0,
         "newsletter_youtube_video_id_duplicates": 0
@@ -139,8 +140,8 @@
       "items": [
         {
           "category": "Deep Reading",
-          "title_ko": "세계 최초의 플라잉카, 생산 시작",
-          "source_url": "https://www.dogonews.com/2026/1/23/alef-begins-production-of-worlds-first-flying-car"
+          "title_ko": "솜사탕보다 가벼운 거대 행성 발견",
+          "source_url": "https://www.dogonews.com/2026/9/16/these-giant-super-puff-planets-are-less-dense-than-cotton-candy"
         }
       ]
     }
