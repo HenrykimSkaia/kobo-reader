@@ -19,12 +19,16 @@
       "newsletter/2026-09-27.html",
       "newsletter/2026-09-28.html",
       "newsletter/2026-09-29-henney.html",
-      "newsletter/2026-09-29-henney-2.html"
+      "newsletter/2026-09-29-henney-2.html",
+      "newsletter/2026-09-29.html"
     ],
     "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
-    "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted."
+    "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted.",
+    "retention_cleanup_2026_09_29": "No newsletter files older than 14 days; nothing deleted."
   },
   "published_youtube_video_ids": [
+    "0ADZgpvO_Gs",
+    "4oMAgaKLpLE",
     "4znMesbPrTU",
     "8cXGoDHsZ4w",
     "BkLowVI3xws",
@@ -34,13 +38,14 @@
     "caOPvxnSpZU",
     "koQ3yG507ws",
     "liasDlkKPp4",
+    "qAe8QilfMd4",
     "xlu4mKwDElY"
   ],
   "latest_issue": {
     "henry": {
-      "issue_id": "2026-09-28-skaia-daily-intelligence",
-      "date": "2026-09-28",
-      "path": "newsletter/2026-09-28.html",
+      "issue_id": "2026-09-29-skaia-daily-intelligence",
+      "date": "2026-09-29",
+      "path": "newsletter/2026-09-29.html",
       "status": "published",
       "item_count": 15,
       "duplicate_check": {
@@ -52,78 +57,78 @@
       "items": [
         {
           "category": "오늘의 AI 뉴스",
-          "title_ko": "엔비디아, 사상 최대 1,500억 달러 자사주 매입 승인",
-          "source_url": "https://www.unite.ai/nvidia-board-authorizes-150-billion-increase-to-share-repurchase-program/"
+          "title_ko": "오픈AI, GPT-6.1 Astra 출시 전격 취소 — \"사용자에게 정직하지 못했다\"",
+          "source_url": "https://www.webpronews.com/openai-cancels-gpt-6-1-astra-after-tests-flag-deception-and-overreach/"
         },
         {
           "category": "오늘의 AI 뉴스",
-          "title_ko": "호주 상원, 오픈AI·앤트로픽 CEO 소환…호주 의료DB 해킹 여파",
-          "source_url": "https://bworldonline.com/world/2026/09/27/782139/openai-anthropic-ceos-called-to-appear-at-australian-ai-probe/"
+          "title_ko": "AMD, 월드랩스 82억 달러에 인수 — 페이페이 리를 최고과학자로",
+          "source_url": "https://www.lapost.com/content/amd-to-buy-fei-fei-li-s-world-labs-in-8-2-billion-bet-on-physical-ai"
         },
         {
           "category": "오늘의 AI 뉴스",
-          "title_ko": "엔비디아, 자율 AI 에이전트 안전 플랫폼 공개…오픈소스 OpenShell과 Sentry",
-          "source_url": "https://cybernews.com/news/nvidia-openshell-sentry-hugging-face/"
+          "title_ko": "앤트로픽 IPO 문서 유출 — 매출 46억 달러에 420억 달러 순손실",
+          "source_url": "https://techstartups.com/2026/09/29/anthropic-spent-12-6-billion-to-make-4-6-billion-now-it-wants-a-2-trillion-ipo-valuation/"
         },
         {
           "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "캐나다·알버타, 캘거리-에드먼턴 고속철도 협력 공식 발표",
-          "source_url": "https://www.canada.ca/en/transport-canada/news/2026/09/canada-and-alberta-to-collaborate-on-high-speed-rail.html"
+          "title_ko": "캐나다 7월 GDP 제로 성장…8월 0.2% 반등 전망",
+          "source_url": "https://www.morningstar.com/news/dow-jones/202609294171/canada-gdp-picks-up-after-stalling-in-july-update"
         },
         {
           "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "처칠항-로테르담항 협정 체결…서부 캐나다-유럽 무역 회랑 본격화",
-          "source_url": "https://www.globenewswire.com/news-release/2026/09/29/3370349/0/en/port-of-churchill-and-port-of-rotterdam-have-signed-agreement-to-strengthen-transatlantic-trade.html"
+          "title_ko": "연방정부 '생산성 메가 공제' 발표 — 기업 투자 즉시 비용처리 확대",
+          "source_url": "https://www.canada.ca/en/employment-social-development/news/2026/09/the-government-of-canada-introduces-new-productivity-mega-deduction-to-help-businesses-invest-grow-and-create-jobs-in-canada.html"
         },
         {
           "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "캘거리 AI 스타트업 StoriBot, 리테일에 '내러티브 인텔리전스' 내세워 진출",
-          "source_url": "https://retail-insider.com/retail-insider/2026/09/calgary-ai-startup-storibot-targets-retail-with-narrative-intelligence-platform/"
+          "title_ko": "딜로이트, 2027 캐나다 성장 전망 하향…앨버타는 전국 선두 유지",
+          "source_url": "https://www.hrreporter.com/news/hr-news/deloitte-trims-2027-growth-forecast-for-canada-amid-new-us-tariffs/394952"
         },
         {
           "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "부모님 집 침실에서 1,000만 달러 ARR까지, 젠니 AI 파운더의 플레이북",
-          "source_url": "https://www.youtube.com/watch?v=8cXGoDHsZ4w"
+          "title_ko": "방문 판매로 350만 달러 ARR — Swipe.by, 문을 두드리는 AI 마케팅 부서",
+          "source_url": "https://www.youtube.com/watch?v=qAe8QilfMd4"
         },
         {
           "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "1만 명의 유료 고객을 AI 에이전트만으로 — 폴시아의 무(無)팀 운영",
-          "source_url": "https://www.youtube.com/watch?v=liasDlkKPp4"
+          "title_ko": "3개월 만에 구축, 수십만 달러 ARR — ZeroRank, AI 검색 가시성의 기회",
+          "source_url": "https://www.youtube.com/watch?v=0ADZgpvO_Gs"
         },
         {
           "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "$1에 산 AI 헤드샷 스타트업, 18개월 만에 ARR 300만 달러 달성",
-          "source_url": "https://www.youtube.com/watch?v=caOPvxnSpZU"
+          "title_ko": "26억 달러 ARR의 성장 플레이북 — HubSpot AI·GTM 책임자의 교훈",
+          "source_url": "https://www.youtube.com/watch?v=4oMAgaKLpLE"
         },
         {
           "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "개인 AI 에이전트 '인스팅트', 10억 달러 유치 — 기업가치 100억 달러",
-          "source_url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
+          "title_ko": "오픈AI 'Dots' — 잠들지 않는 클라우드 AI 에이전트",
+          "source_url": "https://www.neowin.net/news/openai-announces-dots-a-new-type-of-always-on-ai-agent-for-chatgpt-users/"
         },
         {
           "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "코헤시티, 에이전트 메모리·설정까지 백업하는 'Agent Resilience' 출시",
-          "source_url": "https://futurumgroup.com/insights/cohesity-extends-cyber-resilience-to-the-ai-agents-themselves/"
+          "title_ko": "오라클 'Fusion Claw' — 기업 앱 안에서 뛰는 에이전트 실행 런타임",
+          "source_url": "https://techstrong.ai/articles/oracle-fusion-claw-expands-ai-agent-execution-inside-business-apps/"
         },
         {
           "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "Anthropic, Claude Code 클라우드 세션 정식 출시 — 노트북 닫아도 일하는 에이전트",
-          "source_url": "https://aistify.com/anthropic-claude-code-cloud-sessions-general-availability/"
+          "title_ko": "통제 불능 에이전트, 클라우드 비용 폭증 — FinOps 규율의 필요성",
+          "source_url": "https://www.webpronews.com/ai-agents-run-amok-how-autonomous-systems-are-inflating-cloud-bills-and-forcing-finance-scrutiny/"
         },
         {
           "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "IAB 유럽 \"1년 내 에이전틱 광고 구매가 일상화\" 응답 58%…거버넌스 공백 지적",
-          "source_url": "https://www.affiversemedia.com/iab-europe-agentic-ad-buying-governance-2026/"
+          "title_ko": "Multiply, 'AI 광고비 복구 에이전트' 출시 — 낭비 광고비 자동 진단",
+          "source_url": "https://www.martechcube.com/multiply-announced-the-launch-of-ai-ad-spend-recovery-agent/"
         },
         {
           "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "호라이즌 커머스 × 팩뷰, AI 커머스 연동으로 레블론 미첨 아마존 매출 주간 평균 13% 증가",
-          "source_url": "https://martechvibe.com/article/horizon-commerce-pacvue-expand-strategic-partnership"
+          "title_ko": "Outcraft AI, AI SDR에 '리드당 요금제' 도입",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/10/3359909/0/en/ai-sdr-startup-outcraft-ai-rolls-out-per-lead-pricing-for-its-inbound-sales-agents.html"
         },
         {
           "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "스콜피언, OpenAI·틱톡·서비스타이탄과 홈서비스 AI 광고 서밋 개최… \"검색에서 답변으로\"",
-          "source_url": "https://www.prnewswire.com/news-releases/scorpion-brings-together-openai-tiktok-and-servicetitan-to-help-home-services-businesses-get-ahead-of-the-shift-to-ai-powered-search-and-advertising-302887016.html"
+          "title_ko": "The Engine, AI 성장팀 10월 15일 출시 — 베타 고객 월 11만 달러 MRR 증가",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/29/3370642/0/en/the-engine-plans-october-15-launch-of-an-ai-team-that-creates-content-and-handles-sales-conversations.html"
         }
       ]
     },
