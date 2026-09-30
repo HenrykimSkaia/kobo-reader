@@ -148,17 +148,18 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-09-29-henney-2.html",
-      "edition": "2026-09-29-2",
+      "path": "newsletter/2026-09-29-henney-3.html",
+      "edition": "2026-09-29-3",
       "title_ko": "솜사탕보다 가벼운 거대 행성 발견",
-      "title": "Henney's Reading - 2026-09-29-2",
-      "word_count": 1827,
-      "delivery_url": "newsletter/2026-09-29-henney-2b.html"
+      "title": "Henney's Reading - 2026-09-29-3",
+      "word_count": 897,
+      "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
       "newsletter/2026-09-29-henney-1.html",
       "newsletter/2026-09-29-henney-2.html",
-      "newsletter/2026-09-29-henney-2b.html"
+      "newsletter/2026-09-29-henney-2b.html",
+      "newsletter/2026-09-29-henney-3.html"
     ]
   }
 }
