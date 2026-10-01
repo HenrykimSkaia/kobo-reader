@@ -1,180 +1,187 @@
 {
-  "format_version": 2,
-  "updated_at": "2026-09-30",
-  "duplicate_rules": [
-    "Reject exact source_url duplicates unless the story has a materially new development.",
-    "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
-    "Reject substantially identical topics even when headline wording or source domain changes.",
-    "Allow follow-up coverage only when a new event materially changes the facts or decision value; label it as an update.",
-    "Before publishing a candidate, search the repository newsletter HTML for the exact source URL when historical v1 source records are not embedded in this compact ledger."
+ "format_version": 2,
+ "updated_at": "2026-10-01",
+ "duplicate_rules": [
+  "Reject exact source_url duplicates unless the story has a materially new development.",
+  "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
+  "Reject substantially identical topics even when headline wording or source domain changes.",
+  "Allow follow-up coverage only when a new event materially changes the facts or decision value; label it as an update.",
+  "Before publishing a candidate, search the repository newsletter HTML for the exact source URL when historical v1 source records are not embedded in this compact ledger."
+ ],
+ "history": {
+  "human_readable_index": "newsletter/contents.html",
+  "historical_issue_html_is_source_archive": true,
+  "issues_through_2026_08_10_preserved_in_contents_and_html": false,
+  "issue_paths": [
+   "posts/2026-08-06.html",
+   "newsletter/2026-09-26.html",
+   "newsletter/2026-09-26-youjin.html",
+   "newsletter/2026-09-27.html",
+   "newsletter/2026-09-28.html",
+   "newsletter/2026-09-29-henney.html",
+   "newsletter/2026-09-29-henney-2.html",
+   "newsletter/2026-09-29.html"
   ],
-  "history": {
-    "human_readable_index": "newsletter/contents.html",
-    "historical_issue_html_is_source_archive": true,
-    "issues_through_2026_08_10_preserved_in_contents_and_html": false,
-    "issue_paths": [
-      "posts/2026-08-06.html",
-      "newsletter/2026-09-26.html",
-      "newsletter/2026-09-26-youjin.html",
-      "newsletter/2026-09-27.html",
-      "newsletter/2026-09-28.html",
-      "newsletter/2026-09-29-henney.html",
-      "newsletter/2026-09-29-henney-2.html",
-      "newsletter/2026-09-29.html"
-    ],
-    "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
-    "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted.",
-    "retention_cleanup_2026_09_29": "No newsletter files older than 14 days; nothing deleted.",
-    "retention_cleanup_2026_09_30": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted."
-  },
-  "published_youtube_video_ids": [
-    "0ADZgpvO_Gs",
-    "4oMAgaKLpLE",
-    "4znMesbPrTU",
-    "8cXGoDHsZ4w",
-    "BkLowVI3xws",
-    "DV7bBCAABg4",
-    "E_sPvPHwpuk",
-    "MaqmkzQaWso",
-    "caOPvxnSpZU",
-    "koQ3yG507ws",
-    "liasDlkKPp4",
-    "qAe8QilfMd4",
-    "xlu4mKwDElY"
-  ],
-  "latest_issue": {
-    "henry": {
-      "issue_id": "2026-09-29-skaia-daily-intelligence",
-      "date": "2026-09-29",
-      "path": "newsletter/2026-09-29.html",
-      "status": "published",
-      "item_count": 15,
-      "duplicate_check": {
-        "exact_source_url_duplicates": 0,
-        "newsletter_youtube_video_id_duplicates": 0,
-        "material_updates_labeled": 0,
-        "rejected_and_replaced": 2
-      },
-      "items": [
-        {
-          "category": "오늘의 AI 뉴스",
-          "title_ko": "오픈AI, GPT-6.1 Astra 출시 전격 취소 — \"사용자에게 정직하지 못했다\"",
-          "source_url": "https://www.webpronews.com/openai-cancels-gpt-6-1-astra-after-tests-flag-deception-and-overreach/"
-        },
-        {
-          "category": "오늘의 AI 뉴스",
-          "title_ko": "AMD, 월드랩스 82억 달러에 인수 — 페이페이 리를 최고과학자로",
-          "source_url": "https://www.lapost.com/content/amd-to-buy-fei-fei-li-s-world-labs-in-8-2-billion-bet-on-physical-ai"
-        },
-        {
-          "category": "오늘의 AI 뉴스",
-          "title_ko": "앤트로픽 IPO 문서 유출 — 매출 46억 달러에 420억 달러 순손실",
-          "source_url": "https://techstartups.com/2026/09/29/anthropic-spent-12-6-billion-to-make-4-6-billion-now-it-wants-a-2-trillion-ipo-valuation/"
-        },
-        {
-          "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "캐나다 7월 GDP 제로 성장…8월 0.2% 반등 전망",
-          "source_url": "https://www.morningstar.com/news/dow-jones/202609294171/canada-gdp-picks-up-after-stalling-in-july-update"
-        },
-        {
-          "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "연방정부 '생산성 메가 공제' 발표 — 기업 투자 즉시 비용처리 확대",
-          "source_url": "https://www.canada.ca/en/employment-social-development/news/2026/09/the-government-of-canada-introduces-new-productivity-mega-deduction-to-help-businesses-invest-grow-and-create-jobs-in-canada.html"
-        },
-        {
-          "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "딜로이트, 2027 캐나다 성장 전망 하향…앨버타는 전국 선두 유지",
-          "source_url": "https://www.hrreporter.com/news/hr-news/deloitte-trims-2027-growth-forecast-for-canada-amid-new-us-tariffs/394952"
-        },
-        {
-          "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "방문 판매로 350만 달러 ARR — Swipe.by, 문을 두드리는 AI 마케팅 부서",
-          "source_url": "https://www.youtube.com/watch?v=qAe8QilfMd4"
-        },
-        {
-          "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "3개월 만에 구축, 수십만 달러 ARR — ZeroRank, AI 검색 가시성의 기회",
-          "source_url": "https://www.youtube.com/watch?v=0ADZgpvO_Gs"
-        },
-        {
-          "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "26억 달러 ARR의 성장 플레이북 — HubSpot AI·GTM 책임자의 교훈",
-          "source_url": "https://www.youtube.com/watch?v=4oMAgaKLpLE"
-        },
-        {
-          "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "오픈AI 'Dots' — 잠들지 않는 클라우드 AI 에이전트",
-          "source_url": "https://www.neowin.net/news/openai-announces-dots-a-new-type-of-always-on-ai-agent-for-chatgpt-users/"
-        },
-        {
-          "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "오라클 'Fusion Claw' — 기업 앱 안에서 뛰는 에이전트 실행 런타임",
-          "source_url": "https://techstrong.ai/articles/oracle-fusion-claw-expands-ai-agent-execution-inside-business-apps/"
-        },
-        {
-          "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "통제 불능 에이전트, 클라우드 비용 폭증 — FinOps 규율의 필요성",
-          "source_url": "https://www.webpronews.com/ai-agents-run-amok-how-autonomous-systems-are-inflating-cloud-bills-and-forcing-finance-scrutiny/"
-        },
-        {
-          "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "Multiply, 'AI 광고비 복구 에이전트' 출시 — 낭비 광고비 자동 진단",
-          "source_url": "https://www.martechcube.com/multiply-announced-the-launch-of-ai-ad-spend-recovery-agent/"
-        },
-        {
-          "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "Outcraft AI, AI SDR에 '리드당 요금제' 도입",
-          "source_url": "https://www.globenewswire.com/news-release/2026/09/10/3359909/0/en/ai-sdr-startup-outcraft-ai-rolls-out-per-lead-pricing-for-its-inbound-sales-agents.html"
-        },
-        {
-          "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "The Engine, AI 성장팀 10월 15일 출시 — 베타 고객 월 11만 달러 MRR 증가",
-          "source_url": "https://www.globenewswire.com/news-release/2026/09/29/3370642/0/en/the-engine-plans-october-15-launch-of-an-ai-team-that-creates-content-and-handles-sales-conversations.html"
-        }
-      ]
+  "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
+  "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted.",
+  "retention_cleanup_2026_09_29": "No newsletter files older than 14 days; nothing deleted.",
+  "retention_cleanup_2026_09_30": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+  "retention_cleanup_2026_10_01": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted."
+ },
+ "published_youtube_video_ids": [
+  "0ADZgpvO_Gs",
+  "4oMAgaKLpLE",
+  "4znMesbPrTU",
+  "8cXGoDHsZ4w",
+  "BkLowVI3xws",
+  "DV7bBCAABg4",
+  "E_sPvPHwpuk",
+  "MaqmkzQaWso",
+  "caOPvxnSpZU",
+  "koQ3yG507ws",
+  "liasDlkKPp4",
+  "qAe8QilfMd4",
+  "xlu4mKwDElY"
+ ],
+ "latest_issue": {
+  "henry": {
+   "issue_id": "2026-09-29-skaia-daily-intelligence",
+   "date": "2026-09-29",
+   "path": "newsletter/2026-09-29.html",
+   "status": "published",
+   "item_count": 15,
+   "duplicate_check": {
+    "exact_source_url_duplicates": 0,
+    "newsletter_youtube_video_id_duplicates": 0,
+    "material_updates_labeled": 0,
+    "rejected_and_replaced": 2
+   },
+   "items": [
+    {
+     "category": "오늘의 AI 뉴스",
+     "title_ko": "오픈AI, GPT-6.1 Astra 출시 전격 취소 — \"사용자에게 정직하지 못했다\"",
+     "source_url": "https://www.webpronews.com/openai-cancels-gpt-6-1-astra-after-tests-flag-deception-and-overreach/"
     },
-    "henney": {
-      "issue_id": "2026-09-30-henney-reading",
-      "date": "2026-09-30",
-      "path": "newsletter/2026-09-30-henney.html",
-      "status": "published",
-      "format": "one-topic deep reading, 3 parts, essay in shaded box, ~900 words",
-      "duplicate_check": {
-        "exact_source_url_duplicates": 0,
-        "newsletter_youtube_video_id_duplicates": 0
-      },
-      "items": [
-        {
-          "category": "Deep Reading",
-          "title_ko": "미세플라스틱을 '먹는' 플라스틱을 만든 18살 소녀",
-          "source_url": "https://www.dogonews.com/2026/9/24/teen-inventor-creates-a-new-way-to-fight-microplastics"
-        }
-      ]
+    {
+     "category": "오늘의 AI 뉴스",
+     "title_ko": "AMD, 월드랩스 82억 달러에 인수 — 페이페이 리를 최고과학자로",
+     "source_url": "https://www.lapost.com/content/amd-to-buy-fei-fei-li-s-world-labs-in-8-2-billion-bet-on-physical-ai"
+    },
+    {
+     "category": "오늘의 AI 뉴스",
+     "title_ko": "앤트로픽 IPO 문서 유출 — 매출 46억 달러에 420억 달러 순손실",
+     "source_url": "https://techstartups.com/2026/09/29/anthropic-spent-12-6-billion-to-make-4-6-billion-now-it-wants-a-2-trillion-ipo-valuation/"
+    },
+    {
+     "category": "오늘의 캐나다 / 알버타 뉴스",
+     "title_ko": "캐나다 7월 GDP 제로 성장…8월 0.2% 반등 전망",
+     "source_url": "https://www.morningstar.com/news/dow-jones/202609294171/canada-gdp-picks-up-after-stalling-in-july-update"
+    },
+    {
+     "category": "오늘의 캐나다 / 알버타 뉴스",
+     "title_ko": "연방정부 '생산성 메가 공제' 발표 — 기업 투자 즉시 비용처리 확대",
+     "source_url": "https://www.canada.ca/en/employment-social-development/news/2026/09/the-government-of-canada-introduces-new-productivity-mega-deduction-to-help-businesses-invest-grow-and-create-jobs-in-canada.html"
+    },
+    {
+     "category": "오늘의 캐나다 / 알버타 뉴스",
+     "title_ko": "딜로이트, 2027 캐나다 성장 전망 하향…앨버타는 전국 선두 유지",
+     "source_url": "https://www.hrreporter.com/news/hr-news/deloitte-trims-2027-growth-forecast-for-canada-amid-new-us-tariffs/394952"
+    },
+    {
+     "category": "AI 스타트업 성공 스토리 — YouTube",
+     "title_ko": "방문 판매로 350만 달러 ARR — Swipe.by, 문을 두드리는 AI 마케팅 부서",
+     "source_url": "https://www.youtube.com/watch?v=qAe8QilfMd4"
+    },
+    {
+     "category": "AI 스타트업 성공 스토리 — YouTube",
+     "title_ko": "3개월 만에 구축, 수십만 달러 ARR — ZeroRank, AI 검색 가시성의 기회",
+     "source_url": "https://www.youtube.com/watch?v=0ADZgpvO_Gs"
+    },
+    {
+     "category": "AI 스타트업 성공 스토리 — YouTube",
+     "title_ko": "26억 달러 ARR의 성장 플레이북 — HubSpot AI·GTM 책임자의 교훈",
+     "source_url": "https://www.youtube.com/watch?v=4oMAgaKLpLE"
+    },
+    {
+     "category": "자율 AI 에이전트 관련 뉴스",
+     "title_ko": "오픈AI 'Dots' — 잠들지 않는 클라우드 AI 에이전트",
+     "source_url": "https://www.neowin.net/news/openai-announces-dots-a-new-type-of-always-on-ai-agent-for-chatgpt-users/"
+    },
+    {
+     "category": "자율 AI 에이전트 관련 뉴스",
+     "title_ko": "오라클 'Fusion Claw' — 기업 앱 안에서 뛰는 에이전트 실행 런타임",
+     "source_url": "https://techstrong.ai/articles/oracle-fusion-claw-expands-ai-agent-execution-inside-business-apps/"
+    },
+    {
+     "category": "자율 AI 에이전트 관련 뉴스",
+     "title_ko": "통제 불능 에이전트, 클라우드 비용 폭증 — FinOps 규율의 필요성",
+     "source_url": "https://www.webpronews.com/ai-agents-run-amok-how-autonomous-systems-are-inflating-cloud-bills-and-forcing-finance-scrutiny/"
+    },
+    {
+     "category": "마케팅 AI 에이전트 관련 뉴스",
+     "title_ko": "Multiply, 'AI 광고비 복구 에이전트' 출시 — 낭비 광고비 자동 진단",
+     "source_url": "https://www.martechcube.com/multiply-announced-the-launch-of-ai-ad-spend-recovery-agent/"
+    },
+    {
+     "category": "마케팅 AI 에이전트 관련 뉴스",
+     "title_ko": "Outcraft AI, AI SDR에 '리드당 요금제' 도입",
+     "source_url": "https://www.globenewswire.com/news-release/2026/09/10/3359909/0/en/ai-sdr-startup-outcraft-ai-rolls-out-per-lead-pricing-for-its-inbound-sales-agents.html"
+    },
+    {
+     "category": "마케팅 AI 에이전트 관련 뉴스",
+     "title_ko": "The Engine, AI 성장팀 10월 15일 출시 — 베타 고객 월 11만 달러 MRR 증가",
+     "source_url": "https://www.globenewswire.com/news-release/2026/09/29/3370642/0/en/the-engine-plans-october-15-launch-of-an-ai-team-that-creates-content-and-handles-sales-conversations.html"
     }
+   ]
   },
   "henney": {
-    "latest_issue": {
-      "path": "newsletter/2026-09-30-henney.html",
-      "edition": "2026-09-30",
-      "title_ko": "미세플라스틱을 '먹는' 플라스틱을 만든 18살 소녀",
-      "title": "Henney's Reading - 2026-09-30",
-      "word_count": 990,
-      "format": "short edition ~900 words, essay in shaded box"
-    },
-    "issue_paths": [
-      "newsletter/2026-09-29-henney-1.html",
-      "newsletter/2026-09-29-henney-2.html",
-      "newsletter/2026-09-29-henney-2b.html",
-      "newsletter/2026-09-29-henney-3.html",
-      "newsletter/2026-09-30-henney.html"
-    ],
-    "last_source": "DOGOnews",
-    "recent_topics": [
-      {
-        "date": "2026-09-30",
-        "topic": "미세플라스틱을 '먹는' 식물성 플라스틱 Eco Purge (Arya Satheesh)",
-        "source": "DOGOnews"
-      }
-    ]
+   "issue_id": "2026-09-30-henney-reading",
+   "date": "2026-09-30",
+   "path": "newsletter/2026-09-30-henney.html",
+   "status": "published",
+   "format": "one-topic deep reading, 3 parts, essay in shaded box, ~900 words",
+   "duplicate_check": {
+    "exact_source_url_duplicates": 0,
+    "newsletter_youtube_video_id_duplicates": 0
+   },
+   "items": [
+    {
+     "category": "Deep Reading",
+     "title_ko": "미세플라스틱을 '먹는' 플라스틱을 만든 18살 소녀",
+     "source_url": "https://www.dogonews.com/2026/9/24/teen-inventor-creates-a-new-way-to-fight-microplastics"
+    }
+   ]
   }
+ },
+ "henney": {
+  "latest_issue": {
+   "path": "newsletter/2026-10-01-henney.html",
+   "edition": "2026-10-01",
+   "title_ko": "달에 갑자기 나타난 거대 분화구의 정체",
+   "title": "Henney's Reading - 2026-10-01",
+   "word_count": 943,
+   "format": "short edition ~900 words, essay in shaded box"
+  },
+  "issue_paths": [
+   "newsletter/2026-09-29-henney-1.html",
+   "newsletter/2026-09-29-henney-2.html",
+   "newsletter/2026-09-29-henney-2b.html",
+   "newsletter/2026-09-29-henney-3.html",
+   "newsletter/2026-09-30-henney.html",
+   "newsletter/2026-10-01-henney.html"
+  ],
+  "last_source": "TIME for Kids",
+  "recent_topics": [
+   {
+    "date": "2026-09-30",
+    "topic": "미세플라스틱을 '먹는' 식물성 플라스틱 Eco Purge (Arya Satheesh)",
+    "source": "DOGOnews"
+   },
+   {
+    "date": "2026-10-01",
+    "topic": "달의 새 거대 분화구 맥게친 (McGetchin crater, NASA LRO 발견)",
+    "source": "TIME for Kids"
+   }
+  ]
+ }
 }
