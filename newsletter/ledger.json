@@ -1,6 +1,6 @@
 {
  "format_version": 2,
- "updated_at": "2026-10-01",
+ "updated_at": "2026-10-02",
  "duplicate_rules": [
   "Reject exact source_url duplicates unless the story has a materially new development.",
   "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -28,7 +28,8 @@
   "retention_cleanup_2026_09_29": "No newsletter files older than 14 days; nothing deleted.",
   "retention_cleanup_2026_09_30": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
   "retention_cleanup_2026_10_01": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
-  "retention_cleanup_2026_10_01_henry": "No Henry newsletter files older than 14 days (oldest is 2026-09-26); nothing deleted."
+  "retention_cleanup_2026_10_01_henry": "No Henry newsletter files older than 14 days (oldest is 2026-09-26); nothing deleted.",
+  "retention_cleanup_2026_10_02": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted."
  },
  "published_youtube_video_ids": [
   "0ADZgpvO_Gs",
@@ -160,11 +161,11 @@
  },
  "henney": {
   "latest_issue": {
-   "path": "newsletter/2026-10-01-henney.html",
-   "edition": "2026-10-01",
-   "title_ko": "달에 갑자기 나타난 거대 분화구의 정체",
-   "title": "Henney's Reading - 2026-10-01",
-   "word_count": 943,
+   "path": "newsletter/2026-10-02-henney.html",
+   "edition": "2026-10-02",
+   "title_ko": "위기 땐 몸을 둥글게 마는 아르마딜로 로봇",
+   "title": "Henney's Reading - 2026-10-02",
+   "word_count": 884,
    "format": "short edition ~900 words, essay in shaded box"
   },
   "issue_paths": [
@@ -173,9 +174,10 @@
    "newsletter/2026-09-29-henney-2b.html",
    "newsletter/2026-09-29-henney-3.html",
    "newsletter/2026-09-30-henney.html",
-   "newsletter/2026-10-01-henney.html"
+   "newsletter/2026-10-01-henney.html",
+   "newsletter/2026-10-02-henney.html"
   ],
-  "last_source": "TIME for Kids",
+  "last_source": "Science News Explores",
   "recent_topics": [
    {
     "date": "2026-09-30",
@@ -186,6 +188,11 @@
     "date": "2026-10-01",
     "topic": "달의 새 거대 분화구 맥게친 (McGetchin crater, NASA LRO 발견)",
     "source": "TIME for Kids"
+   },
+   {
+    "date": "2026-10-02",
+    "topic": "아르마딜로처럼 몸을 말아 몸을 지키는 소프트 로봇 (NC State, Jianyu Zhou)",
+    "source": "Science News Explores"
    }
   ]
  }
