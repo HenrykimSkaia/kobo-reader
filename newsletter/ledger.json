@@ -20,13 +20,15 @@
    "newsletter/2026-09-28.html",
    "newsletter/2026-09-29-henney.html",
    "newsletter/2026-09-29-henney-2.html",
-   "newsletter/2026-09-29.html"
+   "newsletter/2026-09-29.html",
+   "newsletter/2026-10-01.html"
   ],
   "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
   "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted.",
   "retention_cleanup_2026_09_29": "No newsletter files older than 14 days; nothing deleted.",
   "retention_cleanup_2026_09_30": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
-  "retention_cleanup_2026_10_01": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted."
+  "retention_cleanup_2026_10_01": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+  "retention_cleanup_2026_10_01_henry": "No Henry newsletter files older than 14 days (oldest is 2026-09-26); nothing deleted."
  },
  "published_youtube_video_ids": [
   "0ADZgpvO_Gs",
@@ -34,20 +36,23 @@
   "4znMesbPrTU",
   "8cXGoDHsZ4w",
   "BkLowVI3xws",
+  "CCX1Zc3q5cY",
   "DV7bBCAABg4",
   "E_sPvPHwpuk",
   "MaqmkzQaWso",
+  "Tm5NbHUblkA",
   "caOPvxnSpZU",
   "koQ3yG507ws",
   "liasDlkKPp4",
   "qAe8QilfMd4",
+  "v2MBbN7cFKg",
   "xlu4mKwDElY"
  ],
  "latest_issue": {
   "henry": {
-   "issue_id": "2026-09-29-skaia-daily-intelligence",
-   "date": "2026-09-29",
-   "path": "newsletter/2026-09-29.html",
+   "issue_id": "2026-10-01-skaia-daily-intelligence",
+   "date": "2026-10-01",
+   "path": "newsletter/2026-10-01.html",
    "status": "published",
    "item_count": 15,
    "duplicate_check": {
@@ -59,78 +64,78 @@
    "items": [
     {
      "category": "오늘의 AI 뉴스",
-     "title_ko": "오픈AI, GPT-6.1 Astra 출시 전격 취소 — \"사용자에게 정직하지 못했다\"",
-     "source_url": "https://www.webpronews.com/openai-cancels-gpt-6-1-astra-after-tests-flag-deception-and-overreach/"
+     "title_ko": "FTC, 오픈AI·앤트로픽·METR 대상 대규모 에이전트 안전 조사 착수",
+     "source_url": "https://techstartups.com/2026/09/30/ftc-opens-probe-into-openai-and-anthropic-over-rogue-ai-agents-and-potential-consumer-harm/"
     },
     {
      "category": "오늘의 AI 뉴스",
-     "title_ko": "AMD, 월드랩스 82억 달러에 인수 — 페이페이 리를 최고과학자로",
-     "source_url": "https://www.lapost.com/content/amd-to-buy-fei-fei-li-s-world-labs-in-8-2-billion-bet-on-physical-ai"
+     "title_ko": "브로드컴, 앤트로픽에 최대 420억 달러 컴퓨트 자금 대출 합의",
+     "source_url": "https://www.lapost.com/content/broadcom-to-lend-anthropic-up-to-42-billion-to-lease-its-chips-filing-says"
     },
     {
      "category": "오늘의 AI 뉴스",
-     "title_ko": "앤트로픽 IPO 문서 유출 — 매출 46억 달러에 420억 달러 순손실",
-     "source_url": "https://techstartups.com/2026/09/29/anthropic-spent-12-6-billion-to-make-4-6-billion-now-it-wants-a-2-trillion-ipo-valuation/"
+     "title_ko": "오픈AI, GPT-6.1 Sol 출시 — 아스트라급 지능을 5분의 1 가격에",
+     "source_url": "https://www.unite.ai/openai-unveils-gpt-6-1-sol-at-devday-with-new-codex-and-chatgpt-tools/"
     },
     {
      "category": "오늘의 캐나다 / 알버타 뉴스",
-     "title_ko": "캐나다 7월 GDP 제로 성장…8월 0.2% 반등 전망",
-     "source_url": "https://www.morningstar.com/news/dow-jones/202609294171/canada-gdp-picks-up-after-stalling-in-july-update"
+     "title_ko": "카니 총리, '퍼시픽 링크' 파이프라인 국가중요 프로젝트 지정",
+     "source_url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/01/prime-minister-carney-lists-west-coast-oil-pipeline-now-known-pacific"
     },
     {
      "category": "오늘의 캐나다 / 알버타 뉴스",
-     "title_ko": "연방정부 '생산성 메가 공제' 발표 — 기업 투자 즉시 비용처리 확대",
-     "source_url": "https://www.canada.ca/en/employment-social-development/news/2026/09/the-government-of-canada-introduces-new-productivity-mega-deduction-to-help-businesses-invest-grow-and-create-jobs-in-canada.html"
+     "title_ko": "LNG 캐나다 2단계 최종투자 결정 — 캐나다 역사상 두 번째 규모 민간 투자",
+     "source_url": "https://www.pm.gc.ca/en/news/news-releases/2026/09/29/prime-minister-carney-welcomes-lng-canada-phase-2-second-largest"
     },
     {
      "category": "오늘의 캐나다 / 알버타 뉴스",
-     "title_ko": "딜로이트, 2027 캐나다 성장 전망 하향…앨버타는 전국 선두 유지",
-     "source_url": "https://www.hrreporter.com/news/hr-news/deloitte-trims-2027-growth-forecast-for-canada-amid-new-us-tariffs/394952"
+     "title_ko": "캘거리 에너플렉스, 450MW 데이터센터 가스발전 계약 수주",
+     "source_url": "https://www.globenewswire.com/news-release/2026/10/01/3372684/0/en/enerflex-ltd-announces-contract-award-for-large-scale-data-center-development.html"
     },
     {
      "category": "AI 스타트업 성공 스토리 — YouTube",
-     "title_ko": "방문 판매로 350만 달러 ARR — Swipe.by, 문을 두드리는 AI 마케팅 부서",
-     "source_url": "https://www.youtube.com/watch?v=qAe8QilfMd4"
+     "title_ko": "아담 로빈슨의 RB2B — 건드리지 않은 코드로 월 구독형 860만 달러 ARR",
+     "source_url": "https://www.youtube.com/watch?v=v2MBbN7cFKg"
     },
     {
      "category": "AI 스타트업 성공 스토리 — YouTube",
-     "title_ko": "3개월 만에 구축, 수십만 달러 ARR — ZeroRank, AI 검색 가시성의 기회",
-     "source_url": "https://www.youtube.com/watch?v=0ADZgpvO_Gs"
+     "title_ko": "챗베이스 야세르 엘사이드 — 117일 만에 100만 달러 ARR, 무자본으로 1,000만 달러까지",
+     "source_url": "https://www.youtube.com/watch?v=CCX1Zc3q5cY"
     },
     {
      "category": "AI 스타트업 성공 스토리 — YouTube",
-     "title_ko": "26억 달러 ARR의 성장 플레이북 — HubSpot AI·GTM 책임자의 교훈",
-     "source_url": "https://www.youtube.com/watch?v=4oMAgaKLpLE"
+     "title_ko": "주스박스 — 음악 앱에서 AI 리크루팅으로 피벗, 세쿼이아 주도 3,000만 달러 Series A",
+     "source_url": "https://www.youtube.com/watch?v=Tm5NbHUblkA"
     },
     {
      "category": "자율 AI 에이전트 관련 뉴스",
-     "title_ko": "오픈AI 'Dots' — 잠들지 않는 클라우드 AI 에이전트",
-     "source_url": "https://www.neowin.net/news/openai-announces-dots-a-new-type-of-always-on-ai-agent-for-chatgpt-users/"
+     "title_ko": "메타, 'Muse for Small Business' 출시 — 스몰비즈니스 운영 에이전트",
+     "source_url": "https://smallbiztrends.com/meta-launches-muse-ai-agent-for-small-business-workflows/"
     },
     {
      "category": "자율 AI 에이전트 관련 뉴스",
-     "title_ko": "오라클 'Fusion Claw' — 기업 앱 안에서 뛰는 에이전트 실행 런타임",
-     "source_url": "https://techstrong.ai/articles/oracle-fusion-claw-expands-ai-agent-execution-inside-business-apps/"
+     "title_ko": "오픈AI 에이전트 API에 브라우저 기반 컴퓨터 사용 기능 추가",
+     "source_url": "https://techaiwire.com/articles/openai-agents-api-computer-use-managed-runtime/"
     },
     {
      "category": "자율 AI 에이전트 관련 뉴스",
-     "title_ko": "통제 불능 에이전트, 클라우드 비용 폭증 — FinOps 규율의 필요성",
-     "source_url": "https://www.webpronews.com/ai-agents-run-amok-how-autonomous-systems-are-inflating-cloud-bills-and-forcing-finance-scrutiny/"
+     "title_ko": "로빈후드, 자체 AI 트레이딩 에이전트 출시 — 수동 승인 기본 탑재",
+     "source_url": "https://superpowerdaily.com/posts/robinhood-introduces-in-app-ai-trading-agents-with-trade-approval-on-by-default"
     },
     {
      "category": "마케팅 AI 에이전트 관련 뉴스",
-     "title_ko": "Multiply, 'AI 광고비 복구 에이전트' 출시 — 낭비 광고비 자동 진단",
-     "source_url": "https://www.martechcube.com/multiply-announced-the-launch-of-ai-ad-spend-recovery-agent/"
+     "title_ko": "공, 차세대 매출 AI 'Gong Activate' 공개 — 상시 에이전트가 영업 플레이북 실행",
+     "source_url": "https://www.prnewswire.com/news-releases/from-data-to-action-gong-debuts-new-revenue-ai-innovation-at-celebrate-26-302894000.html"
     },
     {
      "category": "마케팅 AI 에이전트 관련 뉴스",
-     "title_ko": "Outcraft AI, AI SDR에 '리드당 요금제' 도입",
-     "source_url": "https://www.globenewswire.com/news-release/2026/09/10/3359909/0/en/ai-sdr-startup-outcraft-ai-rolls-out-per-lead-pricing-for-its-inbound-sales-agents.html"
+     "title_ko": "맨체스터 AI 세일즈 스타트업 Revnu, 260만 유로 유치 — 소셜 채널에 에이전트 배치",
+     "source_url": "https://www.eu-startups.com/2026/10/ai-sales-startup-revnu-raises-e2-6-million-to-build-team-and-accelerate-international-growth/"
     },
     {
      "category": "마케팅 AI 에이전트 관련 뉴스",
-     "title_ko": "The Engine, AI 성장팀 10월 15일 출시 — 베타 고객 월 11만 달러 MRR 증가",
-     "source_url": "https://www.globenewswire.com/news-release/2026/09/29/3370642/0/en/the-engine-plans-october-15-launch-of-an-ai-team-that-creates-content-and-handles-sales-conversations.html"
+     "title_ko": "Yext, Flamel.ai 인수 계약 — ChatGPT 포함 로컬 유료광고에 에이전트 실행 도입",
+     "source_url": "https://www.businesswire.com/news/home/20260930174351/en/Yext-Signs-Definitive-Agreement-to-Acquire-Flamel.ai-Extending-Its-Agentic-Marketing-Platform-Into-Local-Paid-Media"
     }
    ]
   },
