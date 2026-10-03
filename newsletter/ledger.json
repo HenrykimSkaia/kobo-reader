@@ -1,6 +1,6 @@
 {
  "format_version": 2,
- "updated_at": "2026-10-02",
+ "updated_at": "2026-10-03T02:07:47",
  "duplicate_rules": [
   "Reject exact source_url duplicates unless the story has a materially new development.",
   "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -21,7 +21,8 @@
    "newsletter/2026-09-29-henney.html",
    "newsletter/2026-09-29-henney-2.html",
    "newsletter/2026-09-29.html",
-   "newsletter/2026-10-01.html"
+   "newsletter/2026-10-01.html",
+   "newsletter/2026-10-02.html"
   ],
   "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
   "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted.",
@@ -29,7 +30,8 @@
   "retention_cleanup_2026_09_30": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
   "retention_cleanup_2026_10_01": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
   "retention_cleanup_2026_10_01_henry": "No Henry newsletter files older than 14 days (oldest is 2026-09-26); nothing deleted.",
-  "retention_cleanup_2026_10_02": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted."
+  "retention_cleanup_2026_10_02": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+  "retention_cleanup_2026_10_02_henry": "2026-10-02: No newsletter/*.html files older than 14 days (oldest in place: 2026-09-26). Nothing deleted; contents.html keeps editions within 14 days only."
  },
  "published_youtube_video_ids": [
   "0ADZgpvO_Gs",
@@ -47,96 +49,144 @@
   "liasDlkKPp4",
   "qAe8QilfMd4",
   "v2MBbN7cFKg",
-  "xlu4mKwDElY"
+  "xlu4mKwDElY",
+  "8ZWHB4GvBKk",
+  "dhbcVxYhWaQ",
+  "EOiypb2wXM0"
  ],
  "latest_issue": {
   "henry": {
-   "issue_id": "2026-10-01-skaia-daily-intelligence",
-   "date": "2026-10-01",
-   "path": "newsletter/2026-10-01.html",
+   "issue_id": "2026-10-02-skaia-daily-intelligence",
+   "date": "2026-10-02",
+   "path": "newsletter/2026-10-02.html",
    "status": "published",
    "item_count": 15,
    "duplicate_check": {
     "exact_source_url_duplicates": 0,
     "newsletter_youtube_video_id_duplicates": 0,
-    "material_updates_labeled": 0,
-    "rejected_and_replaced": 2
+    "material_updates_labeled": 1,
+    "rejected_and_replaced": 3
    },
    "items": [
     {
      "category": "오늘의 AI 뉴스",
-     "title_ko": "FTC, 오픈AI·앤트로픽·METR 대상 대규모 에이전트 안전 조사 착수",
-     "source_url": "https://techstartups.com/2026/09/30/ftc-opens-probe-into-openai-and-anthropic-over-rogue-ai-agents-and-potential-consumer-harm/"
+     "title_ko": "업데이트 — 구글, 차세대 프론티어 모델 'Gemini 4 Argon' 공식 출시",
+     "source": "TechBriefly, Oct. 1, 2026",
+     "source_url": "https://techbriefly.com/2026/10/01/google-gemini-4-argon-cybersecurity-launch/",
+     "youtube_video_id": "",
+     "status": "update"
     },
     {
      "category": "오늘의 AI 뉴스",
-     "title_ko": "브로드컴, 앤트로픽에 최대 420억 달러 컴퓨트 자금 대출 합의",
-     "source_url": "https://www.lapost.com/content/broadcom-to-lend-anthropic-up-to-42-billion-to-lease-its-chips-filing-says"
+     "title_ko": "백악관과 AI 6개사, '초지능 안전 협약' 서명…법적 강제력 없어",
+     "source": "BitsMinds",
+     "source_url": "https://www.bitsminds.com/news/white-house-accord-super-intelligence-ai-audits",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "오늘의 AI 뉴스",
-     "title_ko": "오픈AI, GPT-6.1 Sol 출시 — 아스트라급 지능을 5분의 1 가격에",
-     "source_url": "https://www.unite.ai/openai-unveils-gpt-6-1-sol-at-devday-with-new-codex-and-chatgpt-tools/"
+     "title_ko": "앤트로픽 경고: 중국 오픈웨이트 GLM-5.3, 사이버 공격 능력 최고 수준 육박",
+     "source": "BitsMinds",
+     "source_url": "https://www.bitsminds.com/news/anthropic-glm-5-3-open-weight-cyber-exploits",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "오늘의 캐나다 / 알버타 뉴스",
-     "title_ko": "카니 총리, '퍼시픽 링크' 파이프라인 국가중요 프로젝트 지정",
-     "source_url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/01/prime-minister-carney-lists-west-coast-oil-pipeline-now-known-pacific"
+     "title_ko": "카니 총리, 국가 AI 위원회 출범… '모두를 위한 AI' 전략 가속화",
+     "source": "Prime Minister of Canada, Oct. 2, 2026",
+     "source_url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/02/prime-minister-carney-launches-new-national-council-artificial",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "오늘의 캐나다 / 알버타 뉴스",
-     "title_ko": "LNG 캐나다 2단계 최종투자 결정 — 캐나다 역사상 두 번째 규모 민간 투자",
-     "source_url": "https://www.pm.gc.ca/en/news/news-releases/2026/09/29/prime-minister-carney-welcomes-lng-canada-phase-2-second-largest"
+     "title_ko": "5개 주 최저임금 인상…앨버타는 2019년 이후 동결, 전국 최저",
+     "source": "Meyka, Oct. 2, 2026",
+     "source_url": "https://meyka.com/blog/five-canadian-provinces-raise-minimum-wage-on-october-1-2026-0210/",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "오늘의 캐나다 / 알버타 뉴스",
-     "title_ko": "캘거리 에너플렉스, 450MW 데이터센터 가스발전 계약 수주",
-     "source_url": "https://www.globenewswire.com/news-release/2026/10/01/3372684/0/en/enerflex-ltd-announces-contract-award-for-large-scale-data-center-development.html"
+     "title_ko": "캐나다-EU 디지털 무역 협정 협상 진전… 10월 몬트리올 정상회담 개최",
+     "source": "Government of Canada, Oct. 2, 2026",
+     "source_url": "https://www.canada.ca/en/global-affairs/news/2026/10/minister-sidhu-and-eu-commissioner-for-trade-and-economic-security-discuss-deepening-economic-cooperation.html",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "AI 스타트업 성공 스토리 — YouTube",
-     "title_ko": "아담 로빈슨의 RB2B — 건드리지 않은 코드로 월 구독형 860만 달러 ARR",
-     "source_url": "https://www.youtube.com/watch?v=v2MBbN7cFKg"
+     "title_ko": "117일 만에 1M 달러 ARR, 팔로워 16명으로 시작",
+     "source": "Florian Darroman (YouTube)",
+     "source_url": "https://www.youtube.com/watch?v=8ZWHB4GvBKk",
+     "youtube_video_id": "8ZWHB4GvBKk",
+     "status": "published"
     },
     {
      "category": "AI 스타트업 성공 스토리 — YouTube",
-     "title_ko": "챗베이스 야세르 엘사이드 — 117일 만에 100만 달러 ARR, 무자본으로 1,000만 달러까지",
-     "source_url": "https://www.youtube.com/watch?v=CCX1Zc3q5cY"
+     "title_ko": "1인 AI 비즈니스의 교과서, 시간당 1,000달러 버는 시스템",
+     "source": "Startup Ideas Podcast (YouTube)",
+     "source_url": "https://www.youtube.com/watch?v=dhbcVxYhWaQ",
+     "youtube_video_id": "dhbcVxYhWaQ",
+     "status": "published"
     },
     {
      "category": "AI 스타트업 성공 스토리 — YouTube",
-     "title_ko": "주스박스 — 음악 앱에서 AI 리크루팅으로 피벗, 세쿼이아 주도 3,000만 달러 Series A",
-     "source_url": "https://www.youtube.com/watch?v=Tm5NbHUblkA"
+     "title_ko": "혼자서 0에서 팔로워 50만명, 그리고 100만 달러 비즈니스",
+     "source": "Sabrina Ramonov (YouTube)",
+     "source_url": "https://www.youtube.com/watch?v=EOiypb2wXM0",
+     "youtube_video_id": "EOiypb2wXM0",
+     "status": "published"
     },
     {
      "category": "자율 AI 에이전트 관련 뉴스",
-     "title_ko": "메타, 'Muse for Small Business' 출시 — 스몰비즈니스 운영 에이전트",
-     "source_url": "https://smallbiztrends.com/meta-launches-muse-ai-agent-for-small-business-workflows/"
+     "title_ko": "IBM, 코딩 에이전트 '밥' 완전 자사 호스팅 공개 — 에어갭도 지원",
+     "source": "Startup Fortune, Oct. 1, 2026",
+     "source_url": "https://startupfortune.com/ibm-bets-enterprises-want-their-ai-coding-agents-locked-inside-their-own-walls/",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "자율 AI 에이전트 관련 뉴스",
-     "title_ko": "오픈AI 에이전트 API에 브라우저 기반 컴퓨터 사용 기능 추가",
-     "source_url": "https://techaiwire.com/articles/openai-agents-api-computer-use-managed-runtime/"
+     "title_ko": "AWS, 클라우드 환경을 감사하는 'Well-Architected Agent' 퍼블릭 프리뷰",
+     "source": "PYMNTS, Oct. 1, 2026",
+     "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/aws-launches-ai-agent-to-audit-customer-cloud-environments/",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "자율 AI 에이전트 관련 뉴스",
-     "title_ko": "로빈후드, 자체 AI 트레이딩 에이전트 출시 — 수동 승인 기본 탑재",
-     "source_url": "https://superpowerdaily.com/posts/robinhood-introduces-in-app-ai-trading-agents-with-trade-approval-on-by-default"
+     "title_ko": "미 상원, 'AI Agent Accountability Act' 발의 — 불량 에이전트에 형사책임",
+     "source": "Tech Times, Oct. 2, 2026",
+     "source_url": "https://www.techtimes.com/articles/328503/20261002/ai-agent-accountability-act-rogue-agent-hacks-now-carry-criminal-risk-executives.htm",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "마케팅 AI 에이전트 관련 뉴스",
-     "title_ko": "공, 차세대 매출 AI 'Gong Activate' 공개 — 상시 에이전트가 영업 플레이북 실행",
-     "source_url": "https://www.prnewswire.com/news-releases/from-data-to-action-gong-debuts-new-revenue-ai-innovation-at-celebrate-26-302894000.html"
+     "title_ko": "줌인포, 다중 에이전트 영업 워크플로우 'Agent Teams' 출시",
+     "source": "Superpower Daily, Oct. 1, 2026",
+     "source_url": "https://superpowerdaily.com/posts/zoominfo-adds-ai-agent-teams-to-run-multi-step-sales-workflows",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "마케팅 AI 에이전트 관련 뉴스",
-     "title_ko": "맨체스터 AI 세일즈 스타트업 Revnu, 260만 유로 유치 — 소셜 채널에 에이전트 배치",
-     "source_url": "https://www.eu-startups.com/2026/10/ai-sales-startup-revnu-raises-e2-6-million-to-build-team-and-accelerate-international-growth/"
+     "title_ko": "인스턴트 리플라이, DM에서 돌아가는 AI 영업·예약 에이전트 출시",
+     "source": "EINPresswire, Oct. 2, 2026",
+     "source_url": "https://lifestyle.kotaradio.com/story/473229/instant-reply-brings-ai-sales-qualification-and-booking-into-business-dms/",
+     "youtube_video_id": "",
+     "status": "published"
     },
     {
      "category": "마케팅 AI 에이전트 관련 뉴스",
-     "title_ko": "Yext, Flamel.ai 인수 계약 — ChatGPT 포함 로컬 유료광고에 에이전트 실행 도입",
-     "source_url": "https://www.businesswire.com/news/home/20260930174351/en/Yext-Signs-Definitive-Agreement-to-Acquire-Flamel.ai-Extending-Its-Agentic-Marketing-Platform-Into-Local-Paid-Media"
+     "title_ko": "유튜브·구글, 광고 내 대화형 AI 'Business Agent' 도입",
+     "source": "Small Business Trends, Oct. 2, 2026",
+     "source_url": "https://smallbiztrends.com/youtube-enhances-advertising-with-ai-tools-and-one-tap-experiences/",
+     "youtube_video_id": "",
+     "status": "published"
     }
    ]
   },
