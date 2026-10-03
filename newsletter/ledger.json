@@ -211,11 +211,11 @@
  },
  "henney": {
   "latest_issue": {
-   "path": "newsletter/2026-10-02-henney.html",
-   "edition": "2026-10-02",
-   "title_ko": "위기 땐 몸을 둥글게 마는 아르마딜로 로봇",
-   "title": "Henney's Reading - 2026-10-02",
-   "word_count": 884,
+   "path": "newsletter/2026-10-03-henney.html",
+   "edition": "2026-10-03",
+   "title_ko": "5달러로 하늘을 날다: 세계 최대 전기 비행기 X1",
+   "title": "Henney's Reading - 2026-10-03",
+   "word_count": 915,
    "format": "short edition ~900 words, essay in shaded box"
   },
   "issue_paths": [
@@ -225,9 +225,10 @@
    "newsletter/2026-09-29-henney-3.html",
    "newsletter/2026-09-30-henney.html",
    "newsletter/2026-10-01-henney.html",
-   "newsletter/2026-10-02-henney.html"
+   "newsletter/2026-10-02-henney.html",
+   "newsletter/2026-10-03-henney.html"
   ],
-  "last_source": "Science News Explores",
+  "last_source": "BBC Newsround",
   "recent_topics": [
    {
     "date": "2026-09-30",
@@ -243,6 +244,11 @@
     "date": "2026-10-02",
     "topic": "아르마딜로처럼 몸을 말아 몸을 지키는 소프트 로봇 (NC State, Jianyu Zhou)",
     "source": "Science News Explores"
+   },
+   {
+    "date": "2026-10-03",
+    "topic": "세계 최대 전기 비행기 X1의 첫 비행 (Heart Aerospace, 배터리 전기 추진)",
+    "source": "NewsForKids (웹 검색 fallback; 슬롯 매체 BBC Newsround 정책 차단)"
    }
   ]
  }
