@@ -1,260 +1,266 @@
 {
-  "format_version": 2,
-  "updated_at": "2026-10-03T20:00:00-06:00",
-  "duplicate_rules": [
-    "Reject exact source_url duplicates unless the story has a materially new development.",
-    "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
-    "Reject substantially identical topics even when headline wording or source domain changes.",
-    "Allow follow-up coverage only when a new event materially changes the facts or decision value; label it as an update.",
-    "Before publishing a candidate, search the repository newsletter HTML for the exact source URL when historical v1 source records are not embedded in this compact ledger."
+ "format_version": 2,
+ "updated_at": "2026-10-03T20:00:00-06:00",
+ "duplicate_rules": [
+  "Reject exact source_url duplicates unless the story has a materially new development.",
+  "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
+  "Reject substantially identical topics even when headline wording or source domain changes.",
+  "Allow follow-up coverage only when a new event materially changes the facts or decision value; label it as an update.",
+  "Before publishing a candidate, search the repository newsletter HTML for the exact source URL when historical v1 source records are not embedded in this compact ledger."
+ ],
+ "history": {
+  "human_readable_index": "newsletter/contents.html",
+  "historical_issue_html_is_source_archive": true,
+  "issues_through_2026_08_10_preserved_in_contents_and_html": false,
+  "issue_paths": [
+   "posts/2026-08-06.html",
+   "newsletter/2026-09-26.html",
+   "newsletter/2026-09-26-youjin.html",
+   "newsletter/2026-09-27.html",
+   "newsletter/2026-09-28.html",
+   "newsletter/2026-09-29-henney.html",
+   "newsletter/2026-09-29-henney-2.html",
+   "newsletter/2026-09-29.html",
+   "newsletter/2026-10-01.html",
+   "newsletter/2026-10-02.html",
+   "newsletter/2026-10-03.html"
   ],
-  "history": {
-    "human_readable_index": "newsletter/contents.html",
-    "historical_issue_html_is_source_archive": true,
-    "issues_through_2026_08_10_preserved_in_contents_and_html": false,
-    "issue_paths": [
-      "posts/2026-08-06.html",
-      "newsletter/2026-09-26.html",
-      "newsletter/2026-09-26-youjin.html",
-      "newsletter/2026-09-27.html",
-      "newsletter/2026-09-28.html",
-      "newsletter/2026-09-29-henney.html",
-      "newsletter/2026-09-29-henney-2.html",
-      "newsletter/2026-09-29.html",
-      "newsletter/2026-10-01.html",
-      "newsletter/2026-10-02.html",
-      "newsletter/2026-10-03.html"
-    ],
-    "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
-    "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted.",
-    "retention_cleanup_2026_09_29": "No newsletter files older than 14 days; nothing deleted.",
-    "retention_cleanup_2026_09_30": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
-    "retention_cleanup_2026_10_01": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
-    "retention_cleanup_2026_10_01_henry": "No Henry newsletter files older than 14 days (oldest is 2026-09-26); nothing deleted.",
-    "retention_cleanup_2026_10_02": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
-    "retention_cleanup_2026_10_02_henry": "2026-10-02: No newsletter/*.html files older than 14 days (oldest in place: 2026-09-26). Nothing deleted; contents.html keeps editions within 14 days only.",
-    "retention_cleanup_2026_10_03_henry": "Retention check at 2026-10-03 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-19). Oldest kept: 2026-09-26.html. 0 files deleted."
-  },
-  "published_youtube_video_ids": [
-    "0ADZgpvO_Gs",
-    "4oMAgaKLpLE",
-    "4znMesbPrTU",
-    "8cXGoDHsZ4w",
-    "BkLowVI3xws",
-    "CCX1Zc3q5cY",
-    "DV7bBCAABg4",
-    "E_sPvPHwpuk",
-    "MaqmkzQaWso",
-    "Tm5NbHUblkA",
-    "caOPvxnSpZU",
-    "koQ3yG507ws",
-    "liasDlkKPp4",
-    "qAe8QilfMd4",
-    "v2MBbN7cFKg",
-    "xlu4mKwDElY",
-    "8ZWHB4GvBKk",
-    "dhbcVxYhWaQ",
-    "EOiypb2wXM0",
-    "m4R-JEG7pmk",
-    "2swBIdnb_pU",
-    "lrcGX3-8URk"
-  ],
-  "latest_issue": {
-    "henry": {
-      "issue_id": "2026-10-03-skaia-daily-intelligence",
-      "date": "2026-10-03",
-      "path": "newsletter/2026-10-03.html",
-      "status": "published",
-      "item_count": 15,
-      "duplicate_check": {
-        "exact_source_url_duplicates": 0,
-        "newsletter_youtube_video_id_duplicates": 0,
-        "material_updates_labeled": 0,
-        "rejected_and_replaced": 0
-      },
-      "items": [
-        {
-          "category": "오늘의 AI 뉴스",
-          "title_ko": "Aleph Alpha, 독일 정부용 소버린 AI 모델 'Kolibri' 공개",
-          "source": "Startup Fortune, Oct. 3, 2026",
-          "source_url": "https://startupfortune.com/aleph-alpha-launches-kolibri-a-sovereign-german-ai-model-for-government-use/",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "오늘의 AI 뉴스",
-          "title_ko": "Anthropic, 1억 달러 투입 'Claude Frontier Academy' 출범 — 2027년까지 1만 명 엔지니어 양성",
-          "source": "AI Stock Wire, Oct. 2, 2026",
-          "source_url": "https://aistockwire.com/blog/anthropic-claude-frontier-academy-100-million-10000-engineers-october-2026",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "오늘의 AI 뉴스",
-          "title_ko": "OpenAI, GPT-6.1 Astra 출시 백지화 — 내부 안전 테스트 미달",
-          "source": "SecurityWeek, Sept. 28, 2026",
-          "source_url": "https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/amp/",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "연방정부, 관세 대응으로 GTA 31개 기업에 2,600만 달러 지원",
-          "source": "Government of Canada, Oct. 2, 2026",
-          "source_url": "https://www.canada.ca/en/economic-development-southern-ontario/news/2026/10/government-of-canada-to-help-greater-toronto-area-businesses-and-organizations-build-resilience.html",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "스텔코, 관세 지원 거절하고 해밀턴 냉연 공장 중단… 최대 500명 감원",
-          "source": "Money.ca, Oct. 3, 2026",
-          "source_url": "https://money.ca/news/economy/stelco-ontario-tariff-aid-layoffs-hamilton",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "연방, 주택 에너지 리트로핏 162개 프로젝트에 6,630만 달러 발표",
-          "source": "Government of Canada, Oct. 2, 2026",
-          "source_url": "https://www.canada.ca/en/environment-climate-change/news/2026/10/government-of-canada-and-federation-of-canadian-municipalities-support-home-energy-retrofit-financing-projects-across-canada.html",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "월마트에 14억 달러로 인수된 AI 광고 스타트업, 그 24시간",
-          "source": "Will Phillips (INSIDE Startups) (YouTube)",
-          "source_url": "https://www.youtube.com/watch?v=m4R-JEG7pmk",
-          "youtube_video_id": "m4R-JEG7pmk",
-          "status": "published"
-        },
-        {
-          "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "연매출 $500만 SaaS를 두 번 접고 AI 에이전트로 다시 시작한 창업자",
-          "source": "The AI Revolution Show (YouTube)",
-          "source_url": "https://www.youtube.com/watch?v=2swBIdnb_pU",
-          "youtube_video_id": "2swBIdnb_pU",
-          "status": "published"
-        },
-        {
-          "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "7개월 만에 $100만 ARR을 달성한 부트스트랩 AI SaaS의 반복 가능한 플레이북",
-          "source": "Florian Darroman (YouTube)",
-          "source_url": "https://www.youtube.com/watch?v=lrcGX3-8URk",
-          "youtube_video_id": "lrcGX3-8URk",
-          "status": "published"
-        },
-        {
-          "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "OpenAI 연구 에이전트, DNS 터널링으로 샌드박스 탈출 — 최상위 모델 학습 중단 유지",
-          "source": "MadRobot, Oct. 3, 2026",
-          "source_url": "https://madrobot.blog/2026/09/26/openai-agent-escaped-sandbox-dns-external-chatbot-models-paused/",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "Barclays, Anthropic과 확대 계약 — 2026년 말까지 개발자 절반에 Claude Code 배치",
-          "source": "AI Early Edition, Oct. 2, 2026",
-          "source_url": "https://aiearlyedition.com/tools/barclays-claude-rollout/",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "Epoch AI: 2027년까지 출하되는 칩으로 프론티어 에이전트 3천만~1.7억 개 동시 가동 가능",
-          "source": "Ground Truth, Oct. 3, 2026",
-          "source_url": "https://groundtruth.day/news/epoch-ai-chips-through-2027-could-run-tens-of-millions-of-frontier-agents.html",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "PriceLabs, 프로액티브 AI 매출 분석가 'Athena' 출시",
-          "source": "PriceLabs (official), Oct. 3, 2026",
-          "source_url": "https://www.financialcontent.com/article/accwirecq-2026-10-3-pricelabs-launches-athena-a-proactive-ai-revenue-analyst-for-short-term-rental-revenue-management-ahead-of-vrma-2026",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "Allstar Services, Revin AI 보이스·SMS 에이전트를 10개 루핑 브랜드로 확대",
-          "source": "Revin (official via PR Newswire), Oct. 2, 2026",
-          "source_url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-october-3-2026/",
-          "youtube_video_id": "",
-          "status": "published"
-        },
-        {
-          "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "Vayu, AI 시대 '토큰세금' 해법으로 Revenue Intelligence Hub 출시",
-          "source": "WebProNews, Oct. 2, 2026",
-          "source_url": "https://www.webpronews.com/ais-token-tax-upends-saas-margins-how-vayu-arms-cfos-with-real-time-customer-profitability/",
-          "youtube_video_id": "",
-          "status": "published"
-        }
-      ]
+  "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
+  "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted.",
+  "retention_cleanup_2026_09_29": "No newsletter files older than 14 days; nothing deleted.",
+  "retention_cleanup_2026_09_30": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+  "retention_cleanup_2026_10_01": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+  "retention_cleanup_2026_10_01_henry": "No Henry newsletter files older than 14 days (oldest is 2026-09-26); nothing deleted.",
+  "retention_cleanup_2026_10_02": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+  "retention_cleanup_2026_10_02_henry": "2026-10-02: No newsletter/*.html files older than 14 days (oldest in place: 2026-09-26). Nothing deleted; contents.html keeps editions within 14 days only.",
+  "retention_cleanup_2026_10_03_henry": "Retention check at 2026-10-03 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-19). Oldest kept: 2026-09-26.html. 0 files deleted."
+ },
+ "published_youtube_video_ids": [
+  "0ADZgpvO_Gs",
+  "4oMAgaKLpLE",
+  "4znMesbPrTU",
+  "8cXGoDHsZ4w",
+  "BkLowVI3xws",
+  "CCX1Zc3q5cY",
+  "DV7bBCAABg4",
+  "E_sPvPHwpuk",
+  "MaqmkzQaWso",
+  "Tm5NbHUblkA",
+  "caOPvxnSpZU",
+  "koQ3yG507ws",
+  "liasDlkKPp4",
+  "qAe8QilfMd4",
+  "v2MBbN7cFKg",
+  "xlu4mKwDElY",
+  "8ZWHB4GvBKk",
+  "dhbcVxYhWaQ",
+  "EOiypb2wXM0",
+  "m4R-JEG7pmk",
+  "2swBIdnb_pU",
+  "lrcGX3-8URk"
+ ],
+ "latest_issue": {
+  "henry": {
+   "issue_id": "2026-10-03-skaia-daily-intelligence",
+   "date": "2026-10-03",
+   "path": "newsletter/2026-10-03.html",
+   "status": "published",
+   "item_count": 15,
+   "duplicate_check": {
+    "exact_source_url_duplicates": 0,
+    "newsletter_youtube_video_id_duplicates": 0,
+    "material_updates_labeled": 0,
+    "rejected_and_replaced": 0
+   },
+   "items": [
+    {
+     "category": "오늘의 AI 뉴스",
+     "title_ko": "Aleph Alpha, 독일 정부용 소버린 AI 모델 'Kolibri' 공개",
+     "source": "Startup Fortune, Oct. 3, 2026",
+     "source_url": "https://startupfortune.com/aleph-alpha-launches-kolibri-a-sovereign-german-ai-model-for-government-use/",
+     "youtube_video_id": "",
+     "status": "published"
     },
-    "henney": {
-      "issue_id": "2026-09-30-henney-reading",
-      "date": "2026-09-30",
-      "path": "newsletter/2026-09-30-henney.html",
-      "status": "published",
-      "format": "one-topic deep reading, 3 parts, essay in shaded box, ~900 words",
-      "duplicate_check": {
-        "exact_source_url_duplicates": 0,
-        "newsletter_youtube_video_id_duplicates": 0
-      },
-      "items": [
-        {
-          "category": "Deep Reading",
-          "title_ko": "미세플라스틱을 '먹는' 플라스틱을 만든 18살 소녀",
-          "source_url": "https://www.dogonews.com/2026/9/24/teen-inventor-creates-a-new-way-to-fight-microplastics"
-        }
-      ]
+    {
+     "category": "오늘의 AI 뉴스",
+     "title_ko": "Anthropic, 1억 달러 투입 'Claude Frontier Academy' 출범 — 2027년까지 1만 명 엔지니어 양성",
+     "source": "AI Stock Wire, Oct. 2, 2026",
+     "source_url": "https://aistockwire.com/blog/anthropic-claude-frontier-academy-100-million-10000-engineers-october-2026",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "오늘의 AI 뉴스",
+     "title_ko": "OpenAI, GPT-6.1 Astra 출시 백지화 — 내부 안전 테스트 미달",
+     "source": "SecurityWeek, Sept. 28, 2026",
+     "source_url": "https://www.securityweek.com/openai-calls-off-gpt-6-1-astra-launch-details-safety-cases-for-frontier-training/amp/",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "오늘의 캐나다 / 알버타 뉴스",
+     "title_ko": "연방정부, 관세 대응으로 GTA 31개 기업에 2,600만 달러 지원",
+     "source": "Government of Canada, Oct. 2, 2026",
+     "source_url": "https://www.canada.ca/en/economic-development-southern-ontario/news/2026/10/government-of-canada-to-help-greater-toronto-area-businesses-and-organizations-build-resilience.html",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "오늘의 캐나다 / 알버타 뉴스",
+     "title_ko": "스텔코, 관세 지원 거절하고 해밀턴 냉연 공장 중단… 최대 500명 감원",
+     "source": "Money.ca, Oct. 3, 2026",
+     "source_url": "https://money.ca/news/economy/stelco-ontario-tariff-aid-layoffs-hamilton",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "오늘의 캐나다 / 알버타 뉴스",
+     "title_ko": "연방, 주택 에너지 리트로핏 162개 프로젝트에 6,630만 달러 발표",
+     "source": "Government of Canada, Oct. 2, 2026",
+     "source_url": "https://www.canada.ca/en/environment-climate-change/news/2026/10/government-of-canada-and-federation-of-canadian-municipalities-support-home-energy-retrofit-financing-projects-across-canada.html",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "AI 스타트업 성공 스토리 — YouTube",
+     "title_ko": "월마트에 14억 달러로 인수된 AI 광고 스타트업, 그 24시간",
+     "source": "Will Phillips (INSIDE Startups) (YouTube)",
+     "source_url": "https://www.youtube.com/watch?v=m4R-JEG7pmk",
+     "youtube_video_id": "m4R-JEG7pmk",
+     "status": "published"
+    },
+    {
+     "category": "AI 스타트업 성공 스토리 — YouTube",
+     "title_ko": "연매출 $500만 SaaS를 두 번 접고 AI 에이전트로 다시 시작한 창업자",
+     "source": "The AI Revolution Show (YouTube)",
+     "source_url": "https://www.youtube.com/watch?v=2swBIdnb_pU",
+     "youtube_video_id": "2swBIdnb_pU",
+     "status": "published"
+    },
+    {
+     "category": "AI 스타트업 성공 스토리 — YouTube",
+     "title_ko": "7개월 만에 $100만 ARR을 달성한 부트스트랩 AI SaaS의 반복 가능한 플레이북",
+     "source": "Florian Darroman (YouTube)",
+     "source_url": "https://www.youtube.com/watch?v=lrcGX3-8URk",
+     "youtube_video_id": "lrcGX3-8URk",
+     "status": "published"
+    },
+    {
+     "category": "자율 AI 에이전트 관련 뉴스",
+     "title_ko": "OpenAI 연구 에이전트, DNS 터널링으로 샌드박스 탈출 — 최상위 모델 학습 중단 유지",
+     "source": "MadRobot, Oct. 3, 2026",
+     "source_url": "https://madrobot.blog/2026/09/26/openai-agent-escaped-sandbox-dns-external-chatbot-models-paused/",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "자율 AI 에이전트 관련 뉴스",
+     "title_ko": "Barclays, Anthropic과 확대 계약 — 2026년 말까지 개발자 절반에 Claude Code 배치",
+     "source": "AI Early Edition, Oct. 2, 2026",
+     "source_url": "https://aiearlyedition.com/tools/barclays-claude-rollout/",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "자율 AI 에이전트 관련 뉴스",
+     "title_ko": "Epoch AI: 2027년까지 출하되는 칩으로 프론티어 에이전트 3천만~1.7억 개 동시 가동 가능",
+     "source": "Ground Truth, Oct. 3, 2026",
+     "source_url": "https://groundtruth.day/news/epoch-ai-chips-through-2027-could-run-tens-of-millions-of-frontier-agents.html",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "마케팅 AI 에이전트 관련 뉴스",
+     "title_ko": "PriceLabs, 프로액티브 AI 매출 분석가 'Athena' 출시",
+     "source": "PriceLabs (official), Oct. 3, 2026",
+     "source_url": "https://www.financialcontent.com/article/accwirecq-2026-10-3-pricelabs-launches-athena-a-proactive-ai-revenue-analyst-for-short-term-rental-revenue-management-ahead-of-vrma-2026",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "마케팅 AI 에이전트 관련 뉴스",
+     "title_ko": "Allstar Services, Revin AI 보이스·SMS 에이전트를 10개 루핑 브랜드로 확대",
+     "source": "Revin (official via PR Newswire), Oct. 2, 2026",
+     "source_url": "https://agilebrandguide.com/yesterdays-martech-ai-cx-news-october-3-2026/",
+     "youtube_video_id": "",
+     "status": "published"
+    },
+    {
+     "category": "마케팅 AI 에이전트 관련 뉴스",
+     "title_ko": "Vayu, AI 시대 '토큰세금' 해법으로 Revenue Intelligence Hub 출시",
+     "source": "WebProNews, Oct. 2, 2026",
+     "source_url": "https://www.webpronews.com/ais-token-tax-upends-saas-margins-how-vayu-arms-cfos-with-real-time-customer-profitability/",
+     "youtube_video_id": "",
+     "status": "published"
     }
+   ]
   },
   "henney": {
-    "latest_issue": {
-      "path": "newsletter/2026-10-03-henney.html",
-      "edition": "2026-10-03",
-      "title_ko": "5달러로 하늘을 날다: 세계 최대 전기 비행기 X1",
-      "title": "Henney's Reading - 2026-10-03",
-      "word_count": 915,
-      "format": "short edition ~900 words, essay in shaded box"
-    },
-    "issue_paths": [
-      "newsletter/2026-09-29-henney-1.html",
-      "newsletter/2026-09-29-henney-2.html",
-      "newsletter/2026-09-29-henney-2b.html",
-      "newsletter/2026-09-29-henney-3.html",
-      "newsletter/2026-09-30-henney.html",
-      "newsletter/2026-10-01-henney.html",
-      "newsletter/2026-10-02-henney.html",
-      "newsletter/2026-10-03-henney.html"
-    ],
-    "last_source": "BBC Newsround",
-    "recent_topics": [
-      {
-        "date": "2026-09-30",
-        "topic": "미세플라스틱을 '먹는' 식물성 플라스틱 Eco Purge (Arya Satheesh)",
-        "source": "DOGOnews"
-      },
-      {
-        "date": "2026-10-01",
-        "topic": "달의 새 거대 분화구 맥게친 (McGetchin crater, NASA LRO 발견)",
-        "source": "TIME for Kids"
-      },
-      {
-        "date": "2026-10-02",
-        "topic": "아르마딜로처럼 몸을 말아 몸을 지키는 소프트 로봇 (NC State, Jianyu Zhou)",
-        "source": "Science News Explores"
-      },
-      {
-        "date": "2026-10-03",
-        "topic": "세계 최대 전기 비행기 X1의 첫 비행 (Heart Aerospace, 배터리 전기 추진)",
-        "source": "NewsForKids (웹 검색 fallback; 슬롯 매체 BBC Newsround 정책 차단)"
-      }
-    ]
+   "issue_id": "2026-09-30-henney-reading",
+   "date": "2026-09-30",
+   "path": "newsletter/2026-09-30-henney.html",
+   "status": "published",
+   "format": "one-topic deep reading, 3 parts, essay in shaded box, ~900 words",
+   "duplicate_check": {
+    "exact_source_url_duplicates": 0,
+    "newsletter_youtube_video_id_duplicates": 0
+   },
+   "items": [
+    {
+     "category": "Deep Reading",
+     "title_ko": "미세플라스틱을 '먹는' 플라스틱을 만든 18살 소녀",
+     "source_url": "https://www.dogonews.com/2026/9/24/teen-inventor-creates-a-new-way-to-fight-microplastics"
+    }
+   ]
   }
+ },
+ "henney": {
+  "latest_issue": {
+   "path": "newsletter/2026-10-04-henney.html",
+   "edition": "2026-10-04",
+   "title_ko": "우주정거장에 간 피카츄: 67일간의 궤도 여행",
+   "title": "Henney's Reading - 2026-10-04",
+   "word_count": 970,
+   "format": "short edition ~900 words, essay in shaded box"
+  },
+  "issue_paths": [
+   "newsletter/2026-09-29-henney-1.html",
+   "newsletter/2026-09-29-henney-2.html",
+   "newsletter/2026-09-29-henney-2b.html",
+   "newsletter/2026-09-29-henney-3.html",
+   "newsletter/2026-09-30-henney.html",
+   "newsletter/2026-10-01-henney.html",
+   "newsletter/2026-10-02-henney.html",
+   "newsletter/2026-10-03-henney.html",
+   "newsletter/2026-10-04-henney.html"
+  ],
+  "last_source": "DOGOnews",
+  "recent_topics": [
+   {
+    "date": "2026-09-30",
+    "topic": "미세플라스틱을 '먹는' 식물성 플라스틱 Eco Purge (Arya Satheesh)",
+    "source": "DOGOnews"
+   },
+   {
+    "date": "2026-10-01",
+    "topic": "달의 새 거대 분화구 맥게친 (McGetchin crater, NASA LRO 발견)",
+    "source": "TIME for Kids"
+   },
+   {
+    "date": "2026-10-02",
+    "topic": "아르마딜로처럼 몸을 말아 몸을 지키는 소프트 로봇 (NC State, Jianyu Zhou)",
+    "source": "Science News Explores"
+   },
+   {
+    "date": "2026-10-03",
+    "topic": "세계 최대 전기 비행기 X1의 첫 비행 (Heart Aerospace, 배터리 전기 추진)",
+    "source": "NewsForKids (웹 검색 fallback; 슬롯 매체 BBC Newsround 정책 차단)"
+   },
+   {
+    "date": "2026-10-04",
+    "topic": "피카츄 인형의 ISS 67일 체류 + ESA×포켓몬 World Space Week 전시",
+    "source": "DOGOnews (슬롯 매체 NatGeo Kids JS 차단·The Week Junior 정책 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄로 순환 이동)"
+   }
+  ]
+ }
 }
