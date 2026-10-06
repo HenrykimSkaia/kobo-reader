@@ -187,11 +187,11 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-05-henney.html",
-      "edition": "2026-10-05",
-      "title_ko": "새의 깃털을 단 비행기: 실속을 이기는 날개",
-      "title": "Henney's Reading - 2026-10-05",
-      "word_count": 945,
+      "path": "newsletter/2026-10-06-henney.html",
+      "edition": "2026-10-06",
+      "title_ko": "전설의 파일럿을 찾아서: 아멜리아 에어하트와 타라이아 물체",
+      "title": "Henney's Reading - 2026-10-06",
+      "word_count": 990,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
@@ -204,9 +204,10 @@
       "newsletter/2026-10-02-henney.html",
       "newsletter/2026-10-03-henney.html",
       "newsletter/2026-10-04-henney.html",
-      "newsletter/2026-10-05-henney.html"
+      "newsletter/2026-10-05-henney.html",
+      "newsletter/2026-10-06-henney.html"
     ],
-    "last_source": "Science News Explores",
+    "last_source": "National Geographic (웹 검색; 슬롯 매체 BBC Newsround 정책 차단·NatGeo Kids 신선 항공기사 없음)",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -237,6 +238,11 @@
         "date": "2026-10-05",
         "topic": "새의 covert feather를 모방한 비행기 날개 플랩 (Princeton, Aimy Wissa — 양력 45%↑·항력 31%↓)",
         "source": "Science News Explores"
+      },
+      {
+        "date": "2026-10-06",
+        "topic": "아멜리아 에어하트 실종 비행기 재탐사 (타라이아 물체, Purdue/ALI 탐사대)",
+        "source": "National Geographic (웹 검색 fallback)"
       }
     ]
   }
