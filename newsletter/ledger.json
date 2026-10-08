@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-10-05T20:10:00-06:00",
+  "updated_at": "2026-10-08",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -187,11 +187,11 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-07-henney.html",
-      "edition": "2026-10-07",
-      "title_ko": "당근으로 셈하는 기린: 덧셈은 되는데 뺄셈은 안 돼?",
-      "title": "Henney's Reading - 2026-10-07",
-      "word_count": 929,
+      "path": "newsletter/2026-10-08-henney.html",
+      "edition": "2026-10-08",
+      "title_ko": "유령 입자를 잡아라: 지하 깊은 탱크가 본 단 하나의 빛",
+      "title": "Henney's Reading - 2026-10-08",
+      "word_count": 983,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
@@ -206,9 +206,10 @@
       "newsletter/2026-10-04-henney.html",
       "newsletter/2026-10-05-henney.html",
       "newsletter/2026-10-06-henney.html",
-      "newsletter/2026-10-07-henney.html"
+      "newsletter/2026-10-07-henney.html",
+      "newsletter/2026-10-08-henney.html"
     ],
-    "last_source": "DOGOnews",
+    "last_source": "Science News Explores",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -249,6 +250,11 @@
         "date": "2026-10-07",
         "topic": "기린의 덧셈 능력: 당근 상자 실험 (바르셀로나 동물원, Iker Loidi — 덧셈 성공·뺄셈 실패)",
         "source": "DOGOnews"
+      },
+      {
+        "date": "2026-10-08",
+        "topic": "LZ 검출기가 포착한 암흑물질 직접 검출 가능성 (2023년 6월 단일 이벤트, 2.6 시그마, Emily Conover)",
+        "source": "Science News Explores (TIME for Kids 슬롯 정책 차단·7개 매체에 최근 항공 기사 없어 일반 기준 선정)"
       }
     ]
   }
