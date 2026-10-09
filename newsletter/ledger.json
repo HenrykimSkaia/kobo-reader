@@ -187,11 +187,11 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-08-henney.html",
-      "edition": "2026-10-08",
-      "title_ko": "유령 입자를 잡아라: 지하 깊은 탱크가 본 단 하나의 빛",
-      "title": "Henney's Reading - 2026-10-08",
-      "word_count": 983,
+      "path": "newsletter/2026-10-09-henney.html",
+      "edition": "2026-10-09",
+      "title_ko": "뒷마당에 묻힌 천 년의 저금통: 덴마크 최대 바이킹 은보물",
+      "title": "Henney's Reading - 2026-10-09",
+      "word_count": 987,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
@@ -207,9 +207,10 @@
       "newsletter/2026-10-05-henney.html",
       "newsletter/2026-10-06-henney.html",
       "newsletter/2026-10-07-henney.html",
-      "newsletter/2026-10-08-henney.html"
+      "newsletter/2026-10-08-henney.html",
+      "newsletter/2026-10-09-henney.html"
     ],
-    "last_source": "Science News Explores",
+    "last_source": "DOGOnews",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -255,6 +256,11 @@
         "date": "2026-10-08",
         "topic": "LZ 검출기가 포착한 암흑물질 직접 검출 가능성 (2023년 6월 단일 이벤트, 2.6 시그마, Emily Conover)",
         "source": "Science News Explores (TIME for Kids 슬롯 정책 차단·7개 매체에 최근 항공 기사 없어 일반 기준 선정)"
+      },
+      {
+        "date": "2026-10-09",
+        "topic": "덴마크 뒷마당 역대 최대 바이킹 은보물 발견 (레빌드, 700점·18.5kg, 10세기, 토르 망치·룬 문자)",
+        "source": "DOGOnews (슬롯 매체 BBC Newsround 정책 차단·TIME for Kids·The Week Junior 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄·NatGeo Kids 기사목록 없음·7개 매체 최근 항공 기사 없음)"
       }
     ]
   }
