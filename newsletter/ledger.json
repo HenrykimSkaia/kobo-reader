@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-10T07:30:00-06:00",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -187,11 +187,11 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-09-henney.html",
-      "edition": "2026-10-09",
-      "title_ko": "뒷마당에 묻힌 천 년의 저금통: 덴마크 최대 바이킹 은보물",
-      "title": "Henney's Reading - 2026-10-09",
-      "word_count": 987,
+      "path": "newsletter/2026-10-10-henney.html",
+      "edition": "2026-10-10",
+      "title_ko": "8달러로 날아오른 전기 여객기 ALIA의 일주일",
+      "title": "Henney's Reading - 2026-10-10",
+      "word_count": 961,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
@@ -208,9 +208,10 @@
       "newsletter/2026-10-06-henney.html",
       "newsletter/2026-10-07-henney.html",
       "newsletter/2026-10-08-henney.html",
-      "newsletter/2026-10-09-henney.html"
+      "newsletter/2026-10-09-henney.html",
+      "newsletter/2026-10-10-henney.html"
     ],
-    "last_source": "DOGOnews",
+    "last_source": "Davis County News (웹 검색 fallback; 슬롯 매체 TIME for Kids 라이브 확인—최근 7일 항공 기사 없음·BBC Newsround 라이브 확인—항공 기사 없음·DOGOnews·Science News Explores 검색 확인—항공 기사 없음·NatGeo Kids JS 차단·The Week Junior 정책 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -261,6 +262,11 @@
         "date": "2026-10-09",
         "topic": "덴마크 뒷마당 역대 최대 바이킹 은보물 발견 (레빌드, 700점·18.5kg, 10세기, 토르 망치·룬 문자)",
         "source": "DOGOnews (슬롯 매체 BBC Newsround 정책 차단·TIME for Kids·The Week Junior 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄·NatGeo Kids 기사목록 없음·7개 매체 최근 항공 기사 없음)"
+      },
+      {
+        "date": "2026-10-10",
+        "topic": "BETA Technologies 전기 비행기 ALIA CX300 (10/7 솔트레이크 시범비행·Air New Zealand 화물 시범운항 발표·East Hampton→JFK 첫 전기 여객 비행)",
+        "source": "Davis County News (웹 검색 fallback; 슬롯 매체 TIME for Kids 라이브 확인—최근 7일 항공 기사 없음·BBC Newsround 라이브 확인—항공 기사 없음·DOGOnews·Science News Explores 검색 확인—항공 기사 없음·NatGeo Kids JS 차단·The Week Junior 정책 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)"
       }
     ]
   }
