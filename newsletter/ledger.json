@@ -1,279 +1,286 @@
 {
-  "format_version": 2,
-  "updated_at": "2026-10-10T07:30:00-06:00",
-  "duplicate_rules": [
-    "Reject exact source_url duplicates unless the story has a materially new development.",
-    "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
-    "Reject substantially identical topics even when headline wording or source domain changes.",
-    "Allow follow-up coverage only when a new event materially changes the facts or decision value; label it as an update.",
-    "Before publishing a candidate, search the repository newsletter HTML for the exact source URL when historical v1 source records are not embedded in this compact ledger."
+ "format_version": 2,
+ "updated_at": "2026-10-12T08:00:29-06:00",
+ "duplicate_rules": [
+  "Reject exact source_url duplicates unless the story has a materially new development.",
+  "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
+  "Reject substantially identical topics even when headline wording or source domain changes.",
+  "Allow follow-up coverage only when a new event materially changes the facts or decision value; label it as an update.",
+  "Before publishing a candidate, search the repository newsletter HTML for the exact source URL when historical v1 source records are not embedded in this compact ledger."
+ ],
+ "history": {
+  "human_readable_index": "newsletter/contents.html",
+  "historical_issue_html_is_source_archive": true,
+  "issues_through_2026_08_10_preserved_in_contents_and_html": false,
+  "issue_paths": [
+   "posts/2026-08-06.html",
+   "newsletter/2026-09-26.html",
+   "newsletter/2026-09-26-youjin.html",
+   "newsletter/2026-09-27.html",
+   "newsletter/2026-09-28.html",
+   "newsletter/2026-09-29-henney.html",
+   "newsletter/2026-09-29-henney-2.html",
+   "newsletter/2026-09-29.html",
+   "newsletter/2026-10-01.html",
+   "newsletter/2026-10-02.html",
+   "newsletter/2026-10-03.html",
+   "newsletter/2026-10-04.html",
+   "newsletter/2026-10-05.html"
   ],
-  "history": {
-    "human_readable_index": "newsletter/contents.html",
-    "historical_issue_html_is_source_archive": true,
-    "issues_through_2026_08_10_preserved_in_contents_and_html": false,
-    "issue_paths": [
-      "posts/2026-08-06.html",
-      "newsletter/2026-09-26.html",
-      "newsletter/2026-09-26-youjin.html",
-      "newsletter/2026-09-27.html",
-      "newsletter/2026-09-28.html",
-      "newsletter/2026-09-29-henney.html",
-      "newsletter/2026-09-29-henney-2.html",
-      "newsletter/2026-09-29.html",
-      "newsletter/2026-10-01.html",
-      "newsletter/2026-10-02.html",
-      "newsletter/2026-10-03.html",
-      "newsletter/2026-10-04.html",
-      "newsletter/2026-10-05.html"
-    ],
-    "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
-    "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted.",
-    "retention_cleanup_2026_09_29": "No newsletter files older than 14 days; nothing deleted.",
-    "retention_cleanup_2026_09_30": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
-    "retention_cleanup_2026_10_01": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
-    "retention_cleanup_2026_10_01_henry": "No Henry newsletter files older than 14 days (oldest is 2026-09-26); nothing deleted.",
-    "retention_cleanup_2026_10_02": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
-    "retention_cleanup_2026_10_02_henry": "2026-10-02: No newsletter/*.html files older than 14 days (oldest in place: 2026-09-26). Nothing deleted; contents.html keeps editions within 14 days only.",
-    "retention_cleanup_2026_10_03_henry": "Retention check at 2026-10-03 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-19). Oldest kept: 2026-09-26.html. 0 files deleted.",
-    "retention_cleanup_2026_10_05_henry": "Retention check at 2026-10-05 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-21). Oldest dated file: 2026-09-26.html. 0 files deleted; contents.html keeps editions within 14 days only."
-  },
-  "published_youtube_video_ids": [
-    "0ADZgpvO_Gs",
-    "4oMAgaKLpLE",
-    "4znMesbPrTU",
-    "8cXGoDHsZ4w",
-    "BkLowVI3xws",
-    "CCX1Zc3q5cY",
-    "DV7bBCAABg4",
-    "E_sPvPHwpuk",
-    "MaqmkzQaWso",
-    "Tm5NbHUblkA",
-    "caOPvxnSpZU",
-    "koQ3yG507ws",
-    "liasDlkKPp4",
-    "qAe8QilfMd4",
-    "v2MBbN7cFKg",
-    "xlu4mKwDElY",
-    "8ZWHB4GvBKk",
-    "dhbcVxYhWaQ",
-    "EOiypb2wXM0",
-    "m4R-JEG7pmk",
-    "2swBIdnb_pU",
-    "lrcGX3-8URk",
-    "i1vm9BUKALs",
-    "XegLtUsfrQg",
-    "uPpWd9J2QFw",
-    "2zBkpDJ-QYE",
-    "ZdHdYuUIyKM",
-    "FCGpgPZqmkY"
-  ],
-  "latest_issue": {
-    "henry": {
-      "issue_id": "2026-10-05-skaia-daily-intelligence",
-      "date": "2026-10-05",
-      "path": "newsletter/2026-10-05.html",
-      "status": "published",
-      "item_count": 15,
-      "duplicate_check": {
-        "exact_source_url_duplicates": 0,
-        "newsletter_youtube_video_id_duplicates": 0,
-        "material_updates_labeled": 0,
-        "candidates_rejected_and_replaced": 5,
-        "rejected": [
-          "Oracle 'Fusion Claw' (covered 2026-09-29)",
-          "Anthropic 'Claude Frontier Academy' (covered 2026-10-03)",
-          "ZoomInfo 'Agent Teams' (covered 2026-10-02)",
-          "Revin/Allstar agent expansion (covered 2026-10-03)",
-          "Senate AI Agent Accountability Act (covered 2026-10-02)"
-        ]
-      },
-      "items": [
-        {
-          "category": "오늘의 AI 뉴스",
-          "title_ko": "샘 알트먼 \"AI 혜택 위해 '나쁜 일' 발생 감수해야\"…앤트로픽과 규제 철학 정면 충돌",
-          "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-ceo-says-ais-benefits-are-worth-bad-things-happening/"
-        },
-        {
-          "category": "오늘의 AI 뉴스",
-          "title_ko": "구글, 오픈소스 버그바운티 일시 중단…AI가 쓴 '가짜 취약점' 리포트 홍수",
-          "source_url": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/"
-        },
-        {
-          "category": "오늘의 AI 뉴스",
-          "title_ko": "OpenAI 'GPT-6 아스트라', 스타크래프트 대회서 인간 만든 봇 몰래 다운로드…'부정행위' 적발",
-          "source_url": "https://www.webpronews.com/openais-gpt-6-astra-cheated-at-starcraft-by-stealing-a-human-bot/"
-        },
-        {
-          "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "세노버스, 애서배스카 오일 57억 달러에 인수 발표",
-          "source_url": "https://boereport.com/2026/10/05/cenovus-announces-agreement-to-acquire-athabasca-oil-corporation/"
-        },
-        {
-          "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "앨버타, 포장재 생산자책임 재활용(EPR) 전면 시행",
-          "source_url": "http://wasteadvantagemag.com/alberta-canada-fully-transitions-to-epr-bringing-economic-and-environmental-benefits-to-the-province/"
-        },
-        {
-          "category": "오늘의 캐나다 / 알버타 뉴스",
-          "title_ko": "앨버타, 캐나다 최초 태양광 패널 재활용 프로그램 출범",
-          "source_url": "https://recycle.ab.ca/news/alberta-launches-solar-panel-recycling-program-a-new-step-for-the-circular-economy/"
-        },
-        {
-          "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "AI 영업 에이전트 1Mind, 3개월 만에 $1M 계약 수익 돌파",
-          "source_url": "https://www.youtube.com/watch?v=2zBkpDJ-QYE"
-        },
-        {
-          "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "형제 2인팀 Lark, $400K ARR 접고 도매유통 AI 에이전트로 피봇",
-          "source_url": "https://www.youtube.com/watch?v=ZdHdYuUIyKM"
-        },
-        {
-          "category": "AI 스타트업 성공 스토리 — YouTube",
-          "title_ko": "비개발자 Hassam, AI로만 앱 만들어 90일 만에 월 $25K MRR",
-          "source_url": "https://www.youtube.com/watch?v=FCGpgPZqmkY"
-        },
-        {
-          "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "오픈AI, 에이전트 과거 활동 감사에 하루 50만 달러 투입 — 7,000개 GPU로 50페타바이트 기록 역추적",
-          "source_url": "https://groundtruth.day/news/openai-prices-its-retrospective-agent-activity-review.html"
-        },
-        {
-          "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "코히어, 기업용 에이전트 플랫폼 'North 2' 출시 — 세션 간 메모리·비용 거버넌스 탑재",
-          "source_url": "https://www.unite.ai/cohere-launches-north-2-with-redesigned-agent-harness-and-memory/"
-        },
-        {
-          "category": "자율 AI 에이전트 관련 뉴스",
-          "title_ko": "Logistics Reply, 에이전트 '권한 등급' 모델과 창고 실행용 에이전트 5종 공개",
-          "source_url": "https://www.businesswire.com/news/home/20261005360127/en/"
-        },
-        {
-          "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "로레알, AI 고객서비스로 상담 시간 64% 단축",
-          "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/loreal-cuts-customer-service-time-64-with-ai/"
-        },
-        {
-          "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "세일즈포스, AI 리서치 에이전트 업체 Listen Labs 인수",
-          "source_url": "https://futurumgroup.com/insights/salesforce-bets-on-ai-simulation-to-defend-crm-dominance/"
-        },
-        {
-          "category": "마케팅 AI 에이전트 관련 뉴스",
-          "title_ko": "업스미스, 주택서비스용 AI 플랫폼에 시리즈A 1천만 달러 유치",
-          "source_url": "https://www.citybiz.co/article/913762/upsmith-raises-10-million-series-a-to-expand-ai-platform-for-home-services/"
-        }
-      ]
+  "retention_cleanup_2026_09_26": "Removed newsletter/2026-08-06..2026-08-11.html (>14 days old); contents.html now keeps only 2026-09-26 editions.",
+  "retention_cleanup_2026_09_28": "No newsletter files older than 14 days; nothing deleted.",
+  "retention_cleanup_2026_09_29": "No newsletter files older than 14 days; nothing deleted.",
+  "retention_cleanup_2026_09_30": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+  "retention_cleanup_2026_10_01": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+  "retention_cleanup_2026_10_01_henry": "No Henry newsletter files older than 14 days (oldest is 2026-09-26); nothing deleted.",
+  "retention_cleanup_2026_10_02": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+  "retention_cleanup_2026_10_02_henry": "2026-10-02: No newsletter/*.html files older than 14 days (oldest in place: 2026-09-26). Nothing deleted; contents.html keeps editions within 14 days only.",
+  "retention_cleanup_2026_10_03_henry": "Retention check at 2026-10-03 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-19). Oldest kept: 2026-09-26.html. 0 files deleted.",
+  "retention_cleanup_2026_10_05_henry": "Retention check at 2026-10-05 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-21). Oldest dated file: 2026-09-26.html. 0 files deleted; contents.html keeps editions within 14 days only.",
+  "retention_cleanup_2026_10_12": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted."
+ },
+ "published_youtube_video_ids": [
+  "0ADZgpvO_Gs",
+  "4oMAgaKLpLE",
+  "4znMesbPrTU",
+  "8cXGoDHsZ4w",
+  "BkLowVI3xws",
+  "CCX1Zc3q5cY",
+  "DV7bBCAABg4",
+  "E_sPvPHwpuk",
+  "MaqmkzQaWso",
+  "Tm5NbHUblkA",
+  "caOPvxnSpZU",
+  "koQ3yG507ws",
+  "liasDlkKPp4",
+  "qAe8QilfMd4",
+  "v2MBbN7cFKg",
+  "xlu4mKwDElY",
+  "8ZWHB4GvBKk",
+  "dhbcVxYhWaQ",
+  "EOiypb2wXM0",
+  "m4R-JEG7pmk",
+  "2swBIdnb_pU",
+  "lrcGX3-8URk",
+  "i1vm9BUKALs",
+  "XegLtUsfrQg",
+  "uPpWd9J2QFw",
+  "2zBkpDJ-QYE",
+  "ZdHdYuUIyKM",
+  "FCGpgPZqmkY"
+ ],
+ "latest_issue": {
+  "henry": {
+   "issue_id": "2026-10-05-skaia-daily-intelligence",
+   "date": "2026-10-05",
+   "path": "newsletter/2026-10-05.html",
+   "status": "published",
+   "item_count": 15,
+   "duplicate_check": {
+    "exact_source_url_duplicates": 0,
+    "newsletter_youtube_video_id_duplicates": 0,
+    "material_updates_labeled": 0,
+    "candidates_rejected_and_replaced": 5,
+    "rejected": [
+     "Oracle 'Fusion Claw' (covered 2026-09-29)",
+     "Anthropic 'Claude Frontier Academy' (covered 2026-10-03)",
+     "ZoomInfo 'Agent Teams' (covered 2026-10-02)",
+     "Revin/Allstar agent expansion (covered 2026-10-03)",
+     "Senate AI Agent Accountability Act (covered 2026-10-02)"
+    ]
+   },
+   "items": [
+    {
+     "category": "오늘의 AI 뉴스",
+     "title_ko": "샘 알트먼 \"AI 혜택 위해 '나쁜 일' 발생 감수해야\"…앤트로픽과 규제 철학 정면 충돌",
+     "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-ceo-says-ais-benefits-are-worth-bad-things-happening/"
     },
-    "henney": {
-      "issue_id": "2026-09-30-henney-reading",
-      "date": "2026-09-30",
-      "path": "newsletter/2026-09-30-henney.html",
-      "status": "published",
-      "format": "one-topic deep reading, 3 parts, essay in shaded box, ~900 words",
-      "duplicate_check": {
-        "exact_source_url_duplicates": 0,
-        "newsletter_youtube_video_id_duplicates": 0
-      },
-      "items": [
-        {
-          "category": "Deep Reading",
-          "title_ko": "미세플라스틱을 '먹는' 플라스틱을 만든 18살 소녀",
-          "source_url": "https://www.dogonews.com/2026/9/24/teen-inventor-creates-a-new-way-to-fight-microplastics"
-        }
-      ]
+    {
+     "category": "오늘의 AI 뉴스",
+     "title_ko": "구글, 오픈소스 버그바운티 일시 중단…AI가 쓴 '가짜 취약점' 리포트 홍수",
+     "source_url": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/"
+    },
+    {
+     "category": "오늘의 AI 뉴스",
+     "title_ko": "OpenAI 'GPT-6 아스트라', 스타크래프트 대회서 인간 만든 봇 몰래 다운로드…'부정행위' 적발",
+     "source_url": "https://www.webpronews.com/openais-gpt-6-astra-cheated-at-starcraft-by-stealing-a-human-bot/"
+    },
+    {
+     "category": "오늘의 캐나다 / 알버타 뉴스",
+     "title_ko": "세노버스, 애서배스카 오일 57억 달러에 인수 발표",
+     "source_url": "https://boereport.com/2026/10/05/cenovus-announces-agreement-to-acquire-athabasca-oil-corporation/"
+    },
+    {
+     "category": "오늘의 캐나다 / 알버타 뉴스",
+     "title_ko": "앨버타, 포장재 생산자책임 재활용(EPR) 전면 시행",
+     "source_url": "http://wasteadvantagemag.com/alberta-canada-fully-transitions-to-epr-bringing-economic-and-environmental-benefits-to-the-province/"
+    },
+    {
+     "category": "오늘의 캐나다 / 알버타 뉴스",
+     "title_ko": "앨버타, 캐나다 최초 태양광 패널 재활용 프로그램 출범",
+     "source_url": "https://recycle.ab.ca/news/alberta-launches-solar-panel-recycling-program-a-new-step-for-the-circular-economy/"
+    },
+    {
+     "category": "AI 스타트업 성공 스토리 — YouTube",
+     "title_ko": "AI 영업 에이전트 1Mind, 3개월 만에 $1M 계약 수익 돌파",
+     "source_url": "https://www.youtube.com/watch?v=2zBkpDJ-QYE"
+    },
+    {
+     "category": "AI 스타트업 성공 스토리 — YouTube",
+     "title_ko": "형제 2인팀 Lark, $400K ARR 접고 도매유통 AI 에이전트로 피봇",
+     "source_url": "https://www.youtube.com/watch?v=ZdHdYuUIyKM"
+    },
+    {
+     "category": "AI 스타트업 성공 스토리 — YouTube",
+     "title_ko": "비개발자 Hassam, AI로만 앱 만들어 90일 만에 월 $25K MRR",
+     "source_url": "https://www.youtube.com/watch?v=FCGpgPZqmkY"
+    },
+    {
+     "category": "자율 AI 에이전트 관련 뉴스",
+     "title_ko": "오픈AI, 에이전트 과거 활동 감사에 하루 50만 달러 투입 — 7,000개 GPU로 50페타바이트 기록 역추적",
+     "source_url": "https://groundtruth.day/news/openai-prices-its-retrospective-agent-activity-review.html"
+    },
+    {
+     "category": "자율 AI 에이전트 관련 뉴스",
+     "title_ko": "코히어, 기업용 에이전트 플랫폼 'North 2' 출시 — 세션 간 메모리·비용 거버넌스 탑재",
+     "source_url": "https://www.unite.ai/cohere-launches-north-2-with-redesigned-agent-harness-and-memory/"
+    },
+    {
+     "category": "자율 AI 에이전트 관련 뉴스",
+     "title_ko": "Logistics Reply, 에이전트 '권한 등급' 모델과 창고 실행용 에이전트 5종 공개",
+     "source_url": "https://www.businesswire.com/news/home/20261005360127/en/"
+    },
+    {
+     "category": "마케팅 AI 에이전트 관련 뉴스",
+     "title_ko": "로레알, AI 고객서비스로 상담 시간 64% 단축",
+     "source_url": "https://www.pymnts.com/news/artificial-intelligence/2026/loreal-cuts-customer-service-time-64-with-ai/"
+    },
+    {
+     "category": "마케팅 AI 에이전트 관련 뉴스",
+     "title_ko": "세일즈포스, AI 리서치 에이전트 업체 Listen Labs 인수",
+     "source_url": "https://futurumgroup.com/insights/salesforce-bets-on-ai-simulation-to-defend-crm-dominance/"
+    },
+    {
+     "category": "마케팅 AI 에이전트 관련 뉴스",
+     "title_ko": "업스미스, 주택서비스용 AI 플랫폼에 시리즈A 1천만 달러 유치",
+     "source_url": "https://www.citybiz.co/article/913762/upsmith-raises-10-million-series-a-to-expand-ai-platform-for-home-services/"
     }
+   ]
   },
   "henney": {
-    "latest_issue": {
-      "path": "newsletter/2026-10-11-henney.html",
-      "edition": "2026-10-11",
-      "title_ko": "여객기보다 두 배 높이에서 사는 미생물들",
-      "title": "Henney's Reading - 2026-10-11",
-      "word_count": 956,
-      "format": "short edition ~900 words, essay in shaded box"
-    },
-    "issue_paths": [
-      "newsletter/2026-09-29-henney-1.html",
-      "newsletter/2026-09-29-henney-2.html",
-      "newsletter/2026-09-29-henney-2b.html",
-      "newsletter/2026-09-29-henney-3.html",
-      "newsletter/2026-09-30-henney.html",
-      "newsletter/2026-10-01-henney.html",
-      "newsletter/2026-10-02-henney.html",
-      "newsletter/2026-10-03-henney.html",
-      "newsletter/2026-10-04-henney.html",
-      "newsletter/2026-10-05-henney.html",
-      "newsletter/2026-10-06-henney.html",
-      "newsletter/2026-10-07-henney.html",
-      "newsletter/2026-10-08-henney.html",
-      "newsletter/2026-10-09-henney.html",
-      "newsletter/2026-10-10-henney.html",
-      "newsletter/2026-10-11-henney.html"
-    ],
-    "last_source": "Science News Explores (슬롯 매체 #3; 항공 기사 최근 7일 없음—홈페이지 직접 확인·웹 검색: Earhart 탐사대 출항(10/10, 10/06 주제와 동일)·BETA JFK(10/10 ALIA 동일사)·소형기 추락(제외)·A350F 첫비행 9/29(7일 초과))",
-    "recent_topics": [
-      {
-        "date": "2026-09-30",
-        "topic": "미세플라스틱을 '먹는' 식물성 플라스틱 Eco Purge (Arya Satheesh)",
-        "source": "DOGOnews"
-      },
-      {
-        "date": "2026-10-01",
-        "topic": "달의 새 거대 분화구 맥게친 (McGetchin crater, NASA LRO 발견)",
-        "source": "TIME for Kids"
-      },
-      {
-        "date": "2026-10-02",
-        "topic": "아르마딜로처럼 몸을 말아 몸을 지키는 소프트 로봇 (NC State, Jianyu Zhou)",
-        "source": "Science News Explores"
-      },
-      {
-        "date": "2026-10-03",
-        "topic": "세계 최대 전기 비행기 X1의 첫 비행 (Heart Aerospace, 배터리 전기 추진)",
-        "source": "NewsForKids (웹 검색 fallback; 슬롯 매체 BBC Newsround 정책 차단)"
-      },
-      {
-        "date": "2026-10-04",
-        "topic": "피카츄 인형의 ISS 67일 체류 + ESA×포켓몬 World Space Week 전시",
-        "source": "DOGOnews (슬롯 매체 NatGeo Kids JS 차단·The Week Junior 정책 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄로 순환 이동)"
-      },
-      {
-        "date": "2026-10-05",
-        "topic": "새의 covert feather를 모방한 비행기 날개 플랩 (Princeton, Aimy Wissa — 양력 45%↑·항력 31%↓)",
-        "source": "Science News Explores"
-      },
-      {
-        "date": "2026-10-06",
-        "topic": "아멜리아 에어하트 실종 비행기 재탐사 (타라이아 물체, Purdue/ALI 탐사대)",
-        "source": "National Geographic (웹 검색 fallback)"
-      },
-      {
-        "date": "2026-10-07",
-        "topic": "기린의 덧셈 능력: 당근 상자 실험 (바르셀로나 동물원, Iker Loidi — 덧셈 성공·뺄셈 실패)",
-        "source": "DOGOnews"
-      },
-      {
-        "date": "2026-10-08",
-        "topic": "LZ 검출기가 포착한 암흑물질 직접 검출 가능성 (2023년 6월 단일 이벤트, 2.6 시그마, Emily Conover)",
-        "source": "Science News Explores (TIME for Kids 슬롯 정책 차단·7개 매체에 최근 항공 기사 없어 일반 기준 선정)"
-      },
-      {
-        "date": "2026-10-09",
-        "topic": "덴마크 뒷마당 역대 최대 바이킹 은보물 발견 (레빌드, 700점·18.5kg, 10세기, 토르 망치·룬 문자)",
-        "source": "DOGOnews (슬롯 매체 BBC Newsround 정책 차단·TIME for Kids·The Week Junior 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄·NatGeo Kids 기사목록 없음·7개 매체 최근 항공 기사 없음)"
-      },
-      {
-        "date": "2026-10-10",
-        "topic": "BETA Technologies 전기 비행기 ALIA CX300 (10/7 솔트레이크 시범비행·Air New Zealand 화물 시범운항 발표·East Hampton→JFK 첫 전기 여객 비행)",
-        "source": "Davis County News (웹 검색 fallback; 슬롯 매체 TIME for Kids 라이브 확인—최근 7일 항공 기사 없음·BBC Newsround 라이브 확인—항공 기사 없음·DOGOnews·Science News Explores 검색 확인—항공 기사 없음·NatGeo Kids JS 차단·The Week Junior 정책 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)"
-      },
-      {
-        "date": "2026-10-11",
-        "topic": "30km 성층권에 사는 평범한 미생물 (Brent Christner, 풍선 샘플링 38km — 화성 표면 유사 환경)",
-        "source": "Science News Explores"
-      }
-    ]
+   "issue_id": "2026-09-30-henney-reading",
+   "date": "2026-09-30",
+   "path": "newsletter/2026-09-30-henney.html",
+   "status": "published",
+   "format": "one-topic deep reading, 3 parts, essay in shaded box, ~900 words",
+   "duplicate_check": {
+    "exact_source_url_duplicates": 0,
+    "newsletter_youtube_video_id_duplicates": 0
+   },
+   "items": [
+    {
+     "category": "Deep Reading",
+     "title_ko": "미세플라스틱을 '먹는' 플라스틱을 만든 18살 소녀",
+     "source_url": "https://www.dogonews.com/2026/9/24/teen-inventor-creates-a-new-way-to-fight-microplastics"
+    }
+   ]
   }
+ },
+ "henney": {
+  "latest_issue": {
+   "path": "newsletter/2026-10-12-henney.html",
+   "edition": "2026-10-12",
+   "title_ko": "노벨상의 일주일: 뇌의 빛 스위치, 남극 얼음 망원경, 분자의 왼손잡이",
+   "title": "Henney's Reading - 2026-10-12",
+   "word_count": 876,
+   "format": "short edition ~900 words, essay in shaded box"
+  },
+  "issue_paths": [
+   "newsletter/2026-09-29-henney-1.html",
+   "newsletter/2026-09-29-henney-2.html",
+   "newsletter/2026-09-29-henney-2b.html",
+   "newsletter/2026-09-29-henney-3.html",
+   "newsletter/2026-09-30-henney.html",
+   "newsletter/2026-10-01-henney.html",
+   "newsletter/2026-10-02-henney.html",
+   "newsletter/2026-10-03-henney.html",
+   "newsletter/2026-10-04-henney.html",
+   "newsletter/2026-10-05-henney.html",
+   "newsletter/2026-10-06-henney.html",
+   "newsletter/2026-10-07-henney.html",
+   "newsletter/2026-10-08-henney.html",
+   "newsletter/2026-10-09-henney.html",
+   "newsletter/2026-10-10-henney.html",
+   "newsletter/2026-10-11-henney.html",
+   "newsletter/2026-10-12-henney.html"
+  ],
+  "last_source": "Science News Explores (슬롯 매체 BBC Newsround 라이브 확인—최근 7일 항공 기사 없음·DOGOnews·SN Explores 홈페이지 확인—항공 기사 없음·웹 검색 BETA ALIA는 10/10 주제와 중복·일반 기준 선정)",
+  "recent_topics": [
+   {
+    "date": "2026-09-30",
+    "topic": "미세플라스틱을 '먹는' 식물성 플라스틱 Eco Purge (Arya Satheesh)",
+    "source": "DOGOnews"
+   },
+   {
+    "date": "2026-10-01",
+    "topic": "달의 새 거대 분화구 맥게친 (McGetchin crater, NASA LRO 발견)",
+    "source": "TIME for Kids"
+   },
+   {
+    "date": "2026-10-02",
+    "topic": "아르마딜로처럼 몸을 말아 몸을 지키는 소프트 로봇 (NC State, Jianyu Zhou)",
+    "source": "Science News Explores"
+   },
+   {
+    "date": "2026-10-03",
+    "topic": "세계 최대 전기 비행기 X1의 첫 비행 (Heart Aerospace, 배터리 전기 추진)",
+    "source": "NewsForKids (웹 검색 fallback; 슬롯 매체 BBC Newsround 정책 차단)"
+   },
+   {
+    "date": "2026-10-04",
+    "topic": "피카츄 인형의 ISS 67일 체류 + ESA×포켓몬 World Space Week 전시",
+    "source": "DOGOnews (슬롯 매체 NatGeo Kids JS 차단·The Week Junior 정책 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄로 순환 이동)"
+   },
+   {
+    "date": "2026-10-05",
+    "topic": "새의 covert feather를 모방한 비행기 날개 플랩 (Princeton, Aimy Wissa — 양력 45%↑·항력 31%↓)",
+    "source": "Science News Explores"
+   },
+   {
+    "date": "2026-10-06",
+    "topic": "아멜리아 에어하트 실종 비행기 재탐사 (타라이아 물체, Purdue/ALI 탐사대)",
+    "source": "National Geographic (웹 검색 fallback)"
+   },
+   {
+    "date": "2026-10-07",
+    "topic": "기린의 덧셈 능력: 당근 상자 실험 (바르셀로나 동물원, Iker Loidi — 덧셈 성공·뺄셈 실패)",
+    "source": "DOGOnews"
+   },
+   {
+    "date": "2026-10-08",
+    "topic": "LZ 검출기가 포착한 암흑물질 직접 검출 가능성 (2023년 6월 단일 이벤트, 2.6 시그마, Emily Conover)",
+    "source": "Science News Explores (TIME for Kids 슬롯 정책 차단·7개 매체에 최근 항공 기사 없어 일반 기준 선정)"
+   },
+   {
+    "date": "2026-10-09",
+    "topic": "덴마크 뒷마당 역대 최대 바이킹 은보물 발견 (레빌드, 700점·18.5kg, 10세기, 토르 망치·룬 문자)",
+    "source": "DOGOnews (슬롯 매체 BBC Newsround 정책 차단·TIME for Kids·The Week Junior 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄·NatGeo Kids 기사목록 없음·7개 매체 최근 항공 기사 없음)"
+   },
+   {
+    "date": "2026-10-10",
+    "topic": "BETA Technologies 전기 비행기 ALIA CX300 (10/7 솔트레이크 시범비행·Air New Zealand 화물 시범운항 발표·East Hampton→JFK 첫 전기 여객 비행)",
+    "source": "Davis County News (웹 검색 fallback; 슬롯 매체 TIME for Kids 라이브 확인—최근 7일 항공 기사 없음·BBC Newsround 라이브 확인—항공 기사 없음·DOGOnews·Science News Explores 검색 확인—항공 기사 없음·NatGeo Kids JS 차단·The Week Junior 정책 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)"
+   },
+   {
+    "date": "2026-10-11",
+    "topic": "30km 성층권에 사는 평범한 미생물 (Brent Christner, 풍선 샘플링 38km — 화성 표면 유사 환경)",
+    "source": "Science News Explores"
+   },
+   {
+    "date": "2026-10-12",
+    "topic": "2026 노벨 과학상: 뇌 광유전학(Deisseroth·Hegemann·Nagel)·뉴트리노 IceCube(Halzen)·분자 키랄성(Kagan·Soai)",
+    "source": "Science News Explores"
+   }
+  ]
+ }
 }
