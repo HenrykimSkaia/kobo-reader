@@ -188,15 +188,14 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-14-henney.html",
-      "edition": "2026-10-14",
-      "title_ko": "조종사 없이 착륙하는 비행기: PC-12 PRO의 세이프티 오토랜드",
-      "title": "Henney's Reading - 2026-10-14",
-      "word_count": 987,
+      "path": "newsletter/2026-10-15-henney.html",
+      "edition": "2026-10-15",
+      "title_ko": "영화 속 드로리안이 하늘에 오르다: 전기 플라잉카 레이싱 출전",
+      "title": "Henney's Reading - 2026-10-15",
+      "word_count": 871,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
-      "newsletter/2026-09-30-henney.html",
       "newsletter/2026-10-01-henney.html",
       "newsletter/2026-10-02-henney.html",
       "newsletter/2026-10-03-henney.html",
@@ -210,9 +209,10 @@
       "newsletter/2026-10-11-henney.html",
       "newsletter/2026-10-12-henney.html",
       "newsletter/2026-10-13-henney.html",
-      "newsletter/2026-10-14-henney.html"
+      "newsletter/2026-10-14-henney.html",
+      "newsletter/2026-10-15-henney.html"
     ],
-    "last_source": "Pilatus Aircraft (웹 검색 fallback; 슬롯 매체 TIME for Kids 정책 차단·DOGOnews 확인—최근 7일 항공 기사 없음·Science News Explores 확인—최근 항공 기사 없음·BBC Newsround 검색 확인—항공 기사 없음·NatGeo Kids JS 차단·The Week Junior 정책 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)",
+    "last_source": "Interesting Engineering (웹 검색 fallback; 슬롯 매체 Science News Explores 확인—최근 7일 항공 기사 없음·DOGOnews·TIME for Kids·The Week Junior·BBC Newsround 검색 확인—항공 기사 없음·NatGeo Kids JS 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -288,6 +288,11 @@
         "date": "2026-10-14",
         "topic": "Pilatus PC-12 PRO 세이프티 오토랜드 (FAA·EASA 인증, 조종사 무력화 시 자동 착륙 시스템)",
         "source": "Pilatus Aircraft (웹 검색 fallback; 슬롯 매체 TIME for Kids 정책 차단)"
+      },
+      {
+        "date": "2026-10-15",
+        "topic": "드로리안, 전기 플라잉카 레이싱 Airspeeder 출전 (첫 미국 컨스트럭터, 2026-27시즌 11월 데뷔, Mk3C 스펙 머신, 2027-28시즌 UC Berkeley·Georgia Tech 커스텀 설계)",
+        "source": "Interesting Engineering (웹 검색 fallback)"
       }
     ]
   }
