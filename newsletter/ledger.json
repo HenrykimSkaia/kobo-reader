@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-10-14T07:26:41-06:00",
+  "updated_at": "2026-10-16T07:30:00-06:00",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -37,7 +37,8 @@
     "retention_cleanup_2026_10_02_henry": "2026-10-02: No newsletter/*.html files older than 14 days (oldest in place: 2026-09-26). Nothing deleted; contents.html keeps editions within 14 days only.",
     "retention_cleanup_2026_10_03_henry": "Retention check at 2026-10-03 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-19). Oldest kept: 2026-09-26.html. 0 files deleted.",
     "retention_cleanup_2026_10_05_henry": "Retention check at 2026-10-05 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-21). Oldest dated file: 2026-09-26.html. 0 files deleted; contents.html keeps editions within 14 days only.",
-    "retention_cleanup_2026_10_12": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted."
+    "retention_cleanup_2026_10_12": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
+    "retention_cleanup_2026_10_16": "Removed newsletter/2026-10-01-henney.html (>14 days old); contents.html and henney.issue_paths updated."
   },
   "published_youtube_video_ids": [
     "0ADZgpvO_Gs",
@@ -188,15 +189,14 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-15-henney.html",
-      "edition": "2026-10-15",
-      "title_ko": "영화 속 드로리안이 하늘에 오르다: 전기 플라잉카 레이싱 출전",
-      "title": "Henney's Reading - 2026-10-15",
-      "word_count": 871,
+      "path": "newsletter/2026-10-16-henney.html",
+      "edition": "2026-10-16",
+      "title": "Henney's Reading - 2026-10-16",
+      "title_ko": "조종사 없이 5,000km를 날다: Joby 자율비행기의 대륙 횡단 투어",
+      "word_count": 987,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
-      "newsletter/2026-10-01-henney.html",
       "newsletter/2026-10-02-henney.html",
       "newsletter/2026-10-03-henney.html",
       "newsletter/2026-10-04-henney.html",
@@ -210,9 +210,10 @@
       "newsletter/2026-10-12-henney.html",
       "newsletter/2026-10-13-henney.html",
       "newsletter/2026-10-14-henney.html",
-      "newsletter/2026-10-15-henney.html"
+      "newsletter/2026-10-15-henney.html",
+      "newsletter/2026-10-16-henney.html"
     ],
-    "last_source": "Interesting Engineering (웹 검색 fallback; 슬롯 매체 Science News Explores 확인—최근 7일 항공 기사 없음·DOGOnews·TIME for Kids·The Week Junior·BBC Newsround 검색 확인—항공 기사 없음·NatGeo Kids JS 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)",
+    "last_source": "EIN Presswire (웹 검색 fallback; 슬롯 매체 BBC Newsround 정책 차단·DOGOnews·Science News Explores 라이브 확인—최근 7일 항공 기사 없음·TIME for Kids 정책 차단·The Week Junior 정책 차단·NatGeo Kids JS 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -293,6 +294,11 @@
         "date": "2026-10-15",
         "topic": "드로리안, 전기 플라잉카 레이싱 Airspeeder 출전 (첫 미국 컨스트럭터, 2026-27시즌 11월 데뷔, Mk3C 스펙 머신, 2027-28시즌 UC Berkeley·Georgia Tech 커스텀 설계)",
         "source": "Interesting Engineering (웹 검색 fallback)"
+      },
+      {
+        "date": "2026-10-16",
+        "topic": "Joby 자율비행기 J208 Electric Skies Tour 대륙 횡단 (동쪽 구간 3,199마일 무조종 입력·2,323마일 원격 감독·400+ 비행·800 자동비행 시간)",
+        "source": "EIN Presswire (웹 검색 fallback; 슬롯 매체 BBC Newsround 정책 차단·DOGOnews·Science News Explores 라이브 확인—최근 7일 항공 기사 없음·TIME for Kids 정책 차단·The Week Junior 정책 차단·NatGeo Kids JS 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)"
       }
     ]
   }
