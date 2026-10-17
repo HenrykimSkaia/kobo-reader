@@ -189,15 +189,14 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-16-henney.html",
-      "edition": "2026-10-16",
-      "title": "Henney's Reading - 2026-10-16",
-      "title_ko": "조종사 없이 5,000km를 날다: Joby 자율비행기의 대륙 횡단 투어",
-      "word_count": 987,
+      "path": "newsletter/2026-10-17-henney.html",
+      "edition": "2026-10-17",
+      "title": "Henney's Reading - 2026-10-17",
+      "title_ko": "음속의 벽을 다시 넘다: 초음속 여객기 Overture의 귀환",
+      "word_count": 912,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
-      "newsletter/2026-10-02-henney.html",
       "newsletter/2026-10-03-henney.html",
       "newsletter/2026-10-04-henney.html",
       "newsletter/2026-10-05-henney.html",
@@ -211,9 +210,10 @@
       "newsletter/2026-10-13-henney.html",
       "newsletter/2026-10-14-henney.html",
       "newsletter/2026-10-15-henney.html",
-      "newsletter/2026-10-16-henney.html"
+      "newsletter/2026-10-16-henney.html",
+      "newsletter/2026-10-17-henney.html"
     ],
-    "last_source": "EIN Presswire (웹 검색 fallback; 슬롯 매체 BBC Newsround 정책 차단·DOGOnews·Science News Explores 라이브 확인—최근 7일 항공 기사 없음·TIME for Kids 정책 차단·The Week Junior 정책 차단·NatGeo Kids JS 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)",
+    "last_source": "N24 (웹 검색 fallback; 슬롯 매체 NatGeo Kids JS 차단·DOGOnews 초음속 검색 확인—최근 7일 항공 기사 없음·TIME for Kids·BBC Newsround·The Week Junior 정책 차단 전적·News-O-Matic 앱전용·Tween Tribune 폐쇄)",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -299,6 +299,11 @@
         "date": "2026-10-16",
         "topic": "Joby 자율비행기 J208 Electric Skies Tour 대륙 횡단 (동쪽 구간 3,199마일 무조종 입력·2,323마일 원격 감독·400+ 비행·800 자동비행 시간)",
         "source": "EIN Presswire (웹 검색 fallback; 슬롯 매체 BBC Newsround 정책 차단·DOGOnews·Science News Explores 라이브 확인—최근 7일 항공 기사 없음·TIME for Kids 정책 차단·The Week Junior 정책 차단·NatGeo Kids JS 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄)"
+      },
+      {
+        "date": "2026-10-17",
+        "topic": "Boom Supersonic Overture Superfactory 완공 (초음속 여객기의 귀환, Mach 1.7, 콩코드 이후 첫 초음속 공장)",
+        "source": "N24"
       }
     ]
   }
