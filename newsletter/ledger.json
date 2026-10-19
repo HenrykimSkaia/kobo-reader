@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-10-16T07:30:00-06:00",
+  "updated_at": "2026-10-19T07:45:00-06:00",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -38,7 +38,8 @@
     "retention_cleanup_2026_10_03_henry": "Retention check at 2026-10-03 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-19). Oldest kept: 2026-09-26.html. 0 files deleted.",
     "retention_cleanup_2026_10_05_henry": "Retention check at 2026-10-05 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-21). Oldest dated file: 2026-09-26.html. 0 files deleted; contents.html keeps editions within 14 days only.",
     "retention_cleanup_2026_10_12": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
-    "retention_cleanup_2026_10_16": "Removed newsletter/2026-10-01-henney.html (>14 days old); contents.html and henney.issue_paths updated."
+    "retention_cleanup_2026_10_16": "Removed newsletter/2026-10-01-henney.html (>14 days old); contents.html and henney.issue_paths updated.",
+    "retention_cleanup_2026_10_19_henney": "Deleted newsletter/2026-10-04-henney.html (>14 days old; cutoff 2026-10-05). Removed its section from contents.html and its path from henney.issue_paths."
   },
   "published_youtube_video_ids": [
     "0ADZgpvO_Gs",
@@ -189,15 +190,14 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-18-henney.html",
-      "edition": "2026-10-18",
-      "title": "Henney's Reading - 2026-10-18",
-      "title_ko": "달 뒷면에서 본 다섯 개의 섬광: Artemis II 과학 보고서 대공개",
-      "word_count": 961,
+      "path": "newsletter/2026-10-19-henney.html",
+      "edition": "2026-10-19",
+      "title": "Henney's Reading - 2026-10-19",
+      "title_ko": "49년의 비행: 보이저 1호가 '빛 하루' 거리에 도달하다",
+      "word_count": 988,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
-      "newsletter/2026-10-04-henney.html",
       "newsletter/2026-10-05-henney.html",
       "newsletter/2026-10-06-henney.html",
       "newsletter/2026-10-07-henney.html",
@@ -211,9 +211,10 @@
       "newsletter/2026-10-15-henney.html",
       "newsletter/2026-10-16-henney.html",
       "newsletter/2026-10-17-henney.html",
-      "newsletter/2026-10-18-henney.html"
+      "newsletter/2026-10-18-henney.html",
+      "newsletter/2026-10-19-henney.html"
     ],
-    "last_source": "NASA Science (웹 검색 fallback; 슬롯 매체 The Week Junior — 8개 어린이 매체에 최근 7일 이내 항공·우주 기사 없음)",
+    "last_source": "DOGOnews (슬롯 매체 News-O-Matic 앱전용·Tween Tribune 폐쇄로 순환 이동; 8개 매체에 최근 7일 이내 항공 기사 없어 일반 기준 선정)",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -309,6 +310,11 @@
         "date": "2026-10-18",
         "topic": "Artemis II 달 탐사 과학 보고서 공개 — 달 뒷면 개기일식 중 육안 관측한 충돌 섬광 5개",
         "source": "NASA Science"
+      },
+      {
+        "date": "2026-10-19",
+        "topic": "보이저 1호 '빛 하루' 거리 돌파 (11/18 16.1B마일·1977년 발사 49년·2012 헬리오포즈 횡단)",
+        "source": "DOGOnews (슬롯 매체 News-O-Matic·Tween Tribune 접근 불가로 순환)"
       }
     ]
   }
