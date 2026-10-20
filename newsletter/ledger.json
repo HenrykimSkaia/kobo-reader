@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-10-19T07:45:00-06:00",
+  "updated_at": "2026-10-20T07:50:00-06:00",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -190,15 +190,14 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-19-henney.html",
-      "edition": "2026-10-19",
-      "title": "Henney's Reading - 2026-10-19",
-      "title_ko": "49년의 비행: 보이저 1호가 '빛 하루' 거리에 도달하다",
-      "word_count": 988,
+      "path": "newsletter/2026-10-20-henney.html",
+      "edition": "2026-10-20",
+      "title": "Henney's Reading - 2026-10-20",
+      "title_ko": "축구장 반쪽 활주로에 뜨는 비행기: 노르웨이의 전기 비행 실험",
+      "word_count": 990,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
-      "newsletter/2026-10-05-henney.html",
       "newsletter/2026-10-06-henney.html",
       "newsletter/2026-10-07-henney.html",
       "newsletter/2026-10-08-henney.html",
@@ -212,9 +211,10 @@
       "newsletter/2026-10-16-henney.html",
       "newsletter/2026-10-17-henney.html",
       "newsletter/2026-10-18-henney.html",
-      "newsletter/2026-10-19-henney.html"
+      "newsletter/2026-10-19-henney.html",
+      "newsletter/2026-10-20-henney.html"
     ],
-    "last_source": "DOGOnews (슬롯 매체 News-O-Matic 앱전용·Tween Tribune 폐쇄로 순환 이동; 8개 매체에 최근 7일 이내 항공 기사 없어 일반 기준 선정)",
+    "last_source": "Morningstar (PR Newswire) (웹 검색 fallback; 슬롯 #2 TIME for Kids 정책 차단 → #3 Science News Explores·#1 DOGOnews 검색 확인—최근 7일 항공 기사 없음 → #4 BBC Newsround·#6 The Week Junior 정책 차단·#5 NatGeo Kids JS 차단·#7 News-O-Matic 앱전용·#8 Tween Tribune 폐쇄)",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -315,6 +315,11 @@
         "date": "2026-10-19",
         "topic": "보이저 1호 '빛 하루' 거리 돌파 (11/18 16.1B마일·1977년 발사 49년·2012 헬리오포즈 횡단)",
         "source": "DOGOnews (슬롯 매체 News-O-Matic·Tween Tribune 접근 불가로 순환)"
+      },
+      {
+        "date": "2026-10-20",
+        "topic": "50m 활주로 하이브리드 전기 비행기 Electra EL2 노르웨이 5곳 실증 비행 (Bristow·Avinor·CAA Norway, 2027 Q3)",
+        "source": "Morningstar (PR Newswire)"
       }
     ]
   }
