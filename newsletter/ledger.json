@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-10-20T07:50:00-06:00",
+  "updated_at": "2026-10-23T07:30:00-06:00",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -39,7 +39,8 @@
     "retention_cleanup_2026_10_05_henry": "Retention check at 2026-10-05 publish: no newsletter/YYYY-MM-DD.html files older than 14 days (cutoff 2026-09-21). Oldest dated file: 2026-09-26.html. 0 files deleted; contents.html keeps editions within 14 days only.",
     "retention_cleanup_2026_10_12": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
     "retention_cleanup_2026_10_16": "Removed newsletter/2026-10-01-henney.html (>14 days old); contents.html and henney.issue_paths updated.",
-    "retention_cleanup_2026_10_19_henney": "Deleted newsletter/2026-10-04-henney.html (>14 days old; cutoff 2026-10-05). Removed its section from contents.html and its path from henney.issue_paths."
+    "retention_cleanup_2026_10_19_henney": "Deleted newsletter/2026-10-04-henney.html (>14 days old; cutoff 2026-10-05). Removed its section from contents.html and its path from henney.issue_paths.",
+    "retention_cleanup_2026_10_23_henney": "Deleted newsletter/2026-10-08-henney.html (>14 days old; cutoff 2026-10-09). Removed its section from contents.html and its path from henney.issue_paths."
   },
   "published_youtube_video_ids": [
     "0ADZgpvO_Gs",
@@ -190,15 +191,14 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-22-henney.html",
-      "edition": "2026-10-22",
-      "title": "Henney's Reading - 2026-10-22",
-      "title_ko": "신비행기의 첫 면허증: BETA A250, 세계 첫 전기 VTOL 고객 체험 비행 승인",
-      "word_count": 947,
+      "path": "newsletter/2026-10-23-henney.html",
+      "edition": "2026-10-23",
+      "title": "Henney's Reading - 2026-10-23",
+      "title_ko": "물만 내뿜는 80석 비행기: 에어버스 수소 여객기 ZEROe, 2040년대 데뷔로 목표 수정",
+      "word_count": 981,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
-      "newsletter/2026-10-08-henney.html",
       "newsletter/2026-10-09-henney.html",
       "newsletter/2026-10-10-henney.html",
       "newsletter/2026-10-11-henney.html",
@@ -212,9 +212,10 @@
       "newsletter/2026-10-19-henney.html",
       "newsletter/2026-10-20-henney.html",
       "newsletter/2026-10-21-henney.html",
-      "newsletter/2026-10-22-henney.html"
+      "newsletter/2026-10-22-henney.html",
+      "newsletter/2026-10-23-henney.html"
     ],
-    "last_source": "BETA Technologies (웹 검색 fallback; 슬롯 #4 BBC Newsround 정책 차단(10-20 검증·10-22 재확인)·#5 NatGeo Kids JS 차단(10-20 검증·10-22 재확인—기사목록 없음)·#6 The Week Junior 정책 차단(10-20 검증·10-22 재확인)·#7 News-O-Matic 앱전용(10-22 재확인—기사목록 없음)·#8 Tween Tribune 폐쇄(10-22 재확인—Smithsonian 교육자료 페이지로 이전)·#1 DOGOnews 라이브 확인—항공 기사 1건(Tesla 'Flying' Roadster 10/15)은 10-15 Airspeeder 플라잉카와 중복이라 제외·#3 Science News Explores 라이브 확인—최근 7일 항공 기사 없음·#2 TIME for Kids 정책 차단(10-20 검증))",
+    "last_source": "Aerospace America (웹 검색 fallback; 슬롯 #5 NatGeo Kids JS 차단(10-22 재확인)·#6 The Week Junior 정책 차단(10-22 재확인)·#7 News-O-Matic 앱전용(10-22 재확인)·#8 Tween Tribune 폐쇄(10-22 재확인)·#1 DOGOnews 라이브 확인—최근 7일 항공 기사 없음(중복 제외: Tesla Roadster·Voyager)·#3 Science News Explores 라이브 확인—최근 7일 항공 기사 없음·#2 TIME for Kids 정책 차단(10-22 재확인)·#4 BBC Newsround 정책 차단(10-22 재확인))",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -325,6 +326,11 @@
         "date": "2026-10-22",
         "topic": "BETA A250 전기 VTOL, FAA 최초 고객 체험 비행(market survey) 승인 (10/21 발표·10/20 PBG→BTV 34해리 첫 비행)",
         "source": "BETA Technologies (웹 검색 fallback)"
+      },
+      {
+        "date": "2026-10-23",
+        "topic": "에어버스 ZEROe 수소 연료전지 여객기 계획 수정 (80석 지역 프로펠러기·2040년대 데뷔·20석 실증기→80석)",
+        "source": "Aerospace America (웹 검색 fallback)"
       }
     ],
     "duplicate_excluded_2026-10-21": [
@@ -338,6 +344,16 @@
       "기린 덧셈 (DOGOnews): 10-07과 중복",
       "피카츄 ISS (DOGOnews): 10-04와 중복",
       "주제 허용 근거: 10-10 BETA ALIA CX300(시범비행·CTOL)과 달리 이번은 A250 VTOL의 FAA 최초 market survey 승인 — 기종·사건·각도(인증 과정)가 명확히 다름"
+    ],
+    "duplicate_excluded_2026-10-23": [
+      "Tesla 'Flying' Roadster (DOGOnews 10/15): 10-15 Airspeeder 전기 플라잉카와 중복",
+      "NASA Voyager 1 (DOGOnews): 10-19 보이저 1호와 중복",
+      "덴마크 바이킹 은보물 (DOGOnews): 10-09와 중복",
+      "켈빈 파도 (DOGOnews): 10-13과 중복",
+      "기린 덧셈 (DOGOnews): 10-07과 중복",
+      "피카츄 ISS (DOGOnews): 10-04와 중복",
+      "주제 허용 근거: 10-03~10-22 배터리 전기 비행기(Heart X1·ALIA CX300·Electra EL2·BETA A250 등)와 달리 이번은 수소 연료전지 추진 — 에너지 변환 원리(화학반응 발전 vs 배터리 저장)가 명확히 다름",
+      "검토 후 미선정: Joby Arizona 수소 전기 무인기 시험비행(10/22 보도) — Joby 10-16 보도와 회사 중복, Airbus ZEROe가 사건·주체·각도 모두 새로움"
     ]
   }
 }
