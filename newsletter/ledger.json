@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-10-23T07:30:00-06:00",
+  "updated_at": "2026-10-24T07:35:14-06:00",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -40,7 +40,8 @@
     "retention_cleanup_2026_10_12": "No henney newsletter files older than 14 days (oldest is 2026-09-29); nothing deleted.",
     "retention_cleanup_2026_10_16": "Removed newsletter/2026-10-01-henney.html (>14 days old); contents.html and henney.issue_paths updated.",
     "retention_cleanup_2026_10_19_henney": "Deleted newsletter/2026-10-04-henney.html (>14 days old; cutoff 2026-10-05). Removed its section from contents.html and its path from henney.issue_paths.",
-    "retention_cleanup_2026_10_23_henney": "Deleted newsletter/2026-10-08-henney.html (>14 days old; cutoff 2026-10-09). Removed its section from contents.html and its path from henney.issue_paths."
+    "retention_cleanup_2026_10_23_henney": "Deleted newsletter/2026-10-08-henney.html (>14 days old; cutoff 2026-10-09). Removed its section from contents.html and its path from henney.issue_paths.",
+    "retention_cleanup_2026_10_24_henney": "Deleted newsletter/2026-10-09-henney.html (>14 days old; cutoff 2026-10-10). Removed its section from contents.html and its path from henney.issue_paths."
   },
   "published_youtube_video_ids": [
     "0ADZgpvO_Gs",
@@ -191,15 +192,14 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-23-henney.html",
-      "edition": "2026-10-23",
-      "title": "Henney's Reading - 2026-10-23",
-      "title_ko": "물만 내뿜는 80석 비행기: 에어버스 수소 여객기 ZEROe, 2040년대 데뷔로 목표 수정",
-      "word_count": 981,
+      "path": "newsletter/2026-10-24-henney.html",
+      "edition": "2026-10-24",
+      "title": "Henney's Reading - 2026-10-24",
+      "title_ko": "밤에도 문 닫지 않는 공항: 시드니 제2공항, 내일 첫 여객기를 띄운다",
+      "word_count": 988,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
-      "newsletter/2026-10-09-henney.html",
       "newsletter/2026-10-10-henney.html",
       "newsletter/2026-10-11-henney.html",
       "newsletter/2026-10-12-henney.html",
@@ -213,9 +213,10 @@
       "newsletter/2026-10-20-henney.html",
       "newsletter/2026-10-21-henney.html",
       "newsletter/2026-10-22-henney.html",
-      "newsletter/2026-10-23-henney.html"
+      "newsletter/2026-10-23-henney.html",
+      "newsletter/2026-10-24-henney.html"
     ],
-    "last_source": "Aerospace America (웹 검색 fallback; 슬롯 #5 NatGeo Kids JS 차단(10-22 재확인)·#6 The Week Junior 정책 차단(10-22 재확인)·#7 News-O-Matic 앱전용(10-22 재확인)·#8 Tween Tribune 폐쇄(10-22 재확인)·#1 DOGOnews 라이브 확인—최근 7일 항공 기사 없음(중복 제외: Tesla Roadster·Voyager)·#3 Science News Explores 라이브 확인—최근 7일 항공 기사 없음·#2 TIME for Kids 정책 차단(10-22 재확인)·#4 BBC Newsround 정책 차단(10-22 재확인))",
+    "last_source": "I-Journey (웹 검색 fallback; DOGOnews·Science News Explores 검색 확인—최근 7일 항공 기사 없음·나머지 슬롯 매체는 10-22 차단 기록 기준(TIME for Kids·BBC Newsround·The Week Junior 정책 차단·NatGeo Kids JS 차단·News-O-Matic 앱전용·Tween Tribune 폐쇄))",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -331,6 +332,11 @@
         "date": "2026-10-23",
         "topic": "에어버스 ZEROe 수소 연료전지 여객기 계획 수정 (80석 지역 프로펠러기·2040년대 데뷔·20석 실증기→80석)",
         "source": "Aerospace America (웹 검색 fallback)"
+      },
+      {
+        "date": "2026-10-24",
+        "topic": "시드니 제2공항 WSI(낸시-버드 월턴) 개항 — 내일 Jetstar JQ362 골드코스트 첫 여객기, 24시간 무통금 공항",
+        "source": "I-Journey (웹 검색 fallback)"
       }
     ],
     "duplicate_excluded_2026-10-21": [
@@ -354,6 +360,12 @@
       "피카츄 ISS (DOGOnews): 10-04와 중복",
       "주제 허용 근거: 10-03~10-22 배터리 전기 비행기(Heart X1·ALIA CX300·Electra EL2·BETA A250 등)와 달리 이번은 수소 연료전지 추진 — 에너지 변환 원리(화학반응 발전 vs 배터리 저장)가 명확히 다름",
       "검토 후 미선정: Joby Arizona 수소 전기 무인기 시험비행(10/22 보도) — Joby 10-16 보도와 회사 중복, Airbus ZEROe가 사건·주체·각도 모두 새로움"
+    ],
+    "duplicate_excluded_2026-10-24": [
+      "검토 후 미선정: Gulfstream G400 속도 기록(10/20 발표) — 비즈니스 제트 신기록이나 WSI 개항이 사건·주체·각도 모두 새로움",
+      "검토 후 미선정: Airbus A350F 첫 비행(9/29) — 보도는 10/22이나 비행일 기준 7일 초과, 화물기 첫 비행 각도가 WSI 개항보다 약함",
+      "검토 후 미선정: BETA A250 FAA 승인 — 10-22 기발행과 동일 사건",
+      "주제 허용 근거: 10-03~10-23 항공기 추진·기종 기사들과 달리 이번은 공항 인프라·통금·지상 접근 시스템 — 소재·원리·각도가 명확히 다름"
     ]
   }
 }
