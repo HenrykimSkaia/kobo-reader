@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "updated_at": "2026-10-25T07:45:00-06:00",
+  "updated_at": "2026-10-30T20:30:00-06:00",
   "duplicate_rules": [
     "Reject exact source_url duplicates unless the story has a materially new development.",
     "Reject repeated newsletter YouTube video_id values and also check the canonical Google Drive SKAIA_YouTube_Video_Ledger.",
@@ -193,19 +193,14 @@
   },
   "henney": {
     "latest_issue": {
-      "path": "newsletter/2026-10-25-henney.html",
-      "edition": "2026-10-25",
-      "title": "Henney's Reading - 2026-10-25",
-      "title_ko": "상어 피부로 연료를 아끼는 비행기: 세계 첫 '상어피' 에어버스 여객기 취항",
-      "word_count": 835,
+      "path": "newsletter/2026-10-30-henney.html",
+      "edition": "2026-10-30",
+      "title": "Henney's Reading - 2026-10-30",
+      "title_ko": "국수를 먹고 자란 고양이: 100년 만의 새 야생 고양이 틸카요",
+      "word_count": 970,
       "format": "short edition ~900 words, essay in shaded box"
     },
     "issue_paths": [
-      "newsletter/2026-10-11-henney.html",
-      "newsletter/2026-10-12-henney.html",
-      "newsletter/2026-10-13-henney.html",
-      "newsletter/2026-10-14-henney.html",
-      "newsletter/2026-10-15-henney.html",
       "newsletter/2026-10-16-henney.html",
       "newsletter/2026-10-17-henney.html",
       "newsletter/2026-10-18-henney.html",
@@ -215,9 +210,10 @@
       "newsletter/2026-10-22-henney.html",
       "newsletter/2026-10-23-henney.html",
       "newsletter/2026-10-24-henney.html",
-      "newsletter/2026-10-25-henney.html"
+      "newsletter/2026-10-25-henney.html",
+      "newsletter/2026-10-30-henney.html"
     ],
-    "last_source": "Aerospace Global News (웹 검색 fallback; 슬롯 DOGOnews 확인—홈페이지 최근 주제에 항공 기사 없음, 노출된 Tesla Roadster·Voyager·Kelvin·Viking은 기존 발행과 중복)",
+    "last_source": "DOGOnews (비행기 주제 20% 상한 규칙 첫 적용 — 최근 5회 항공 주제 과다로 비행기 외 주제 선정)",
     "recent_topics": [
       {
         "date": "2026-09-30",
@@ -343,6 +339,11 @@
         "date": "2026-10-25",
         "topic": "세계 첫 상어피(AeroSHARK) 에어버스 A330 여객기 취항 (Discover Airlines D-AIKP, 10/15 플로리다 첫 비행·10/19 발표, 리블렛 50μm·연료 약 1% 절감)",
         "source": "Aerospace Global News (웹 검색 fallback)"
+      },
+      {
+        "date": "2026-10-30",
+        "topic": "100년 만의 새 야생 고양이 틸카요 (Leopardus tilcayo, 볼리비아 융가스 — 국수·쌀·달걀 먹고 자란 Tigrino, DNA로 신종 확인, 1.4M년 전 분기)",
+        "source": "DOGOnews"
       }
     ],
     "duplicate_excluded_2026-10-21": [
